@@ -1,0 +1,831 @@
+{
+  "generated_at": "2026-03-16T19:42:22.628981Z",
+  "total_images_analysed": 37,
+  "images": [
+    {
+      "filename": "healthy-harry_black-dress_1080x1080_ROI7.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "black-dress_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.4
+      },
+      "visual_composition": "Clean two-column layout with large bold typography dominating the left two-thirds and a single elegant black dress on a hanger occupying the right third. Visual hierarchy flows from subheadline at top-left → massive hero text 'COULD BE YOU!' → discount badge → promo code. Strong use of negative space in the cream/off-white background creates premium, uncluttered feel. The dress acts as a silent aspirational anchor without competing with copy.",
+      "color_palette": "Dominant: brand cream (#F9F4ED) as background, brand spinach green (#043F12) for primary headline text, brand grenade red/pumpkin orange (#FF3F1F / #EA5D29) for discount callout and subtext. All four brand colors are present and correctly deployed — green for authority/aspiration, warm red-orange for urgency/offer. High brand color fidelity.",
+      "emotion_tone": "Aspirational and empowering with a light, confident energy. The 'dream dress' framing taps into personal transformation goals. Tone is encouraging rather than guilt-driven — 'could be you' is forward-looking and inclusive. Lifestyle vibe is modern, minimalist, feminine-leaning but broadly aspirational.",
+      "ad_format": "static",
+      "copy_style": "Two-tier headline: soft conversational question ('Slipping into your dream dress with confidence?') followed by a punchy, emphatic power statement in oversized type ('COULD BE YOU!'). Offer is clearly boxed and scannable ('25% Off / On your first lunch and dinner plan'). CTA is code-based ('Use Code: BETTERYOU'). Tone is motivational and benefit-first. Copy does heavy lifting with minimal imagery.",
+      "persona_fit": "Strong fit for healthy-harry — a health-conscious individual motivated by body confidence and lifestyle goals rather than clinical dieting. The aspirational dress metaphor speaks to outcome-driven motivation. The meal plan discount ties directly to a practical health behavior. The clean aesthetic, brand color consistency, and empowerment framing align with healthy-harry's self-improvement mindset.",
+      "human_to_text_area_ratio": 0.28,
+      "ai_image_index": 0.1,
+      "patterns": "Performance is driven by: (1) full brand color palette deployed correctly creating strong visual identity recall; (2) aspirational outcome-first framing ('dream dress') that bypasses feature-talk and sells transformation; (3) oversized typographic hierarchy that works as a thumb-stopper in feed without needing a human face; (4) high negative space ratio making the ad feel premium and digestible at a glance; (5) boxed discount badge with contrasting orange-red creates clear offer scanability; (6) code 'BETTERYOU' doubles as brand reinforcement and personalized call-to-action; (7) real photograph of dress adds authenticity anchor against AI-generated aesthetic fatigue."
+    },
+    {
+      "filename": "healthy-harry_boxes-in-fridge_whatsapp-image_CTR1.0.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "boxes-in-fridge_whatsapp-image",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.0
+      },
+      "visual_composition": "Split-layout with left half showing a refrigerator interior stocked with Delicut meal prep containers stacked prominently as hero subject, surrounded by fresh vegetables, eggs, and dairy. Right half is a bold flat-color red panel with headline copy and discount offer. Visual hierarchy flows from the stacked green branded containers (eye-catching contrast against white fridge) → headline → discount CTA box. Negative space is minimal on the left; the right panel uses clean open space to make the discount prominent.",
+      "color_palette": "Dominant colors are Grenade red (#FF3F1F / close variant used for right panel background), Spinach green (#043F12 exact match on container branding), and cream/white for text. Brand colors are strongly represented — the green containers are the visual anchor and the red panel is on-brand. The split creates strong color contrast that draws attention.",
+      "emotion_tone": "Convenience-focused aspiration — communicates effortless healthy living without sacrifice. Tone is confident, slightly playful ('no guilt, all gains'), and motivational. Low-pressure lifestyle vibe with a performance/fitness undercurrent. Aspiration level is moderate — relatable rather than elite.",
+      "ad_format": "static",
+      "copy_style": "Headline is punchy and benefit-driven: 'No cooking, no guilt, all gains. COULD BE YOU!' — uses contrast between lowercase and bold caps for emphasis. Discount offer is prominent with clear code: '25% Off / Use Code: BETTERYOU'. Tone is casual, motivating, and direct. CTA is implicit via discount code rather than a button.",
+      "persona_fit": "Strong fit for healthy-harry — this persona values fitness gains, clean eating, and convenience without spending time cooking. The stocked fridge visual signals preparedness and discipline. 'All gains' language resonates with a fitness-oriented mindset. The discount lowers barrier to trial, appealing to a value-conscious health enthusiast.",
+      "human_to_text_area_ratio": 0.55,
+      "ai_image_index": 0.1,
+      "patterns": "High-contrast brand color split layout creates instant visual separation and guides the eye naturally. Real photograph of a stocked fridge builds authenticity and aspirational meal-prep culture. Branded containers stacked tall create a strong repeating visual pattern that reinforces brand recall. Benefit-led headline trio ('no cooking, no guilt, all gains') follows a rule-of-three copywriting pattern proven for engagement. Discount code with a personalized name ('BETTERYOU') adds psychological resonance. Clean, uncluttered right panel ensures the offer is impossible to miss — reducing friction to click."
+    },
+    {
+      "filename": "healthy-harry_boy_1080x1080_ROI5.2.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "boy_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.2
+      },
+      "visual_composition": "Split-layout with dark green left panel (60% width) carrying headline and offer copy, and right panel showing a man smiling while reaching into a fridge — viewed from inside the fridge perspective. Visual hierarchy flows from bold headline 'COULD BE YOU!' to the promotional offer box at bottom-left. The inside-fridge POV creates intimacy and novelty. Negative space on the left panel is used deliberately to let the large white headline breathe.",
+      "color_palette": "Dominant colors are brand Spinach green (#043F12) on the left panel, cream/white for headline text matching #F9F4ED, and Grenade red (#FF3F1F) prominently featured on Delicut food containers on the right. All four brand colors are represented — green background, cream text, red containers, and warm orange tones in the eggs and bell pepper adding complementary warmth.",
+      "emotion_tone": "Positive, aspirational yet relatable. The man's genuine smile at fridge contents conveys satisfaction and delight — the 'happy healthy eater' emotion. Lifestyle vibe is modern urban professional who enjoys convenience with quality. Aspiration level is moderate-high: attainable wellness, not intimidating.",
+      "ad_format": "static",
+      "copy_style": "Conversational headline opens with a rhetorical question ('Opened the fridge and actually smiled?') followed by a bold payoff ('COULD BE YOU!'). Tone is warm, witty, and inclusive. CTA is discount-driven: '25% Off on your first lunch and dinner plan' with promo code 'BETTERYOU' — reinforcing the self-improvement angle. Copy hierarchy is clear and punchy.",
+      "persona_fit": "Strong fit for healthy-harry. The ad speaks directly to someone who wants to eat well without effort — the fridge-smile moment resonates with the health-conscious urban male who values convenience, quality food, and positive routine. The discount lowers the barrier to trial. The 'BETTERYOU' code reinforces the self-improvement identity central to this persona.",
+      "human_to_text_area_ratio": 0.45,
+      "ai_image_index": 0.1,
+      "patterns": "Inside-fridge POV is a high-novelty visual hook that stops scroll — uncommon angle creates curiosity. Real human smile triggers social proof and emotional mirroring. Brand product containers are prominently visible in-context (fridge), reinforcing product naturalness. Rhetorical question headline format creates personal identification before the punchline lands. Discount offer with a memorable, persona-aligned promo code ('BETTERYOU') drives conversion intent. Strong brand color consistency across background, containers, and text creates visual coherence without feeling clinical."
+    },
+    {
+      "filename": "healthy-harry_fit-girl_whatsapp-image_CTR1.0.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fit-girl_whatsapp-image",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.0
+      },
+      "visual_composition": "Split-layout with left two-thirds showing a lifestyle hero shot of a woman eating from a branded bowl in a clean kitchen, and right one-third being a dark green solid panel with headline copy and discount offer. Visual hierarchy flows from human subject → brand bowl → headline → discount CTA. Negative space in kitchen background keeps focus on the subject. The bowl logo serves as a natural brand anchor mid-frame.",
+      "color_palette": "Dominant colors are Spinach green (#043F12) on the right panel — perfectly on-brand. Cream/off-white used for text on dark panel. The woman's black athletic wear creates contrast against the light kitchen backdrop. Brand red and orange are absent, keeping the palette clean and health-focused rather than promotional.",
+      "emotion_tone": "Aspirational yet attainable — conveys effortless healthy living, confidence, and morning energy. The subject's smile and relaxed posture suggest enjoyment rather than deprivation. Lifestyle vibe is urban-fit, smart-eating, self-improvement oriented. Aspiration level is moderate-high: achievable transformation rather than extreme fitness.",
+      "ad_format": "static",
+      "copy_style": "Headline uses a two-part structure: soft aspirational line 'Eating smart, looking sharper.' followed by direct audience address 'COULD BE YOU!' in bold caps — creates identification pull. Discount offer '25% Off' is large and prominent with clear promo code 'BETTERYOU' reinforcing the transformation message. Tone is motivational, direct, and benefit-forward.",
+      "persona_fit": "Strong fit for healthy-harry — this persona values smart nutrition, physical appearance, and an active lifestyle. The athletic wear, clean kitchen setting, branded meal bowl, and aspirational copy directly mirror harry's self-improvement mindset. The 25% off incentive appeals to harry's value-conscious yet health-invested behavior. The 'BETTERYOU' code doubles as a persona affirmation.",
+      "human_to_text_area_ratio": 0.62,
+      "ai_image_index": 0.72,
+      "patterns": "1) Split-panel layout cleanly separates aspiration (imagery) from conversion (offer), reducing cognitive load. 2) Direct second-person copy 'COULD BE YOU' creates mirror identification with the viewer. 3) Promo code 'BETTERYOU' doubles as emotional reinforcement, not just a discount mechanic. 4) Bowl branding is naturally integrated mid-shot rather than forced. 5) Athletic wear signals the fitness-health crossover that resonates with health-conscious personas. 6) High contrast between dark green panel and cream text maximizes offer legibility. 7) Single clear CTA with no competing action items keeps click intent focused."
+    },
+    {
+      "filename": "healthy-harry_fit-smiling-lady_1080x1080_ROI6.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fit-smiling-lady_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.0
+      },
+      "visual_composition": "Split-layout with bold left-aligned copy occupying the left 55% and a hero lifestyle subject (smiling woman in workout attire holding a Delicut meal bowl) anchoring the right 45%. Strong vertical hierarchy: brand logo top-left → punchy headline → subtext → discount badge → CTA button → promo code → red banner strip at bottom. Generous negative space in the upper-left cream background allows text to breathe. Food product is prominently displayed and branded, acting as secondary hero.",
+      "color_palette": "Dominant cream/off-white background (#F9F4ED brand cream) with deep spinach green (#043F12) for headline and CTA button. Grenade red (#FF3F1F) and pumpkin orange (#EA5D29) used for brand logo, discount percentage, CTA underline, and bottom banner — full brand color system activated. High contrast between green copy and light background ensures readability.",
+      "emotion_tone": "High-energy, joyful, and aspirational. The subject's wide laugh and athletic wear signal active lifestyle without intimidation. Tone is motivational yet approachable — 'excuses off' implies accountability but the smile softens it. Conveys effortless healthy living, confidence, and reward. Aspiration level is moderate-high: relatable fitness persona rather than elite athlete.",
+      "ad_format": "static",
+      "copy_style": "Punchy three-line headline in bold dark green with rhetorical structure ('Fitness month? Excuses off. Meals on.') — commanding, rhythmic, and scroll-stopping. Subtext is functional ('Next 30 days, powered by protein, no prep'). Discount callout in high-contrast orange/red box creates urgency. CTA button 'Order now' is clear and direct. Promo code 'GETFIT' reinforces fitness-month relevance. Bottom strip adds social proof ('UAE's most trusted meal plan'). Tone is confident, motivational, minimal.",
+      "persona_fit": "Strong fit for healthy-harry — a fitness-conscious male or active individual who values convenience, protein, and results without kitchen effort. The '30-day powered by protein, no prep' message directly addresses his core pain point. Athletic visual context, no-nonsense copy, and a measurable discount trigger rational decision-making typical of this persona. The female model is aspirational rather than exclusionary for this persona.",
+      "human_to_text_area_ratio": 0.52,
+      "ai_image_index": 0.08,
+      "patterns": "1) Urgency + occasion hook ('Fitness month') anchors the offer to a timely behavioral trigger. 2) Three-beat headline rhythm creates memorability and scroll-stop power. 3) Dual visual anchors (laughing human + branded food bowl) build emotional connection and product visibility simultaneously. 4) Full brand color system deployed coherently — discount badge uses red/orange to draw eye before CTA. 5) Promo code 'GETFIT' reinforces campaign theme and enables performance tracking. 6) Social proof banner ('UAE's most trusted') reduces purchase hesitation at bottom of ad journey. 7) Real photography (not AI) builds authenticity and trust. 8) Clean negative space prevents cognitive overload while maintaining premium feel."
+    },
+    {
+      "filename": "healthy-harry_fit-smiling-lady_1080x1080_ROI7.5.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fit-smiling-lady_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.5
+      },
+      "visual_composition": "Square format with left-aligned text block occupying roughly 55% of the frame and a dominant female subject anchoring the right side. Visual hierarchy flows: brand logo (top-left) → bold headline (mid-left) → subtext → offer box → social proof → human subject as aspirational anchor. Generous sky-blue negative space above the subject creates an airy, energetic feel. The branded tote bag acts as a secondary brand touchpoint within the imagery zone.",
+      "color_palette": "Background is a vivid sky blue (not a brand color but complements the palette tonally). Brand colors appear directly: Spinach green (#043F12) on logo and tote bag, Grenade red/Pumpkin orange (#FF3F1F/#EA5D29) on tote bag straps and lettering. Cream (#F9F4ED) used for all headline and body copy text. Brand color system is well-represented and cohesive.",
+      "emotion_tone": "High-energy, joyful, and confidently aspirational. The subject's open laugh and upward gaze convey post-workout euphoria and lifestyle freedom. The tone is motivating without being intimidating — approachable fitness rather than elite athleticism. Aspiration level is moderate-high, relatable rather than unattainable.",
+      "ad_format": "static",
+      "copy_style": "Bold, punchy headline in large white sans-serif: 'UAE's fitness month. Now excuse-free' — culturally anchored, challenge-oriented. Subheadline is supportive and brand-promise-driven: 'You stay consistent. We'll stay macro-smart.' Offer is clearly boxed with high contrast: '20% Off on your first order / Use Code: GETFIT'. Social proof anchors bottom-left: '4.7 stars / 1K+ Google reviews'. Overall tone is confident, direct, and motivationally conversational.",
+      "persona_fit": "Strong fit for healthy-harry — a fitness-conscious male or female professional in the UAE who values structured nutrition without sacrificing taste. The macro-smart messaging speaks directly to a gym-goer who tracks intake. The UAE Fitness Month cultural hook adds local relevance. The discount lowers first-order barrier. The aspirational but non-intimidating subject mirrors harry's self-image and fitness lifestyle goals.",
+      "human_to_text_area_ratio": 0.52,
+      "ai_image_index": 0.82,
+      "patterns": "1) Cultural moment anchoring ('UAE Fitness Month') creates urgency and local relevance that drives click intent. 2) Joyful, laughing subject breaks the serious fitness ad trope, generating pattern interruption in feed. 3) Branded physical product (tote bag) in-image reinforces brand recall without feeling forced. 4) Boxed offer with promo code creates a scannable, direct-response element that drives conversion. 5) Social proof (4.7 / 1K+ reviews) placed near CTA reduces purchase hesitation. 6) Sky blue background creates high contrast with dark green and red brand elements, boosting thumb-stop rate. 7) Copy hierarchy cleanly separates awareness (headline) from consideration (subline) from conversion (offer + code) — full funnel in one frame."
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card1_ROI5.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fitness-month_carousel-card1",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "visual_composition": "Vertical square format with a dominant upper two-thirds occupied by a confident athletic woman holding a branded Delicut bowl against an open blue sky. Strong vertical hierarchy: brand logo top-center, hero subject center-frame, promotional copy block bottom-third on cream card. Negative space is maximized via clear sky backdrop, creating an airy, uncluttered feel that draws focus to the subject and product simultaneously.",
+      "color_palette": "Dominant colors are sky blue (background), dark charcoal (sportswear), and skin tones. Brand colors appear precisely: Spinach green (#043F12) on the bowl branding, Cream (#F9F4ED) on the bottom copy card, Grenade red (#FF3F1F) on headline text, and Pumpkin orange (#EA5D29) on the CTA button. Brand palette is fully represented and cohesively deployed.",
+      "emotion_tone": "Radiates confident, aspirational fitness energy — active, sun-lit, outdoorsy lifestyle. Conveys effortless wellness rather than discipline or deprivation. High aspiration level tied to Dubai's active outdoor culture, with a warm and approachable rather than intimidating tone.",
+      "ad_format": "static",
+      "copy_style": "Punchy two-line headline in bold red: 'Dubai fitness month. No excuses. Just good meals.' — motivational and culturally contextual. Supporting copy offers '20% off on Your First Order' with urgency. CTA button 'Order now' with promo code 'GETFIT' is direct and action-oriented. Tone is confident, concise, and conversion-focused.",
+      "persona_fit": "Strong fit for healthy-harry: active lifestyle visual, fitness-month relevance, lean athletic model mirrors the persona's self-image, outdoor setting aligns with active Dubai lifestyle. Discount offer lowers barrier to trial without cheapening the brand. Messaging avoids guilt and reinforces positive identity.",
+      "human_to_text_area_ratio": 0.68,
+      "ai_image_index": 0.72,
+      "patterns": "Top performance driven by: (1) full-bleed aspirational human subject occupying majority of frame creating instant emotional connection, (2) perfect brand color deployment across all four brand hues in a single cohesive layout, (3) culturally timely hook tied to Dubai Fitness Month creating urgency and local relevance, (4) clean visual hierarchy separating lifestyle imagery from conversion copy via distinct cream card zone, (5) promo code mechanic (GETFIT) reinforces fitness identity while enabling tracking, (6) clear sky negative space prevents visual clutter and elevates premium feel, (7) product visibility on branded bowl provides subliminal brand recall without disrupting lifestyle narrative."
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card2_ROI5.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fitness-month_carousel-card2",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "visual_composition": "Centered hero food shot dominates the frame with a single gray ceramic bowl of Asian noodle dish placed slightly above center. Strong visual hierarchy with food as the primary focal point, clean white/light gray background providing generous negative space below and around the bowl. Text overlay appears in bottom-left corner as a rounded red badge, maintaining a clean separation between product and messaging.",
+      "color_palette": "Dominant colors are natural food tones — golden browns, vibrant red peppers, purple cabbage, green scallions, and warm beige noodles. Background is a neutral off-white. The red CTA badge (#FF3F1F Grenade red) directly matches brand color. Pumpkin orange tones appear subtly in the protein pieces, echoing the #EA5D29 brand color. Overall palette feels fresh and appetizing while aligning with brand identity.",
+      "emotion_tone": "Conveys clean, indulgent-yet-healthy eating — the dish looks vibrant and restaurant-quality, suggesting you don't have to sacrifice pleasure for nutrition. Aspirational but accessible. Evokes confidence, control, and lifestyle elevation without feeling restrictive or clinical.",
+      "ad_format": "static",
+      "copy_style": "Short two-line benefit-led headline: 'Get chef-made, calorie-controlled meals' — direct, functional, low-friction tone. No explicit CTA button but the copy itself acts as a soft CTA. White sans-serif text on brand-red rounded rectangle badge. Tone is reassuring and value-forward.",
+      "persona_fit": "Strong fit for healthy-harry who seeks high-quality, nutritious meals without cooking effort. The chef-made + calorie-controlled message directly addresses his core motivators: performance nutrition with convenience. The colorful, protein-rich noodle bowl signals flavor variety and macro-awareness, reinforcing his lifestyle identity.",
+      "human_to_text_area_ratio": 0.88,
+      "ai_image_index": 0.15,
+      "patterns": "Top performance driven by: (1) high-quality real food photography with professional lighting and depth creating appetite appeal, (2) extreme visual clarity — single subject, no clutter, abundant negative space, (3) brand color integration through CTA badge without overpowering the food, (4) concise benefit copy that resolves two key pain points (quality + calories) in five words, (5) food color vibrancy acting as a natural scroll-stopper against neutral background, (6) aspirational yet achievable meal presentation that mirrors restaurant quality, reinforcing value proposition"
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card3_ROI5.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fitness-month_carousel-card3",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "visual_composition": "Centered stack of three green branded containers forms the hero subject, occupying roughly 40% of the frame. Fruits (grapes, lemons, strawberries, blueberries) flank the containers symmetrically, creating natural framing. A red CTA pill sits bottom-left, anchoring the viewer's eye after the containers. Refrigerator shelf provides clean, clinical negative space that amplifies freshness cues. Strong vertical hierarchy: product stack → fresh produce → CTA.",
+      "color_palette": "Dominant brand green (#043F12) covers the container labels prominently. Cream/white text on containers aligns with brand cream (#F9F4ED). CTA button uses Grenade red/Pumpkin orange blend (#FF3F1F/#EA5D29). Complementary yellows from lemons and reds from berries reinforce brand palette naturally without feeling forced.",
+      "emotion_tone": "Clean, effortless, and modern freshness. Conveys organized healthy living without sacrifice. Low effort, high reward aspiration — the open fridge framing implies readiness and convenience. Calm confidence rather than aggressive health messaging.",
+      "ad_format": "static",
+      "copy_style": "Minimal branded product label ('delicut') repeated three times creates rhythm and brand recall. Single benefit-driven CTA pill reads 'With zero prep or cooking' — conversational, benefit-first, removes friction objection directly. No headline. Tone is reassuring and practical.",
+      "persona_fit": "Strong fit for healthy-harry who values nutritious eating but has limited time. The zero-prep message directly addresses his core barrier. Refrigerator context signals meal-planning behavior he aspires to. Clean aesthetic and real food props match his preference for credible, non-gimmicky health content.",
+      "human_to_text_area_ratio": 0.82,
+      "ai_image_index": 0.1,
+      "patterns": "Refrigerator-interior framing is a proven high-trust freshness signal. Triple-stacked branded containers create subliminal abundance and value perception. Real produce as natural brand-color props eliminates need for graphic design while maintaining palette consistency. Single friction-busting CTA ('zero prep') targets the #1 objection for busy health-conscious consumers. Minimal text maximizes product and food visual dominance, driving higher scroll-stop rates. Brand repetition via three container labels boosts recall without additional copy."
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card4_ROI5.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fitness-month_carousel-card4",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "visual_composition": "Centered plate composition dominates the frame with a slightly elevated angle. Hero subject is a duo of crispy chicken sliders with coleslaw and melted cheese, flanked by sweet potato fries and a dipping sauce ramekin. Visual hierarchy flows from sandwiches (top-right) to fries (bottom-left) to sauce (top-left), then lands on the text overlay in the bottom-left corner. Negative space is minimal but effective — the neutral greige background provides breathing room and keeps focus on the food.",
+      "color_palette": "Dominant colors are warm amber-orange from the sweet potato fries and toasted buns, creamy whites from the coleslaw, and golden yellow from the cheese. The red CTA badge (#FF3F1F / Grenade red) appears as the text block background, closely matching brand color. The plate's muted blue-grey adds a subtle contrast. Overall palette is warm and appetizing with the brand's Grenade red anchoring the copy.",
+      "emotion_tone": "Indulgent yet guilt-free. The ad radiates comfort food satisfaction while the tagline reframes it as healthy. Aspirational but approachable — not clinical or diet-coded. The warm tones evoke craving and pleasure, making healthy eating feel like a treat rather than a sacrifice.",
+      "ad_format": "static",
+      "copy_style": "Single punchy headline: 'So delicious, you'll forget it's healthy.' Bold white sans-serif on a Grenade red rounded-corner badge. No explicit CTA button. Tone is reassuring, benefit-led, and uses contrast/surprise to challenge the 'healthy = boring' perception. Minimal text keeps food as the hero.",
+      "persona_fit": "Strong fit for healthy-harry. This persona seeks nutritious food that doesn't compromise on taste or satisfaction. The visual delivers comfort food aesthetics (sliders, fries) while the copy explicitly addresses the healthy angle, resolving the core tension healthy-harry experiences. The meal looks filling and restaurant-quality, matching an active professional who wants convenience without guilt.",
+      "human_to_text_area_ratio": 0.82,
+      "ai_image_index": 0.12,
+      "patterns": "1) Appetite-first composition — food fills ~80% of frame before any branding appears, maximizing scroll-stop craving response. 2) Contrast messaging — pairing visually indulgent food with 'it's healthy' copy creates cognitive dissonance that drives engagement. 3) Brand color used only on copy badge, not overwhelming the food photography. 4) Sweet potato fries as a visible 'healthy swap' signal reinforce the brand promise without needing explanation. 5) Duo serving size implies value and shareability. 6) Neutral background isolates the food, improving thumb-stop in feed environments. 7) No human presence keeps focus entirely on the product, reducing distraction for food-motivated audiences."
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card5_ROI5.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fitness-month_carousel-card5",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "visual_composition": "Centered two-bag product hero shot placed on a doormat against a clean white wall corner. The two branded tote bags (green and orange) form a natural triangle/pyramid shape creating strong visual stability. Slight angle on green bag adds depth. Text block sits bottom-left as a supporting element. Negative space is generous — white wall fills ~40% of frame, grounding the product without distraction. Hierarchy flows: bags first, logo branding on bags second, tagline text third.",
+      "color_palette": "Dominant colors are Spinach green (#043F12) and Pumpkin/Grenade orange-red (#EA5D29 / #FF3F1F) — both core brand colors used at full saturation. The cream-white wall background provides neutral contrast. The CTA badge uses the Grenade red (#FF3F1F). Brand color compliance is near-perfect, with green and orange in complementary tension creating high visual energy.",
+      "emotion_tone": "Convenient, modern, trustworthy. Evokes doorstep anticipation — the quiet satisfaction of a healthy delivery arriving at your home. Low-stress, lifestyle-aspirational rather than high-energy. Minimalist aesthetic signals premium quality. The clean environment communicates order and wellness discipline.",
+      "ad_format": "static",
+      "copy_style": "Minimal and confident. Headline: 'Freshly delivered. Your place. Your time.' — short punchy sentences in white bold sans-serif on an orange-red rounded badge. No explicit CTA button. Tone is reassuring and empowering, emphasizing personal control and convenience. Brand logo '/delicut' appears on bag as integrated branding.",
+      "persona_fit": "Strong fit for healthy-harry. The doorstep delivery framing speaks directly to a health-conscious, time-efficient urban professional who values convenience without compromising on fresh, quality food. The clean aesthetic, premium brand colors, and 'your time' messaging align with Harry's desire for structured, effortless healthy eating. No junk food cues, no clutter — matches his disciplined but busy lifestyle.",
+      "human_to_text_area_ratio": 0.82,
+      "ai_image_index": 0.2,
+      "patterns": "1) Complementary brand color pairing (deep green + vivid orange) creates instant stopping power in feed. 2) Real-world doorstep context anchors product in relatable daily moment, building trust. 3) Product-as-hero with clean background eliminates cognitive load. 4) Minimal copy with rhythm ('Your place. Your time.') reduces friction and increases message retention. 5) Dual-bag presentation implies variety and meal plan volume, subtly upselling. 6) Triangular bag composition is visually stable and premium-feeling. 7) No human model keeps focus on product while preserving aspirational lifestyle projection."
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card6_ROI5.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fitness-month_carousel-card6",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "visual_composition": "Centered portrait layout with a fit female athlete as the dominant hero subject occupying roughly 80% of the frame. The subject is positioned slightly left-of-center, holding a branded Delicut bowl at mid-frame. Visual hierarchy flows top-down: face/smile → branded bowl → body/athletic wear → text badge. Clear blue sky creates generous negative space above, providing a clean, airy backdrop that keeps focus on the subject. The orange CTA badge is anchored bottom-left, balancing the composition without competing with the hero.",
+      "color_palette": "Dominant colors are soft lavender (athletic wear), sky blue (background), and warm skin tones. Brand colors appear purposefully: the Delicut bowl features the signature spinach green (#043F12) with cream text (#F9F4ED), and the copy badge uses grenade red/pumpkin orange gradient (#FF3F1F/#EA5D29). Brand color usage is restrained but present at key touchpoints — packaging and CTA — making them pop against the neutral backdrop.",
+      "emotion_tone": "High positive energy, joy, and effortless vitality. The open laugh conveys authentic happiness rather than posed contentment. Strong aspirational lifestyle vibe — active, sun-drenched, outdoors in what reads as Dubai waterfront. Aspiration level is high but approachable: fit but not intimidating, happy but not performative.",
+      "ad_format": "static",
+      "copy_style": "Minimal and confident. Single short declarative headline: 'Dubai's most trusted meal plan.' — uses authority positioning ('most trusted'), geographic specificity ('Dubai'), and category clarity ('meal plan'). No secondary CTA button visible. Tone is bold and reassuring. White sans-serif on brand orange badge — high contrast, easily readable.",
+      "persona_fit": "Strong fit for healthy-harry persona. This persona represents health-conscious, active urban professionals who value convenience without compromising on quality. The athletic aesthetic, outdoor Dubai setting, branded meal bowl, and 'most trusted' authority copy all speak directly to someone who prioritizes fitness and clean eating as a lifestyle identity marker. The smartwatch detail reinforces a performance-tracking, goal-oriented mindset typical of this persona.",
+      "human_to_text_area_ratio": 0.88,
+      "ai_image_index": 0.12,
+      "patterns": "Three concrete performance drivers explain the ROI of 5.4: (1) Authentic lifestyle photography — real-looking, sun-lit outdoor shot with genuine emotion outperforms studio or AI imagery for health brands by building trust and relatability; (2) Product integration without hard sell — the branded bowl is held naturally mid-laugh rather than thrust toward camera, creating aspirational association rather than transactional feel; (3) Minimal copy with maximum authority — the single short claim 'Dubai's most trusted meal plan' uses social proof framing and local identity in under 5 words, reducing cognitive load while triggering FOMO and community belonging. The brand color discipline (green on packaging, orange on badge) creates visual brand recall without overwhelming the lifestyle imagery."
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card7_ROI5.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "fitness-month_carousel-card7",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "visual_composition": "Minimalist centered layout with brand name as sole hero element. Single line of large bold text centered both horizontally and vertically on a solid color background. Maximum negative space used deliberately — dark green fills ~90% of frame with text occupying a slim horizontal band. Strong typographic hierarchy with forward slashes acting as visual brackets framing the word.",
+      "color_palette": "Dominant: #043F12 Spinach green background (exact brand color). Text rendered in #F9F4ED Cream (exact brand color). 100% on-brand two-tone execution. No red or orange accent colors present. High contrast ratio between background and text ensures legibility.",
+      "emotion_tone": "Clean, confident, premium minimalism. Conveys brand authority and sophistication rather than overt emotion. Lifestyle vibe is understated and modern — aspirational through restraint. Low noise, high trust signal. Feels like a brand identity statement rather than a promotional push.",
+      "ad_format": "static",
+      "copy_style": "Pure brand name as headline: '/delicut/' flanked by forward slashes suggesting a URL or code-path aesthetic — modern, tech-influenced, clever. No tagline, no CTA, no promotional copy. Typography is bold sans-serif, cream on dark green. Tone is declarative and identity-forward.",
+      "persona_fit": "Strong fit for healthy-harry who values clean aesthetics, authenticity, and brands that don't shout. The minimalist design signals premium quality and confidence. Harry responds to brands that feel curated and purposeful rather than salesy. The absence of hard-sell copy aligns with his distrust of aggressive advertising.",
+      "human_to_text_area_ratio": 0.0,
+      "ai_image_index": 0.05,
+      "patterns": "Brand-identity-as-ad pattern performing well due to: (1) zero visual clutter driving instant brand recall, (2) exact brand color fidelity building subconscious trust, (3) slash punctuation creating memorability and distinctiveness, (4) dark premium green background triggering health and nature associations subliminally, (5) confidence signal — brand secure enough to show nothing but its name — which resonates with sophisticated UAE health-conscious audience. ROI5.4 likely driven by retargeting context where brand recognition is already established."
+    },
+    {
+      "filename": "healthy-harry_girl-with-abs_1080x1080_ROI7.1.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "girl-with-abs_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.1
+      },
+      "visual_composition": "Right-aligned hero subject (fit woman in athletic wear) occupies roughly half the frame, with bold left-side text hierarchy descending from conversational headline to large impact statement to promotional offer. Generous cream negative space keeps the layout clean and uncluttered. Visual flow: eye enters at headline, drops through COULD BE YOU!, lands on discount box, then migrates to the human subject. The food container held at hip level bridges the human and product story.",
+      "color_palette": "Dominant cream background (#F9F4ED exact brand match) grounds the composition. Headline and impact copy in deep spinach green (#043F12 exact match). Discount percentage and offer copy in grenade red/pumpkin orange tones (#FF3F1F / #EA5D29 matching brand palette). Green product label on container reinforces brand identity. Full brand color system deployed cohesively.",
+      "emotion_tone": "Aspirational yet attainable — the ad speaks directly to social-media-driven fitness ambition without being intimidating. The side-profile pose is confident but approachable. Tone is motivational and slightly playful ('those fitness goals on your feed?'), creating a relatable moment before pivoting to action. Lifestyle vibe is clean, modern, urban wellness.",
+      "ad_format": "static",
+      "copy_style": "Two-tier headline: soft conversational opener ('Those fitness goals on your feed?') followed by oversized bold impact line ('COULD BE YOU!'). Discount offer in a rounded-corner badge with '25% Off' in large red numerals, supporting body copy in orange. Code CTA in dark green bold. Tone is direct, motivational, and conversion-focused with urgency built into the offer structure.",
+      "persona_fit": "Strong fit for healthy-harry — a fitness-conscious, socially-aware male or female urbanite motivated by body goals and smart value. The athletic visual, aspirational copy referencing social feeds, and meal plan framing all align with someone actively pursuing a healthy lifestyle who responds to convenience + results messaging. The discount lowers the trial barrier which suits a considered but deal-responsive persona.",
+      "human_to_text_area_ratio": 0.52,
+      "ai_image_index": 0.12,
+      "patterns": "1) Direct second-person aspiration hook ('Could Be You') creates immediate personal relevance. 2) Full brand color system used with discipline — no off-palette elements diluting identity. 3) Human subject shows visible fitness results without being unattainable, matching aspirational but realistic positioning. 4) Product integrated naturally into the scene (held at hip) rather than isolated, linking lifestyle to product. 5) High-contrast discount badge in brand red/orange creates a focal interrupt that drives conversion intent. 6) Clean cream negative space prevents visual overload and maintains premium feel. 7) Promo code personalizes the CTA ('BETTERYOU') reinforcing the transformation narrative. These combined elements — aspiration + social proof framing + clear offer + brand cohesion — explain the strong ROI 7.1 performance."
+    },
+    {
+      "filename": "healthy-harry_girl-with-boxes_whatsapp-image_CTR1.1.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "girl-with-boxes_whatsapp-image",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.1
+      },
+      "visual_composition": "Split layout with left half dominated by a full-height lifestyle photo of a smiling woman holding stacked Delicut bowls, and right half featuring bold text copy on a solid red background. Visual hierarchy flows from the joyful human subject left to the benefit headline and discount CTA on the right. Minimal negative space on the left; generous white space within the right text block creates breathing room around the discount box.",
+      "color_palette": "Dominant colors are the brand's Grenade red (#FF3F1F) on the right panel and the Spinach green (#043F12) visible on product packaging. Natural skin tones and black activewear anchor the photo side. Cream white text on red aligns with brand palette. Overall palette is on-brand and high contrast.",
+      "emotion_tone": "Upbeat, aspirational, and celebratory. The woman's wide laugh and closed eyes convey genuine joy and confidence. Lifestyle vibe is active, healthy, and attainable — not intimidating. Aspiration level is moderate-high, relatable rather than elite.",
+      "ad_format": "static",
+      "copy_style": "Two-part headline: a conversational question 'Back on track and feeling good?' followed by bold empowerment statement 'COULD BE YOU!' in all-caps white. Discount CTA is clean and prominent: '5% Off / Use Code: BETTERYOU'. Tone is motivational, inclusive, and direct. No hard sell — benefit-led with a soft urgency trigger.",
+      "persona_fit": "Strong fit for healthy-harry — this persona values active lifestyle, clean eating, and personal progress. The laughing woman in activewear holding healthy meal prep containers mirrors Harry's self-improvement mindset. The discount code 'BETTERYOU' directly speaks to his growth orientation. The relatable joy rather than extreme fitness imagery keeps it accessible.",
+      "human_to_text_area_ratio": 0.55,
+      "ai_image_index": 0.05,
+      "patterns": "High CTR driven by: (1) genuine human emotion — authentic laugh creates immediate emotional resonance and thumb-stop; (2) split-panel layout cleanly separates inspiration from rational offer, reducing cognitive load; (3) aspirational mirror effect — 'COULD BE YOU' directly invites viewer projection onto the subject; (4) discount code with motivational name 'BETTERYOU' doubles as emotional copy; (5) on-brand green product packaging reinforces brand recall within the lifestyle shot; (6) real photography at near-zero AI index builds trust with health-conscious audience."
+    },
+    {
+      "filename": "healthy-harry_girl_1080x1080_ROI7.8.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "girl_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.8
+      },
+      "visual_composition": "Split-layout design with bold red left panel (60% width) carrying headline text and offer block, and right panel featuring a real-lifestyle photo of a woman eating a salad from a Delicut bowl while sitting on moving boxes. Visual hierarchy flows top-to-bottom: question hook → large bold CTA headline → discount offer box → promo code. Negative space is minimal but effective — red panel creates strong contrast anchor while right photo grounds the scene in relatable reality.",
+      "color_palette": "Dominant color is Grenade red (#FF3F1F) covering the entire left panel — exact brand color match. Cream/white used for all typography on red panel. Delicut bowl features Spinach green (#043F12) branding. Background of photo is neutral grey-white. Brand palette is well-represented with two primary brand colors prominent.",
+      "emotion_tone": "Warm, aspirational yet accessible. Conveys fresh-start optimism — the moving boxes imply a life transition, and the healthy meal signals self-care and intentionality. Lifestyle vibe is 'effortlessly health-conscious urban mover'. Aspiration level is moderate-high: relatable enough to feel achievable, aspirational enough to inspire action.",
+      "ad_format": "static",
+      "copy_style": "Conversational question hook ('New in town and eating right already?') followed by massive bold inclusive CTA ('COULD BE YOU!'). Offer block is clean and scannable: '25% Off / On your first lunch and dinner plan / Use Code: BETTERYOU'. Tone is encouraging, inclusive, and direct. T&C disclaimer present. Code name BETTERYOU reinforces persona identity.",
+      "persona_fit": "Strong fit for healthy-harry. The ad directly speaks to a health-conscious individual navigating a new environment, which mirrors Harry's profile of someone actively choosing wellness. The visual of eating a fresh salad unprompted during a move signals intrinsic motivation — Harry's core trait. The discount lowers friction for trial without compromising the health-forward brand identity.",
+      "human_to_text_area_ratio": 0.45,
+      "ai_image_index": 0.1,
+      "patterns": "1) Split bold-color panel + lifestyle photo is a proven direct-response layout that drives both attention and trust. 2) 'COULD BE YOU' second-person framing creates strong psychological identification with the viewer. 3) Moving-box context is a highly specific, emotionally resonant moment that makes the ad feel hyper-targeted rather than generic. 4) Promo code name 'BETTERYOU' reinforces identity alignment with health persona. 5) Real photography (not AI) builds authenticity and trust. 6) Single, clear offer with explicit discount percentage reduces cognitive load. 7) Brand colors dominate without overwhelming — red commands attention while green on the bowl subtly reinforces brand recognition at the product level."
+    },
+    {
+      "filename": "healthy-harry_gym-man_1080x1080_CTR1.2.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "gym-man_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.2
+      },
+      "visual_composition": "Split-layout with left panel (cream background) housing text hierarchy and right panel showing lifestyle photography. Hero subject is a fit young man sitting cross-legged on a gym mat post-workout, looking at his phone and smiling, with a Delicut meal container beside him. Visual hierarchy flows: headline (top-left) → discount offer box (mid-left) → promo code → trust badges → notification UI element (bottom-right). Negative space is used effectively in the cream panel to keep the offer legible without clutter.",
+      "color_palette": "Dominant colors are cream (#F9F4ED) on left panel, Grenade red (#FF3F1F) for headline and notification badge, dark spinach green (#043F12) for offer box and body text. Pumpkin orange (#EA5D29) appears in the pause notification banner. Brand color system is fully and consistently applied. Photo tones are neutral grey-white gym environment complementing the palette.",
+      "emotion_tone": "Positive, aspirational, and self-care oriented. Conveys post-workout reward, flexibility, and control over one's health routine. Lifestyle vibe is modern urban fitness — relaxed achievement rather than intense effort. Aspiration level is moderate-high, approachable rather than elite.",
+      "ad_format": "static",
+      "copy_style": "Headline is bold, emotionally led — 'Unlimited pauses, a simple gift to yourself' uses second-person warmth and gift framing to reduce subscription anxiety. Offer copy is direct and benefit-clear: '25% Off on your first lunch & dinner plan'. CTA is implicit via promo code 'GIFT25' rather than a button. Notification UI element 'Your meal plan has been paused / Resume' reinforces the pause feature visually. Tone is friendly, empowering, low-pressure.",
+      "persona_fit": "Strong fit for healthy-harry. He is a fitness-conscious urban male who values flexibility, convenience, and healthy eating without rigid commitment. The gym setting, post-workout meal visual, pause-plan feature highlight, and aspirational-but-relatable tone directly speak to his lifestyle priorities. The discount reduces trial friction, and the pause feature addresses his likely objection around travel or schedule variability.",
+      "human_to_text_area_ratio": 0.55,
+      "ai_image_index": 0.82,
+      "patterns": "1) Feature-as-benefit framing: 'unlimited pauses' reframes a functional product feature into an emotional self-care narrative, reducing churn anxiety. 2) Dual-panel split layout cleanly separates offer information from lifestyle aspiration, allowing each zone to do its job without competing. 3) UI notification overlay (pause badge) creates native-app familiarity and demonstrates the product experience in-ad. 4) Post-workout meal placement triggers strong contextual relevance for fitness personas at the moment of highest nutritional intent. 5) Promo code 'GIFT25' uses gift psychology to increase perceived value. 6) Trust badges (Tabby, Tamara + 4.7 rating) at bottom-left reduce payment and quality hesitation without dominating the creative. 7) Full brand color compliance across all elements creates visual coherence that builds brand recognition at speed."
+    },
+    {
+      "filename": "healthy-harry_juggler_1080x1080_ROI7.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "juggler_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.4
+      },
+      "visual_composition": "Split-panel layout with left cream-background text column and right photographic panel featuring a smiling man holding multiple Delicut meal containers. Visual hierarchy flows: brand logo top-left → bold headline → discount offer box → promo code → payment logos → red footer strip. Hero subject (man with meals) occupies right 50%+ of frame, creating natural eye movement from product to offer. Negative space used effectively in cream panel to let typography breathe. Red footer anchors the composition with a benefit statement.",
+      "color_palette": "Dominant: Spinach green (#043F12) for headline and brand elements, Cream (#F9F4ED) as left panel background, Grenade red (#FF3F1F) for the discount box border and footer bar, Pumpkin orange (#EA5D29) for '25% Off' and promo code text. All four brand colors are actively present and correctly applied, with green/cream providing calm base and red/orange driving urgency and attention to the offer.",
+      "emotion_tone": "High positive energy, joyful and aspirational. The laughing man exudes effortless confidence and delight in healthy eating. Lifestyle vibe is modern, active, and convenient — healthy eating made easy and enjoyable rather than sacrificial. Aspiration level is mid-high: relatable yet elevated, suggesting a rewarding daily habit rather than an unattainable ideal.",
+      "ad_format": "static",
+      "copy_style": "Headline is bold, large-scale three-word stack ('FRESH FRIDAY SALE') in dark green commanding immediate attention. Supporting subheadline uses bold emphasis on 'flexibility with unlimited pauses' as a key differentiator. Offer block is clearly boxed with '25% Off' in orange as focal CTA anchor. Promo code 'FRESH2025' in uppercase adds urgency and trackability. Tone is direct, benefit-forward, and action-oriented. Footer reinforces subscription flexibility with 'Unlimited pauses'.",
+      "persona_fit": "Strong fit for healthy-harry. This persona values structured healthy eating, convenience, and flexibility — all directly addressed. 'Unlimited pauses' speaks to a health-conscious professional who wants commitment without rigidity. The meal containers showing grilled protein and vegetables visually confirm the healthy eating promise. The joyful male model mirrors the persona demographic. The discount lowers the barrier for a considered purchase decision typical of this persona.",
+      "human_to_text_area_ratio": 0.52,
+      "ai_image_index": 0.82,
+      "patterns": "1) Full brand color system activation creates visual coherence and brand recall. 2) Split-panel tension between calm offer space and energetic lifestyle imagery drives both rational and emotional engagement. 3) Boxed discount element with contrasting border isolates the 25% offer, making it scannable at thumb-scroll speed. 4) Three-word bold headline stack maximizes font size within column constraints for instant readability. 5) 'Unlimited pauses' repeated twice (body + footer) reinforces the key objection-handler for subscription hesitation. 6) Smiling male model holding multiple containers signals abundance and satisfaction, directly countering 'diet food is bland' perception. 7) Payment partner logos (Tabby/Tamara) reduce friction for BNPL-receptive UAE audience. 8) Trackable promo code enables direct attribution, indicating performance marketing orientation."
+    },
+    {
+      "filename": "healthy-harry_old-man-cycling_1080x1080_ROI7.8.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "old-man-cycling_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.8
+      },
+      "visual_composition": "Split-layout with dark green (#043F12) occupying the left ~55% for text and a full-bleed lifestyle photograph on the right ~45%. Hero subject is a middle-aged fit male cyclist in cycling kit, standing with a road bike and holding a Delicut branded bag. Visual hierarchy flows top-down: teaser headline → bold main CTA ('COULD BE YOU!') → discount offer box → promo code. Generous negative space in the green panel keeps text breathable and readable.",
+      "color_palette": "Dominant brand Spinach green (#043F12) covers the text panel. Cream/off-white (#F9F4ED) used for all typography. Grenade red (#FF3F1F) appears on the Delicut bag logo carried by the model. The offer box uses a thin cream border outline on the green background. Brand palette is tightly adhered to with no off-brand colors.",
+      "emotion_tone": "Aspirational, energetic, and motivational. Projects vitality, longevity, and active lifestyle. The smiling middle-aged man signals that healthy eating leads to looking and feeling younger — conveying optimism and attainable transformation rather than pressure or vanity.",
+      "ad_format": "static",
+      "copy_style": "Dual-level headline: soft teaser line '2026, but looking younger' in light weight, followed by oversized bold display type 'COULD BE YOU!' creating strong visual punch. Offer block uses mixed sizing to emphasize '26% Off' and 'AED 175'. Promo code 'FEB2026' in bold sans-serif acts as a clear CTA anchor. Tone is conversational, inclusive, and benefit-led without being salesy.",
+      "persona_fit": "Strong fit for healthy-harry — an active, health-conscious male who values fitness, nutrition, and longevity. The cyclist persona mirrors harry's active lifestyle identity. The age-reversal hook ('looking younger') speaks directly to harry's aspiration of sustained vitality. The meal plan discount lowers the barrier to commitment, aligning with a considered, value-aware buyer.",
+      "human_to_text_area_ratio": 0.45,
+      "ai_image_index": 0.08,
+      "patterns": "1) Split-panel layout cleanly separates aspiration (photo) from rational offer (text), serving both emotional and logical buying triggers simultaneously. 2) Mirror-audience casting — fit middle-aged male cyclist directly reflects the target persona, boosting identification. 3) Year-anchored headline ('2026') creates timely relevance and urgency without explicit countdown pressure. 4) Oversized bold display type ('COULD BE YOU!') maximizes thumb-stop power in feed. 5) Branded bag integrated naturally into lifestyle shot reinforces brand without feeling staged. 6) Discount offer box with outlined border creates visual containment that draws the eye as a distinct CTA zone. 7) Tight brand color discipline across the full creative builds brand recall with repeated exposure — critical for ROI at scale."
+    },
+    {
+      "filename": "healthy-harry_tennis-man_1080x1080_ROI7.4.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "tennis-man_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.4
+      },
+      "visual_composition": "Split-composition layout: left ~45% occupied by bold red overlay card with brand logo, headline, offer block, and social proof; right ~55% features a male athlete seated on a courtside bench holding a Delicut meal bowl. Visual hierarchy flows top-to-bottom on text side: brand name → headline → sub-copy → discount offer → trust signal. Hero subject is positioned in golden-hour lighting at a clay tennis court, grounding the aspirational fitness lifestyle. Negative space is minimal but effective — the open sky behind the subject adds breathing room and warmth.",
+      "color_palette": "Dominant color is Grenade red (#FF3F1F) covering the entire text panel, which is a direct brand color. Secondary tones are warm amber/golden from the outdoor photography lighting. The Delicut bowl on the product uses Spinach green (#043F12) branding visible on packaging. White is used for all copy. Cream (#F9F4ED) does not appear explicitly. Brand color usage is strong and on-brand.",
+      "emotion_tone": "High-aspiration, active lifestyle energy with a relaxed, confident undertone. The seated post-workout pose conveys achievement without strain — effortless fitness. Golden hour lighting adds warmth and optimism. The overall vibe is: healthy living is enjoyable and attainable, not punishing.",
+      "ad_format": "static",
+      "copy_style": "Headline is bold, punchy, direct-address: 'UAE, let's get fit. Effortlessly.' — community-targeted, motivational tone. Sub-copy is benefit-driven and concise: 'Next 30 days, powered by protein, no prep.' Offer block uses large typographic hierarchy for '20% Off' with clear CTA via promo code 'GETFIT'. Social proof closes with '4.7 stars, 1K+ Google reviews'. Overall tone is confident, inclusive, and conversion-focused.",
+      "persona_fit": "Strong fit for healthy-harry — a fitness-conscious, time-poor urban professional in the UAE. The tennis court setting, athletic attire, protein-focused messaging, and effortless meal prep narrative directly address this persona's desire to maintain a healthy lifestyle without kitchen overhead. The discount offer and reviews reduce purchase friction for a rational decision-maker.",
+      "human_to_text_area_ratio": 0.52,
+      "ai_image_index": 0.72,
+      "patterns": "Top performance driven by: (1) bold brand-color dominance creating instant visual recognition and thumb-stop contrast; (2) aspirational but relatable athlete persona — not intimidating, seated and relaxed post-sport; (3) dual-purpose layout separating emotion (photo) from logic (offer + proof) cleanly; (4) strong time-bound commitment framing ('Next 30 days') paired with zero-friction benefit ('no prep'); (5) promo code 'GETFIT' reinforces persona identity while enabling tracking; (6) social proof (4.7 / 1K+ reviews) placed near bottom to close trust loop before CTA; (7) golden hour lighting elevates perceived lifestyle aspiration while keeping scene grounded and realistic."
+    },
+    {
+      "filename": "healthy-harry_yoga-lady_1080x1080_ROI7.png",
+      "persona": "healthy-harry",
+      "performance_tier": "top-performer",
+      "creative_id": "yoga-lady_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.0
+      },
+      "visual_composition": "Split vertical layout with large bold headline text on the left third and a full-height action-pose female figure occupying the right two-thirds. Strong visual hierarchy: brand logo top-left → headline → subtext → discount badge → promo code → food product at bottom-right. The yogic balance pose creates diagonal energy that draws the eye from top-right down to the Delicut bowl at bottom-right. Generous negative space in the grey background keeps the composition clean and uncluttered. Red banner at the bottom anchors the frame and reinforces the key benefit.",
+      "color_palette": "Dominant: neutral grey background (off-brand but effective), deep spinach green (#043F12) used prominently in headline text and discount badge — strong brand alignment. Grenade red (#FF3F1F) appears in the bottom banner and the product bowl branding. The subject's teal activewear complements the green palette without directly matching. Cream tones appear in the discount badge text. Brand color system is well-represented across key touchpoints.",
+      "emotion_tone": "High-aspiration, active wellness lifestyle energy. The extreme yoga balance pose communicates discipline, flexibility, and peak physical health. The dual meaning of 'flexibility' (physical and subscription) creates clever emotional resonance. Tone is motivational and empowering rather than indulgent. Clean, premium aesthetic signals health-conscious sophistication.",
+      "ad_format": "static",
+      "copy_style": "Bold, large-scale headline 'FRESH FRIDAY SALE' in dark green commands immediate attention. Subheadline uses a wordplay hook — 'flexibility with unlimited pauses' — tying visual metaphor to product feature. Discount badge is bold and high-contrast (25% Off). Promo code 'FRESH2025' is clear and actionable. Bottom banner repeats 'Unlimited pauses' as a benefit reinforcement. Tone is confident, benefit-forward, and clean — no fluff.",
+      "persona_fit": "Excellent fit for healthy-harry. This persona values active lifestyle, physical fitness, clean eating, and flexible routines. The yoga practitioner visual directly mirrors healthy-harry's self-image. The messaging around flexibility and unlimited pauses speaks to someone who travels, works out, and needs a meal plan that adapts to their life. The healthy bowl product shot grounds the aspiration in practical nutrition. The 25% discount adds a rational incentive layer on top of strong emotional alignment.",
+      "human_to_text_area_ratio": 0.62,
+      "ai_image_index": 0.12,
+      "patterns": "1) Visual-copy wordplay: the balance pose physically demonstrates 'flexibility' while the copy uses it as a subscription feature — dual meaning drives engagement and memorability. 2) Aspirational human anchor: real athletic photography (not AI) with a technically impressive pose signals authenticity and premium feel. 3) Benefit-forward discount badge: the 25% off is visually contained in a high-contrast green badge, making the value proposition scannable in under 2 seconds. 4) Product placement at natural focal endpoint: the Delicut bowl sits at the bottom of the pose's visual flow, ensuring the product is seen after the eye travels the full composition. 5) Bottom red banner creates urgency and benefit repetition — a proven direct response pattern. 6) Brand color discipline across headline, badge, and banner builds subconscious brand recognition at high frequency."
+    },
+    {
+      "filename": "mid-life-mansoon_lady-yoga_1080x1080_ROI7.8.png",
+      "persona": "mid-life-mansoon",
+      "performance_tier": "top-performer",
+      "creative_id": "lady-yoga_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.8
+      },
+      "visual_composition": "Split layout with left text-dominant panel and right image panel. Hero subject is a plus-size woman in a yoga lunge pose wearing olive green activewear, arms raised joyfully. Visual hierarchy flows top-down: motivational tagline → bold CTA headline 'COULD BE YOU!' → discount offer box → promo code. Branded /delic bag placed at lower right anchors the brand. Generous negative space on left panel in cream keeps text readable. Right panel uses natural light from large windows creating an airy, premium feel.",
+      "color_palette": "Dominant: Cream (#F9F4ED) as background — exact brand match. 'COULD BE YOU!' in Grenade red (#FF3F1F) — exact brand match. Tagline and offer text in Spinach green (#043F12) — exact brand match. Woman's activewear in olive green harmonizes with brand palette. /delic bag in dark green with red handles reinforces brand identity. Highly on-brand color execution.",
+      "emotion_tone": "High positive energy — joy, empowerment, and achievability. The laughing subject radiates self-acceptance and active lifestyle aspiration. Tone is encouraging and non-judgmental, celebrating progress over perfection. Aspirational but accessible, not intimidating. New Year resolution energy with a realistic, warm undertone.",
+      "ad_format": "static",
+      "copy_style": "Headline uses conversational contrast hook: 'Turning this year I will into I did.' followed by large bold 'COULD BE YOU!' — direct, inclusive, motivational. Offer copy is clear and specific: 26% off, up to AED 175, first meal plan. Promo code FEB2026 creates urgency and trackability. Tone is warm, direct, and action-oriented. T&C Apply disclaimer present. No explicit CTA button but implied action via promo code.",
+      "persona_fit": "Strong fit for mid-life-mansoon persona. The messaging targets people who have made recurring unfulfilled health resolutions — a hallmark mid-life psychological pattern. Plus-size female subject normalizes the fitness journey at any body type and age, reducing intimidation. The financial incentive (AED 175 off) appeals to value-conscious mid-life consumers. Meal plan framing suits busy mid-life schedules. However, female subject may slightly misalign if persona skews male ('mansoon' suffix), though the self-improvement narrative remains universally resonant.",
+      "human_to_text_area_ratio": 0.52,
+      "ai_image_index": 0.15,
+      "patterns": "Top performer patterns: (1) Inclusive body representation lowers psychological barrier to entry — viewer sees themselves in the subject. (2) Brand color saturation is perfect — red headline creates immediate visual stop-scroll impact. (3) Split layout cleanly separates aspiration (image) from action (offer), reducing cognitive load. (4) Concrete discount number (26%, AED 175) builds trust and urgency simultaneously. (5) Props (branded bag on yoga mat) naturalistically integrate product into lifestyle context without forced staging. (6) Joyful laughing expression triggers positive emotional transfer. (7) Promo code with month reference (FEB2026) signals time-limited relevance, driving conversion urgency."
+    },
+    {
+      "filename": "new-nikky_cheaper_1080x1080_CTR1.5.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "cheaper_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.5
+      },
+      "visual_composition": "Centered balance scale acts as hero subject creating a clear visual metaphor — greasy takeout bag on left weighing down vs. stacked Delicut containers on right. Strong vertical hierarchy: bold headline at top, discount offer box in middle, scale at bottom. Generous negative space on grey-white gradient background keeps focus clean and uncluttered. Offer box uses rounded rectangle to frame the deal prominently.",
+      "color_palette": "Background is neutral grey-white gradient (close to brand cream #F9F4ED). Headline and body copy use brand Spinach green #043F12. Delicut containers prominently display Grenade red #FF3F1F which anchors brand recognition. The brown paper bag provides earthy contrast. Brand colors are used strategically and consistently.",
+      "emotion_tone": "Rational-aspirational blend — the scale metaphor appeals to logical decision-making (comparison shopping) while the 'Cheaper. Healthier. Better' copy taps into self-improvement aspiration. Low emotional intensity but high persuasion clarity. Tone is confident, slightly smug, empowering.",
+      "ad_format": "static",
+      "copy_style": "Punchy three-part headline in bold dark green — staccato rhythm builds conviction. Discount offer box uses large '20%' numeral for visual salience. Supporting copy 'On your first lunch & dinner plan' is functional. Promo code 'UAE20' acts as soft CTA. No explicit action verb CTA button present. Tone is direct, benefit-led, no fluff.",
+      "persona_fit": "Strong fit for new-nikky — a value-conscious UAE-based new customer who compares options before committing. The scale metaphor directly addresses the consideration stage mindset, the 20% first-order discount lowers trial barrier, and the takeout comparison speaks to someone already ordering food but open to switching. Rational framing suits a first-time buyer needing logical justification.",
+      "human_to_text_area_ratio": 0.45,
+      "ai_image_index": 0.15,
+      "patterns": "1) Visual metaphor (balance scale) does persuasion work without requiring much copy — immediately communicates value comparison. 2) Brand product is physically present on the scale, reinforcing product familiarity. 3) Three-word staccato headline structure is highly scannable on mobile. 4) Large discount numeral '20%' in bordered box creates a focal anchor in the mid-frame. 5) Neutral background maximizes contrast for both green text and red containers. 6) Promo code inclusion drives measurable conversion tracking, suggesting performance-optimized creative discipline. 7) No human faces reduces production cost while keeping CTR high through concept clarity."
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card1_ROI6.2.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "shifting_carousel-card1",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "visual_composition": "Square format with a dominant hero image taking up roughly 75% of the frame. A young woman sits casually on the floor surrounded by moving boxes, eating from a branded Delicut bowl. She is center-left, leaning against boxes, with legs raised — creating a relaxed, candid energy. Visual hierarchy flows from her laughing face → branded bowl → moving boxes (context) → red CTA banner at bottom. The bottom 25% is a rounded red overlay card containing headline and CTA button. Negative space is minimal but the warm-toned boxes create breathing room around the subject.",
+      "color_palette": "Dominant colors are warm cardboard brown/beige from moving boxes, light grey from her sweatshirt, and the brand's Grenade red (#FF3F1F) on the bowl and bottom CTA banner. The dark green (#043F12) appears on the 'Order now' button. Cream appears implicitly in skin tones and background. Brand colors are well-integrated — red bowl ties to red CTA block, green CTA button anchors the brand identity cleanly.",
+      "emotion_tone": "High positive energy — joy, relief, spontaneity. The laughing expression conveys 'I've got this handled even in chaos.' Lifestyle vibe is aspirational-relatable: young expat, moving into a new place, not stressed about food. Aspiration level is moderate — accessible and warm, not luxury. Strongly relatable over polished.",
+      "ad_format": "static",
+      "copy_style": "Headline is bold, sans-serif white text: '3 Problems every newcomer faces in the UAE' — curiosity-gap listicle style, direct and benefit-adjacent. CTA is a dark green pill button with white text: 'Order now' — clean and action-oriented. Tone is empathetic and problem-aware, speaking directly to a newcomer's pain point without being alarmist. Brand name '/delicut/' appears in minimal wordmark at top center.",
+      "persona_fit": "Strong fit for new-nikky — a persona likely representing a young female expat or recent arrival to the UAE navigating a new life. The moving-box context is a direct visual metaphor for her situation. The casual, relatable setting (sitting on the floor, laughing, eating from a bowl) mirrors her lifestyle stage. The curiosity-gap headline speaks to real pain points she is actively experiencing. The non-intimidating, joyful tone reduces barrier to engagement.",
+      "human_to_text_area_ratio": 0.72,
+      "ai_image_index": 0.82,
+      "patterns": "1. Relatable situational context: moving boxes immediately signal 'newcomer' to the target audience without text. 2. Curiosity-gap headline ('3 Problems') drives click/swipe intent by withholding resolution. 3. Branded product placement: bowl is held prominently, logo visible — passive brand recall. 4. Emotional contrast: chaotic moving situation + laughing subject = Delicut solves the stress. 5. Color continuity: red bowl echoes red CTA banner, creating visual flow that ties product to action. 6. Persona mirroring: subject demographics (young, casual, expat-coded) directly match new-nikky, reducing psychological distance. 7. Minimal copy load reduces friction — one headline, one button. 8. AI-generated image allows cost-effective production of a very specific lifestyle scenario that would be expensive to shoot."
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card2_ROI6.2.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "shifting_carousel-card2",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "visual_composition": "Overhead-leaning 3/4 angle shot with the cooking pan as the central hero subject, positioned slightly right of center. Human hands and torso create a diagonal leading line from top-right to the pan. Cherry tomatoes bowl and chopped vegetables on cutting board form a secondary layer on the left. Text overlay sits bottom-left as a clean white pill badge. Negative space is minimal but well-used — warm wooden countertop provides grounding. Visual hierarchy flows: pan → hands → ingredients → text.",
+      "color_palette": "Dominant warm tones: natural wood browns, cream apron, and vibrant vegetable reds and oranges. Brand colors appear organically — cherry tomato reds echo Grenade red (#FF3F1F), orange bell pepper mirrors Pumpkin orange (#EA5D29), and the text in the badge uses Spinach green (#043F12). Cream background of badge aligns with #F9F4ED. Brand palette integration feels natural rather than forced.",
+      "emotion_tone": "Warm, nostalgic, domestic comfort. Evokes the feeling of a home-cooked meal — safety, familiarity, and care. Aspiration level is moderate and relatable rather than aspirational-luxury. The vibe is 'wholesome settling in' not 'fine dining', which feels emotionally accessible and low-pressure.",
+      "ad_format": "static",
+      "copy_style": "Single conversational question headline: 'Recently settled in and already craving home food?' — empathetic, soft, direct. No CTA visible in frame. Tone is warm and understanding, using second-person to create personal connection. Font is clean sans-serif in brand Spinach green on cream pill badge. Minimal copy strategy — lets the image carry emotional weight.",
+      "persona_fit": "Strong fit for new-nikky — a persona likely representing a recently relocated expat or new resident in the UAE who is homesick and unfamiliar with local food options. The headline directly names their emotional state ('recently settled', 'craving home food'). The cooking scene mirrors what they miss — home-prepared meals. The healthy, colorful vegetables signal nutritional quality that an urban, health-conscious newcomer would value. Relatability score is high.",
+      "human_to_text_area_ratio": 0.88,
+      "ai_image_index": 0.62,
+      "patterns": "1) Emotional question hook directly mirrors the persona's lived experience, creating immediate resonance. 2) Brand colors embedded naturally into food props (tomatoes, peppers) reinforces brand identity without feeling branded. 3) Active cooking motion (wooden spoon stirring) creates kinetic energy in a static frame, boosting thumb-stop rate. 4) Pill-badge text treatment keeps copy clean and non-intrusive while remaining legible. 5) Warm wood + cream palette triggers domestic comfort associations. 6) Absence of hard CTA lowers sales pressure, making it feel content-like — likely driving higher organic engagement and trust signals that correlate with the 6.2 ROI."
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card3_ROI6.2.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "shifting_carousel-card3",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "visual_composition": "Centered hero subject (grease-stained takeout bag) sits on a wooden coffee table in a warm living room. Receipt/label beside the bag adds narrative detail. Couch and throw blanket create soft background depth. Text overlay anchored at bottom-left in a rounded pill container. Strong negative space in upper half draws eye to the bag first, then flows down to copy.",
+      "color_palette": "Dominant warm neutrals — kraft brown, beige, cream. Background sofa and walls in muted sand tones. Text box uses brand cream (#F9F4ED) as background with brand spinach green (#043F12) for headline copy — direct on-brand execution. No red or orange present.",
+      "emotion_tone": "Mild guilt and self-awareness; relatable domestic fatigue. Low aspiration but high relatability — the stained bag signals over-reliance on delivery. Honest, slightly uncomfortable energy that creates a problem-aware moment before the brand offers a solution.",
+      "ad_format": "static",
+      "copy_style": "Single conversational question headline: 'Ordering in too often and feeling the extra kilos?' — casual, second-person, pain-point focused. No visible CTA. Tone is empathetic and non-judgmental but triggers body-image and habit awareness. Lowercase feel despite title case, softens the message.",
+      "persona_fit": "Strong fit for new-nikky — a young urban professional who frequently orders delivery, is health-conscious but not yet disciplined, and feels low-level guilt about food habits. The living room setting mirrors her lifestyle. The relatable stained bag and gentle copy lower the barrier to engagement without lecturing.",
+      "human_to_text_area_ratio": 0.82,
+      "ai_image_index": 0.72,
+      "patterns": "Pain-point mirroring via a single prop (greasy bag) that instantly signals the problem without a person present — reduces alienation. Brand colors used precisely in text box (cream + spinach green) maintain identity without visual clutter. Question-format headline activates self-identification. Minimal copy preserves visual breathing room. Warm neutral palette feels premium and editorial rather than promotional, increasing scroll-stop rate. Receipt as secondary prop adds specificity and cost-consciousness subtext relevant to UAE delivery culture."
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card4_ROI6.2.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "shifting_carousel-card4",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "visual_composition": "Centered composition with two hands as hero subject — one holding an open empty wallet (upper center) and one open palm below suggesting emptiness or expectation. Strong negative space on left side accommodates text block. Visual hierarchy flows: wallet → empty hand → text. White/cream background creates clean, uncluttered feel. Text block anchored bottom-left in a rounded cream card.",
+      "color_palette": "Dominant colors are off-white/light grey background, dark brown leather wallet, navy blue shirt sleeves. Brand color #043F12 (Spinach green) is used directly in the headline text. Cream card background (#F9F4ED) matches brand secondary color exactly. Minimal but precise brand color integration.",
+      "emotion_tone": "Relatable financial frustration — conveys mild stress and the common pain point of healthy eating being expensive. Aspirational in reverse — it validates the audience's struggle rather than glamorizing a lifestyle. Empathetic, grounded, problem-aware energy. Low aspiration but high relatability.",
+      "ad_format": "static",
+      "copy_style": "Single short declarative headline: 'Eating healthy now costs more than expected.' — written in bold, brand-green sans-serif font. No CTA visible. Tone is empathetic and pain-point-first, conversational and direct. Positions the brand as a solution to an understood problem without explicitly stating it.",
+      "persona_fit": "Strong fit for new-nikky — a cost-conscious health-aware persona who wants to eat well but feels the financial pressure. The ad mirrors their internal monologue, creating immediate emotional resonance. The pain-point framing without a hard sell suits someone still in the consideration stage, making this ideal for top-of-funnel engagement with this persona.",
+      "human_to_text_area_ratio": 0.78,
+      "ai_image_index": 0.05,
+      "patterns": "Pain-point mirroring drives high ROI — the ad doesn't sell, it empathizes first, which lowers psychological resistance. Use of real photography with natural hands and authentic wallet prop builds trust over polished AI imagery. Brand colors are embedded subtly (green text, cream card) maintaining identity without overselling. Negative space strategy lets the visual breathe while directing eye flow to copy. The open empty wallet is a universally understood symbol of financial strain — no explanation needed, instant emotional hook. Short punchy copy under 10 words ensures full read-through. No CTA creates curiosity loop, likely driving click-through to learn the brand's solution."
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card5_ROI6.2.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "shifting_carousel-card5",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "visual_composition": "Portrait-oriented square format with a dynamic urban street scene as hero. A young woman walking through a zebra crossing occupies the upper 75% of the frame, shot at a slight angle creating movement and depth. She carries a branded green tote bag prominently in the foreground, acting as a natural product placement vehicle. Text overlay sits in a rounded white card at the bottom 25%, creating clear visual hierarchy: human → bag branding → offer copy. Negative space in the blurred urban background keeps focus on the subject without distraction.",
+      "color_palette": "Dominant colors are deep forest green (#043F12 brand Spinach green on the tote bag), black (clothing and headphones), and neutral grey urban tones. Brand's Grenade red (#FF3F1F) appears prominently as the '20% OFF' highlight and as the '/delic' logo on the bag. Cream (#F9F4ED) used as the text card background. Brand color system is fully and cohesively deployed across both product and copy elements.",
+      "emotion_tone": "Aspirational urban lifestyle energy — busy, health-conscious, on-the-go modern woman who has her nutrition sorted without slowing down. Conveys effortless wellness, confidence, and city-smart living. Mid-to-high aspiration level. Relaxed yet purposeful mood reinforced by headphones and stride.",
+      "ad_format": "static",
+      "copy_style": "Benefit-led headline with direct value proposition: 'Switch to UAE's most loved meal plan.' uses social proof framing. Secondary line 'Get fresh, high-protein, macro tracked meals' hits functional health keywords. Discount CTA '20% OFF' in brand red creates urgency and visual pop. Tone is confident, clean, and direct — no fluff. No explicit CTA button but discount acts as implicit action trigger.",
+      "persona_fit": "Strong fit for new-nikky — a likely young urban professional female in the UAE who values health, convenience, and aspirational lifestyle cues. The on-the-go city walker aesthetic, high-protein macro messaging, and clean modern design match someone newly exploring structured healthy eating. The social proof ('most loved') reduces hesitation for a new customer. The 20% OFF offer lowers the entry barrier typical for acquisition-stage personas.",
+      "human_to_text_area_ratio": 0.75,
+      "ai_image_index": 0.72,
+      "patterns": "Top performance driven by: (1) branded product-as-prop technique — tote bag doubles as organic logo placement mid-frame, reinforcing brand recall without feeling like an ad; (2) motion implies lifestyle integration rather than static product push; (3) clear visual hierarchy separates aspirational image from rational offer copy using card overlay, preventing cognitive overload; (4) brand color consistency across bag, logo, and discount text creates subliminal brand reinforcement; (5) social proof anchor ('most loved') combined with hard discount ('20% OFF') addresses both emotional and rational buying triggers simultaneously; (6) urban background signals UAE-market relevance without being explicit; (7) headphones detail signals independence and modern lifestyle, resonating with target persona."
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card6_ROI6.2.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "shifting_carousel-card6",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "visual_composition": "Minimalist centered layout with brand name as sole hero element. Single line of bold white text '/delicut/' flanked by forward slashes, centered both horizontally and vertically on a flat red-orange background. Maximum negative space surrounding the text creates strong visual breathing room. Simple, confident, zero distraction hierarchy.",
+      "color_palette": "Dominant color is Grenade red (#FF3F1F) / Pumpkin orange (#EA5D29) blend — sits directly within brand palette. White text provides high contrast. No imagery or secondary colors. Brand identity is entirely color-driven here.",
+      "emotion_tone": "Bold, confident, urban-cool energy. Minimal and direct — projects brand authority rather than aspiration through lifestyle imagery. Tone is edgy and modern, like a streetwear drop announcement. Low warmth, high memorability.",
+      "ad_format": "static",
+      "copy_style": "Pure brand logomark treatment — '/delicut/' styled with flanking forward slashes suggesting a URL/code aesthetic, adding a tech-savvy, modern identity signal. No headline, no CTA, no supporting copy. The brand name IS the message.",
+      "persona_fit": "Strong fit for new-nikky who is digitally native and responds to clean, confident brand signals without hard sell. The code-slash aesthetic appeals to urban millennials who value brand identity over promotional noise. Low friction, high brand recall format suits an awareness or retargeting touchpoint for this persona.",
+      "human_to_text_area_ratio": 0.0,
+      "ai_image_index": 0.1,
+      "patterns": "Extreme minimalism creates scroll-stopping contrast in a feed full of food imagery and promotional clutter. The forward-slash framing borrows from tech/developer culture creating subcultural cool. High brand color saturation ensures recognition. ROI performance likely driven by retargeting efficiency — this functions as a brand recall anchor after prior touchpoints, not a cold conversion ad."
+    },
+    {
+      "filename": "new-nikky_unlimited-pauses_1080x1080_CTR1.2.png",
+      "persona": "new-nikky",
+      "performance_tier": "top-performer",
+      "creative_id": "unlimited-pauses_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.2
+      },
+      "visual_composition": "Split layout with bold left-aligned headline text occupying 55% of frame and a hero product shot (meal container with festive orange bow) anchored to the right. Visual hierarchy flows: brand logo → headline → offer box → promo code → rating. Negative space on the dark green background creates strong contrast and draws focus to both the copy block and the gift-wrapped meal. The product label 'Hi Safa' adds personalization intrigue.",
+      "color_palette": "Dominant: #043F12 spinach green background. Brand colors fully represented — #FF3F1F/grenade red in logo and promo code text, #EA5D29 pumpkin orange in the gift bow and CTA accents. Cream/white used for headline and body text. High contrast between dark background and white text ensures legibility. Color usage is fully on-brand.",
+      "emotion_tone": "Warm, celebratory, and low-pressure. The festive bow signals gifting and seasonal joy. The 'pause anytime' message conveys flexibility and trust, reducing subscription anxiety. Aspirational but accessible — healthy eating framed as a gift to oneself. Moderate aspiration level, focused on comfort and convenience rather than elite lifestyle.",
+      "ad_format": "static",
+      "copy_style": "Headline is bold, large, reassuring — 'Pause anytime you want this festive season' directly addresses a key objection (commitment fear). Offer callout '25% Off' is prominent in a rounded box with supporting context 'On your first lunch & dinner plan'. Promo code 'GIFT25' is clear and actionable. Tone is friendly, direct, and trust-building. Social proof via '4.7 Rated' with payment partner logos adds credibility.",
+      "persona_fit": "Strong fit for new-nikky — a new or consideration-stage user who is health-conscious but hesitant about meal plan commitments. The 'pause anytime' message directly neutralizes the top barrier for this persona. The 25% first-order discount lowers the trial risk. Personalized label ('Hi Safa') hints at customization, appealing to someone who wants to feel seen. Festive framing makes the decision feel timely and emotionally justified.",
+      "human_to_text_area_ratio": 0.45,
+      "ai_image_index": 0.82,
+      "patterns": "1) Objection-first headline — leading with 'Pause anytime' directly counters subscription hesitancy, a proven CTR driver for subscription brands. 2) Personalized product label creates curiosity and emotional connection. 3) Festive gift bow transforms a functional product into an emotionally resonant seasonal item. 4) Strong discount anchor (25%) in a visually isolated box directs the eye efficiently. 5) Dual payment partner logos (Tabby, Tamara) reduce financial friction for BNPL-sensitive UAE audience. 6) Brand color discipline across bow, logo, and accents creates subconscious brand reinforcement without feeling cluttered."
+    },
+    {
+      "filename": "new-nikky_burger_1080x1080_CTR0.43.png",
+      "persona": "new-nikky",
+      "performance_tier": "average-performer",
+      "creative_id": "burger_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 0.43
+      },
+      "visual_composition": "Split-layout with food photography occupying the left ~45% and text/offer content on the right ~55% cream background. Hero subject is a gourmet-style burger with sweet potato fries and dipping sauce. Visual hierarchy flows: brand logo (top-left) → bold headline (top-right) → sub-copy → pricing box → discount badge → CTA button. Moderate negative space on right panel keeps it breathable but slightly cluttered with pricing elements stacked vertically.",
+      "color_palette": "Dominant: brand cream (#F9F4ED) as background, deep spinach green (#043F12) for headline and body text. Grenade red/pumpkin orange (#EA5D29/#FF3F1F) used for CTA button and 25% off badge. Brand colors are fully aligned and consistently applied. Food photography introduces warm browns and ambers that complement the palette naturally.",
+      "emotion_tone": "Reassuring and permission-giving — 'you can eat real food and still lose weight.' Moderate aspiration level. Lifestyle vibe is practical and indulgent-yet-healthy, targeting guilt-free enjoyment. Energetic but not high-intensity; approachable and sensible rather than aspirational or elite.",
+      "ad_format": "static",
+      "copy_style": "Headline is bold, conversational, and mildly provocative ('Starvation isn't our weight-loss strategy.') — challenges a common diet fear. Sub-headline is benefit-driven and concise. Pricing is clearly displayed with monthly plan cost (AED 735). Discount offer (25% Off) is prominently badged. CTA is direct ('Order now') with promo code 'BETTERYOU' adding personalization. Tone is confident, warm, and solution-oriented.",
+      "persona_fit": "Moderate fit for new-nikky — a likely health-conscious urban professional who wants results without deprivation. The anti-starvation messaging directly addresses a key barrier for this persona. However, the AED 735/month price point and the heavy emphasis on pricing/discount mechanics may feel transactional rather than aspirational, potentially reducing emotional connection for a new prospect who hasn't built brand trust yet. The food imagery is appealing but burgers and fries may conflict with a 'healthy eating' mental model for this persona.",
+      "human_to_text_area_ratio": 0.45,
+      "ai_image_index": 0.08,
+      "patterns": "Average CTR explained by: (1) strong, differentiated headline that challenges diet norms is a positive hook but doesn't create urgency; (2) split layout is clean but the right panel feels information-dense with three stacked content blocks (price, discount, CTA) reducing visual breathing room; (3) food imagery is real and appetizing but burger+fries combo may create cognitive dissonance with weight-loss messaging for new prospects; (4) discount badge (25% off) adds value but may cheapen premium healthy meal brand perception; (5) promo code 'BETTERYOU' is a nice personalization touch but buried below fold of attention; (6) no human presence or lifestyle imagery reduces emotional resonance and social proof for acquisition-stage audience."
+    },
+    {
+      "filename": "new-nikky_salad-food_1080x1080_CTR0.3.png",
+      "persona": "new-nikky",
+      "performance_tier": "average-performer",
+      "creative_id": "salad-food_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 0.3
+      },
+      "visual_composition": "Split layout with food photography occupying left ~45% and text content on right ~55% cream background. Hero subject is a burrata caprese-style dish centered on a white plate surrounded by cherry tomatoes, edamame, and basil. Visual hierarchy flows: brand logo (top left) → headline → subheadline → pricing box → discount badge → CTA button → promo code. Negative space is well-utilized on the right panel, giving text room to breathe.",
+      "color_palette": "Dominant colors are cream (#F9F4ED brand match), dark spinach green (#043F12 brand match) for headline and logo text, and grenade red/pumpkin orange (#FF3F1F/#EA5D29 brand match) for the CTA button. Discount badge uses spinach green background with white text. Brand palette is fully and accurately deployed.",
+      "emotion_tone": "Aspirational yet approachable — the 'ugh to yum' framing is relatable and slightly playful. Conveys healthy indulgence, clean eating lifestyle with a light motivational nudge. Medium aspiration level — not luxury, not budget, but health-conscious convenience.",
+      "ad_format": "static",
+      "copy_style": "Headline is conversational and punchy ('From ugh... to yum!') using colloquial language to lower resistance. Subheadline is benefit-led and factual. Pricing is clearly displayed. Discount badge creates urgency. CTA is direct ('Order now') in high-contrast red pill button. Promo code adds personalization layer. Tone is friendly, benefit-forward, low-pressure.",
+      "persona_fit": "Moderate fit for new-nikky. The relatable 'ugh to yum' hook addresses a new user's hesitation about healthy eating being boring. Pricing transparency and 25% first-order discount reduce trial friction. However, the burrata-centric dish may not immediately signal 'macro-precise healthy meal plan' to a skeptical new user — it reads more indulgent than structured. Nikky may need stronger transformation or social proof cues.",
+      "human_to_text_area_ratio": 0.45,
+      "ai_image_index": 0.15,
+      "patterns": "Average CTR (0.3) is explained by several competing factors: strong brand consistency and clear pricing are trust-builders, but the food hero (burrata) is visually premium yet ambiguous as a 'meal plan' signal. The split layout is clean but formulaic — left food, right copy is a common pattern that doesn't stop the scroll. The headline is engaging but the subheadline is generic. The discount mechanic is solid but the promo code placement below CTA adds a secondary step that may dilute click intent. No human presence or lifestyle context weakens aspirational connection for a new persona."
+    },
+    {
+      "filename": "new-nikky_salad-food_carousel-card1_CTR0.41.png",
+      "persona": "new-nikky",
+      "performance_tier": "average-performer",
+      "creative_id": "salad-food_carousel-card1",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 0.41
+      },
+      "visual_composition": "Top ~60% is a close-up overhead food shot of a burrata caprese-style dish as the hero, creating immediate appetite appeal. Bottom ~40% is an orange-red text banner with headline, subtext, discount offer, and CTA button. Visual hierarchy flows from food imagery → bold headline → discount → CTA. Minimal negative space; the plate fills the frame densely with colorful ingredients.",
+      "color_palette": "Dominant colors are red/orange tones from tomatoes and the banner (#FF3F1F / #EA5D29 brand Grenade red and Pumpkin orange both present), white from burrata and text, and green from basil. Brand colors are well-represented — the banner directly uses Grenade red, and the food naturally echoes brand palette. Cream (#F9F4ED) appears in CTA button background. Spinach green (#043F12) is absent.",
+      "emotion_tone": "Aspirational yet approachable — conveys indulgent freshness and Mediterranean lifestyle. The burrata dish feels premium and pleasurable rather than restrictive, directly reinforcing the 'healthy doesn't have to be bland' message. Moderate aspiration, warm and inviting energy.",
+      "ad_format": "static",
+      "copy_style": "Headline is bold, conversational, and benefit-led: 'Healthy food doesn't have to be strict, bland diets.' — directly addresses a pain point. Subheadline is soft and reassuring. Discount '25% off' is large and prominent. CTA 'Order now' is clear and action-oriented. Promo code 'BETTERYOU' adds personalization. Tone is encouraging and friendly.",
+      "persona_fit": "New-Nikky is likely a health-conscious beginner or casual healthy eater who fears deprivation. The ad's core message directly addresses her hesitation — that healthy eating can be tasty. However, the burrata dish skews slightly indulgent/foodie which may appeal more to an experienced palate. The discount incentive is relevant for a new customer but the creative doesn't strongly signal ease of onboarding or variety.",
+      "human_to_text_area_ratio": 0.58,
+      "ai_image_index": 0.1,
+      "patterns": "Average CTR likely driven by: (1) strong food photography with high appetite appeal, (2) brand-aligned color banner that creates clear visual break but also disrupts food immersion, (3) headline addresses a real objection but feels slightly generic/expected, (4) 25% discount is compelling but the promo code mechanic adds friction, (5) burrata as hero is premium but not uniquely Delicut-branded, making it feel like a generic food ad. No human presence reduces emotional connection for this persona. The ad is competent but lacks a distinctive hook or storytelling element to push CTR above average."
+    },
+    {
+      "filename": "new-nikky_salad-food_carousel-card2_CTR0.41.png",
+      "persona": "new-nikky",
+      "performance_tier": "average-performer",
+      "creative_id": "salad-food_carousel-card2",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 0.41
+      },
+      "visual_composition": "Vertical split layout with phone mockup as hero in upper 65% of frame, hand holding device adds human warmth. App UI screenshot dominates the phone screen showing calorie dashboard and meal card. Lower 35% is a white text panel with headline and subheadline. Visual hierarchy flows: phone screen UI → tagline panel. Moderate negative space around phone with blurred palm leaves as background.",
+      "color_palette": "Dominant cream/white background matches brand #F9F4ED. Spinach green #043F12 used prominently in headline text and app UI elements. Grenade red #FF3F1F appears on CTA button within app screenshot. Pumpkin orange #EA5D29 visible on macronutrient ring indicators. Brand palette is fully represented but feels app-screenshot-driven rather than emotionally curated.",
+      "emotion_tone": "Functional and informational rather than aspirational. Conveys tech-enabled convenience and control. Low emotional warmth — feels more like a product demo than a lifestyle invitation. Aspiration level is moderate-low; targets logic over desire.",
+      "ad_format": "static",
+      "copy_style": "Headline 'Pick your plan.' is bold, direct, command-style in dark green. Subheadline 'Ditch the numbers. We'll smart-track the calories for you.' uses reassurance-and-relief framing, conversational tone. No direct CTA button visible outside the app mockup. Copy is minimal and benefit-led but lacks urgency or emotional pull.",
+      "persona_fit": "New-Nikky is likely a busy urban professional seeking healthy convenience without complexity. The 'ditch the numbers' message aligns with her pain point, but the UI-heavy screenshot approach feels too technical and feature-focused. She responds better to food-forward visuals and emotional storytelling than app dashboards. The macro-tracking display may actually intimidate rather than reassure her.",
+      "human_to_text_area_ratio": 0.58,
+      "ai_image_index": 0.15,
+      "patterns": "Average performance explained by: (1) App screenshot as hero reduces food desirability — no appetizing meal photography driving craving or aspiration; (2) Copy is benefit-clear but emotionally flat, missing urgency or social proof; (3) Hand-holding-phone adds human element but feels generic/stock; (4) UI dashboard with numbers contradicts the 'ditch the numbers' headline creating cognitive dissonance; (5) Brand colors present but palette feels utilitarian; (6) Bottom text panel breaks visual flow and reduces scroll-stopping power in feed context."
+    },
+    {
+      "filename": "new-nikky_salad-food_carousel-card3_CTR0.41.png",
+      "persona": "new-nikky",
+      "performance_tier": "average-performer",
+      "creative_id": "salad-food_carousel-card3",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 0.41
+      },
+      "visual_composition": "Top 70% of frame is a dense product flat-lay photograph showing multiple Delicut meal containers, a juice bottle, and an open salad bowl as hero subject. Containers are stacked and overlapping, creating visual busyness. Bottom 30% is a clean white card with headline and subtext. Visual hierarchy flows from colorful open salad bowl (foreground) upward to stacked containers, then down to text panel. Limited negative space in photo area; text area uses generous white space.",
+      "color_palette": "Dominant colors are the brand Spinach green (#043F12) on container branding, natural food tones (greens, reds, oranges from produce), and cream/white in the text card. Brand colors are present but the orange juice bottle and food colors create visual noise that dilutes brand coherence. Grenade red and Pumpkin orange appear only incidentally through food items.",
+      "emotion_tone": "Practical and informational rather than aspirational. Conveys convenience and variety but lacks lifestyle warmth or emotional pull. The crowded product shot feels more like a product catalog than an aspirational healthy lifestyle moment. Low-to-medium aspiration level.",
+      "ad_format": "static",
+      "copy_style": "Bold serif-style headline 'Choose your meals.' is direct and action-oriented. Subtext 'From 50+ chef-curated dishes, refreshed weekly. Our flavour keeps you consistent.' uses benefit-driven, reassuring tone. No explicit CTA button visible. Copy is clear but lacks urgency or emotional hook.",
+      "persona_fit": "New-Nikky is likely a health-conscious urban professional seeking inspiration and ease. The cluttered product dump doesn't speak to her aspirational lifestyle identity. She needs to see herself in the food story — a single beautiful meal or a lifestyle moment — not a logistics-heavy container stack. The copy's benefit messaging is relevant but the visual fails to emotionally connect.",
+      "human_to_text_area_ratio": 0.68,
+      "ai_image_index": 0.05,
+      "patterns": "Average performance likely driven by: (1) cluttered hero shot with too many containers competing for attention reducing visual focus; (2) no human face or lifestyle context to build emotional connection; (3) copy panel is clear and benefit-driven which partially compensates; (4) brand green is visible but diluted by visual noise; (5) open salad bowl in foreground is the only appetite-appeal element but is partially obscured; (6) lack of a strong CTA limits conversion intent; (7) real photography adds authenticity but composition is not optimized for thumb-stopping scroll behavior"
+    },
+    {
+      "filename": "new-nikky_salad-food_carousel-card4_CTR0.41.png",
+      "persona": "new-nikky",
+      "performance_tier": "average-performer",
+      "creative_id": "salad-food_carousel-card4",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 0.41
+      },
+      "visual_composition": "Vertical format with a dominant lifestyle photograph occupying roughly 75% of the frame. Hero subject is a person carrying a branded green insulated bag while descending stairs, shot from mid-body down. Visual hierarchy flows from the bag branding (center-frame) down to the text panel at the bottom. Negative space is minimal; the staircase fills the background organically.",
+      "color_palette": "Dominant colors are the deep spinach green (#043F12) of the tote bag and the grenade red (#FF3F1F) of the '/delic' logo and bag handles. Brand colors are well-represented. The cream (#F9F4ED) appears in the bottom text card, and the background is a muted warm grey from the staircase. Color palette is highly on-brand.",
+      "emotion_tone": "Casual urban lifestyle vibe with moderate aspiration. Conveys convenience and flexibility rather than indulgence or wellness transformation. The on-the-go motion feel is relatable but not particularly exciting or emotionally charged.",
+      "ad_format": "static",
+      "copy_style": "Bold headline 'Flex it to your schedule.' in dark green, punchy and benefit-driven. Supporting line 'Skip meals anytime with indefinite pauses.' is functional and informational. No explicit CTA button. Tone is confident and casual. Text is minimal and clean.",
+      "persona_fit": "Partial fit for new-nikky. The flexibility/pause messaging addresses a practical concern for a new subscriber hesitant to commit, which is relevant. However, the visual does not show food, health transformation, or aspirational wellness outcomes that would emotionally hook a newcomer. The bag-carrying shot lacks the food-first appeal that typically converts new prospects.",
+      "human_to_text_area_ratio": 0.75,
+      "ai_image_index": 0.05,
+      "patterns": "Average performance driven by: strong on-brand color execution and clean layout, but the hero visual is the back/legs of a person rather than face or food — reducing emotional connection. The copy addresses a retention-oriented benefit (pausing meals) rather than an acquisition hook, making it less compelling for new prospects. No food imagery means no appetite appeal. The functional message is clear but not motivating enough to drive clicks from cold audiences. The bag-as-hero is a brand awareness pattern more than a conversion pattern."
+    },
+    {
+      "filename": "new-nikky_salad-food_carousel-card5_CTR0.41.png",
+      "persona": "new-nikky",
+      "performance_tier": "average-performer",
+      "creative_id": "salad-food_carousel-card5",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 0.41
+      },
+      "visual_composition": "Minimal centered layout with brand name as sole visual element. Single line of bold text centered both horizontally and vertically on a flat dark green background. No hero subject, no imagery. Maximum negative space — the entire frame is negative space except for the wordmark. Visual hierarchy is singular: there is only one element to read.",
+      "color_palette": "Dominant colors are #043F12 (Spinach green) background and #F9F4ED (Cream) text — both core brand colors used precisely. No Grenade red or Pumpkin orange present. Color usage is strictly on-brand but visually flat with no contrast tension or warmth.",
+      "emotion_tone": "Cold, minimal, brand-identity-forward rather than emotionally engaging. Conveys brand confidence but zero aspiration, no lifestyle cue, no food desire trigger. Feels like a logo slide or brand intro rather than a performance ad.",
+      "ad_format": "static",
+      "copy_style": "Only the brand name '/delicut/' rendered in bold sans-serif with forward slashes as stylistic punctuation. No headline, no value proposition, no CTA, no offer. Purely typographic brand statement.",
+      "persona_fit": "Poor fit for new-nikky, a persona likely in early discovery mode who needs food imagery, clear value propositions, and emotional hooks to engage. A pure wordmark ad offers no context about what Delicut does, no social proof, no aspirational lifestyle cue, and no reason to click. Nikky needs to be sold the benefit, not the brand name.",
+      "human_to_text_area_ratio": 0.0,
+      "ai_image_index": 0.05,
+      "patterns": "Exclusively typographic ad with zero food or human imagery explains the low 0.41 CTR. No visual reward for the eye, no hunger or lifestyle trigger, no CTA creates no click motivation. The forward-slash framing is a mildly distinctive stylistic choice but insufficient to drive action. Functions as a brand awareness asset, not a performance asset. Negative space dominance with no focal tension results in scroll-past behavior."
+    }
+  ],
+  "persona_summaries": {
+    "healthy-harry": {
+      "top_performer_count": 21,
+      "average_performer_count": 0,
+      "avg_human_to_text_ratio": 0.57,
+      "avg_ai_index": 0.3,
+      "top_performer_avg_human_to_text_ratio": 0.57,
+      "average_performer_avg_human_to_text_ratio": null,
+      "top_performer_avg_ai_index": 0.3,
+      "average_performer_avg_ai_index": null,
+      "emotion_tones": [
+        "Warm, aspirational yet accessible. Conveys fresh-start optimism — the moving boxes imply a life transition, and the healthy meal signals self-care and intentionality. Lifestyle vibe is 'effortlessly health-conscious urban mover'. Aspiration level is moderate-high: relatable enough to feel achievable, aspirational enough to inspire action.",
+        "Clean, confident, premium minimalism. Conveys brand authority and sophistication rather than overt emotion. Lifestyle vibe is understated and modern — aspirational through restraint. Low noise, high trust signal. Feels like a brand identity statement rather than a promotional push.",
+        "High-energy, joyful, and confidently aspirational. The subject's open laugh and upward gaze convey post-workout euphoria and lifestyle freedom. The tone is motivating without being intimidating — approachable fitness rather than elite athleticism. Aspiration level is moderate-high, relatable rather than unattainable.",
+        "Positive, aspirational, and self-care oriented. Conveys post-workout reward, flexibility, and control over one's health routine. Lifestyle vibe is modern urban fitness — relaxed achievement rather than intense effort. Aspiration level is moderate-high, approachable rather than elite.",
+        "High-aspiration, active wellness lifestyle energy. The extreme yoga balance pose communicates discipline, flexibility, and peak physical health. The dual meaning of 'flexibility' (physical and subscription) creates clever emotional resonance. Tone is motivational and empowering rather than indulgent. Clean, premium aesthetic signals health-conscious sophistication.",
+        "Aspirational yet attainable — the ad speaks directly to social-media-driven fitness ambition without being intimidating. The side-profile pose is confident but approachable. Tone is motivational and slightly playful ('those fitness goals on your feed?'), creating a relatable moment before pivoting to action. Lifestyle vibe is clean, modern, urban wellness.",
+        "Positive, aspirational yet relatable. The man's genuine smile at fridge contents conveys satisfaction and delight — the 'happy healthy eater' emotion. Lifestyle vibe is modern urban professional who enjoys convenience with quality. Aspiration level is moderate-high: attainable wellness, not intimidating.",
+        "Upbeat, aspirational, and celebratory. The woman's wide laugh and closed eyes convey genuine joy and confidence. Lifestyle vibe is active, healthy, and attainable — not intimidating. Aspiration level is moderate-high, relatable rather than elite.",
+        "Conveys clean, indulgent-yet-healthy eating — the dish looks vibrant and restaurant-quality, suggesting you don't have to sacrifice pleasure for nutrition. Aspirational but accessible. Evokes confidence, control, and lifestyle elevation without feeling restrictive or clinical.",
+        "Convenience-focused aspiration — communicates effortless healthy living without sacrifice. Tone is confident, slightly playful ('no guilt, all gains'), and motivational. Low-pressure lifestyle vibe with a performance/fitness undercurrent. Aspiration level is moderate — relatable rather than elite.",
+        "Convenient, modern, trustworthy. Evokes doorstep anticipation — the quiet satisfaction of a healthy delivery arriving at your home. Low-stress, lifestyle-aspirational rather than high-energy. Minimalist aesthetic signals premium quality. The clean environment communicates order and wellness discipline.",
+        "High-energy, joyful, and aspirational. The subject's wide laugh and athletic wear signal active lifestyle without intimidation. Tone is motivational yet approachable — 'excuses off' implies accountability but the smile softens it. Conveys effortless healthy living, confidence, and reward. Aspiration level is moderate-high: relatable fitness persona rather than elite athlete.",
+        "Aspirational, energetic, and motivational. Projects vitality, longevity, and active lifestyle. The smiling middle-aged man signals that healthy eating leads to looking and feeling younger — conveying optimism and attainable transformation rather than pressure or vanity.",
+        "Radiates confident, aspirational fitness energy — active, sun-lit, outdoorsy lifestyle. Conveys effortless wellness rather than discipline or deprivation. High aspiration level tied to Dubai's active outdoor culture, with a warm and approachable rather than intimidating tone.",
+        "Indulgent yet guilt-free. The ad radiates comfort food satisfaction while the tagline reframes it as healthy. Aspirational but approachable — not clinical or diet-coded. The warm tones evoke craving and pleasure, making healthy eating feel like a treat rather than a sacrifice.",
+        "Aspirational and empowering with a light, confident energy. The 'dream dress' framing taps into personal transformation goals. Tone is encouraging rather than guilt-driven — 'could be you' is forward-looking and inclusive. Lifestyle vibe is modern, minimalist, feminine-leaning but broadly aspirational.",
+        "Clean, effortless, and modern freshness. Conveys organized healthy living without sacrifice. Low effort, high reward aspiration — the open fridge framing implies readiness and convenience. Calm confidence rather than aggressive health messaging.",
+        "High positive energy, joyful and aspirational. The laughing man exudes effortless confidence and delight in healthy eating. Lifestyle vibe is modern, active, and convenient — healthy eating made easy and enjoyable rather than sacrificial. Aspiration level is mid-high: relatable yet elevated, suggesting a rewarding daily habit rather than an unattainable ideal.",
+        "High-aspiration, active lifestyle energy with a relaxed, confident undertone. The seated post-workout pose conveys achievement without strain — effortless fitness. Golden hour lighting adds warmth and optimism. The overall vibe is: healthy living is enjoyable and attainable, not punishing.",
+        "High positive energy, joy, and effortless vitality. The open laugh conveys authentic happiness rather than posed contentment. Strong aspirational lifestyle vibe — active, sun-drenched, outdoors in what reads as Dubai waterfront. Aspiration level is high but approachable: fit but not intimidating, happy but not performative.",
+        "Aspirational yet attainable — conveys effortless healthy living, confidence, and morning energy. The subject's smile and relaxed posture suggest enjoyment rather than deprivation. Lifestyle vibe is urban-fit, smart-eating, self-improvement oriented. Aspiration level is moderate-high: achievable transformation rather than extreme fitness."
+      ],
+      "top_performer_patterns": [
+        "Performance is driven by: (1) full brand color palette deployed correctly creating strong visual identity recall; (2) aspirational outcome-first framing ('dream dress') that bypasses feature-talk and sells transformation; (3) oversized typographic hierarchy that works as a thumb-stopper in feed without needing a human face; (4) high negative space ratio making the ad feel premium and digestible at a glance; (5) boxed discount badge with contrasting orange-red creates clear offer scanability; (6) code 'BETTERYOU' doubles as brand reinforcement and personalized call-to-action; (7) real photograph of dress adds authenticity anchor against AI-generated aesthetic fatigue.",
+        "High-contrast brand color split layout creates instant visual separation and guides the eye naturally. Real photograph of a stocked fridge builds authenticity and aspirational meal-prep culture. Branded containers stacked tall create a strong repeating visual pattern that reinforces brand recall. Benefit-led headline trio ('no cooking, no guilt, all gains') follows a rule-of-three copywriting pattern proven for engagement. Discount code with a personalized name ('BETTERYOU') adds psychological resonance. Clean, uncluttered right panel ensures the offer is impossible to miss — reducing friction to click.",
+        "Inside-fridge POV is a high-novelty visual hook that stops scroll — uncommon angle creates curiosity. Real human smile triggers social proof and emotional mirroring. Brand product containers are prominently visible in-context (fridge), reinforcing product naturalness. Rhetorical question headline format creates personal identification before the punchline lands. Discount offer with a memorable, persona-aligned promo code ('BETTERYOU') drives conversion intent. Strong brand color consistency across background, containers, and text creates visual coherence without feeling clinical.",
+        "1) Split-panel layout cleanly separates aspiration (imagery) from conversion (offer), reducing cognitive load. 2) Direct second-person copy 'COULD BE YOU' creates mirror identification with the viewer. 3) Promo code 'BETTERYOU' doubles as emotional reinforcement, not just a discount mechanic. 4) Bowl branding is naturally integrated mid-shot rather than forced. 5) Athletic wear signals the fitness-health crossover that resonates with health-conscious personas. 6) High contrast between dark green panel and cream text maximizes offer legibility. 7) Single clear CTA with no competing action items keeps click intent focused.",
+        "1) Urgency + occasion hook ('Fitness month') anchors the offer to a timely behavioral trigger. 2) Three-beat headline rhythm creates memorability and scroll-stop power. 3) Dual visual anchors (laughing human + branded food bowl) build emotional connection and product visibility simultaneously. 4) Full brand color system deployed coherently — discount badge uses red/orange to draw eye before CTA. 5) Promo code 'GETFIT' reinforces campaign theme and enables performance tracking. 6) Social proof banner ('UAE's most trusted') reduces purchase hesitation at bottom of ad journey. 7) Real photography (not AI) builds authenticity and trust. 8) Clean negative space prevents cognitive overload while maintaining premium feel.",
+        "1) Cultural moment anchoring ('UAE Fitness Month') creates urgency and local relevance that drives click intent. 2) Joyful, laughing subject breaks the serious fitness ad trope, generating pattern interruption in feed. 3) Branded physical product (tote bag) in-image reinforces brand recall without feeling forced. 4) Boxed offer with promo code creates a scannable, direct-response element that drives conversion. 5) Social proof (4.7 / 1K+ reviews) placed near CTA reduces purchase hesitation. 6) Sky blue background creates high contrast with dark green and red brand elements, boosting thumb-stop rate. 7) Copy hierarchy cleanly separates awareness (headline) from consideration (subline) from conversion (offer + code) — full funnel in one frame.",
+        "Top performance driven by: (1) full-bleed aspirational human subject occupying majority of frame creating instant emotional connection, (2) perfect brand color deployment across all four brand hues in a single cohesive layout, (3) culturally timely hook tied to Dubai Fitness Month creating urgency and local relevance, (4) clean visual hierarchy separating lifestyle imagery from conversion copy via distinct cream card zone, (5) promo code mechanic (GETFIT) reinforces fitness identity while enabling tracking, (6) clear sky negative space prevents visual clutter and elevates premium feel, (7) product visibility on branded bowl provides subliminal brand recall without disrupting lifestyle narrative.",
+        "Top performance driven by: (1) high-quality real food photography with professional lighting and depth creating appetite appeal, (2) extreme visual clarity — single subject, no clutter, abundant negative space, (3) brand color integration through CTA badge without overpowering the food, (4) concise benefit copy that resolves two key pain points (quality + calories) in five words, (5) food color vibrancy acting as a natural scroll-stopper against neutral background, (6) aspirational yet achievable meal presentation that mirrors restaurant quality, reinforcing value proposition",
+        "Refrigerator-interior framing is a proven high-trust freshness signal. Triple-stacked branded containers create subliminal abundance and value perception. Real produce as natural brand-color props eliminates need for graphic design while maintaining palette consistency. Single friction-busting CTA ('zero prep') targets the #1 objection for busy health-conscious consumers. Minimal text maximizes product and food visual dominance, driving higher scroll-stop rates. Brand repetition via three container labels boosts recall without additional copy.",
+        "1) Appetite-first composition — food fills ~80% of frame before any branding appears, maximizing scroll-stop craving response. 2) Contrast messaging — pairing visually indulgent food with 'it's healthy' copy creates cognitive dissonance that drives engagement. 3) Brand color used only on copy badge, not overwhelming the food photography. 4) Sweet potato fries as a visible 'healthy swap' signal reinforce the brand promise without needing explanation. 5) Duo serving size implies value and shareability. 6) Neutral background isolates the food, improving thumb-stop in feed environments. 7) No human presence keeps focus entirely on the product, reducing distraction for food-motivated audiences.",
+        "1) Complementary brand color pairing (deep green + vivid orange) creates instant stopping power in feed. 2) Real-world doorstep context anchors product in relatable daily moment, building trust. 3) Product-as-hero with clean background eliminates cognitive load. 4) Minimal copy with rhythm ('Your place. Your time.') reduces friction and increases message retention. 5) Dual-bag presentation implies variety and meal plan volume, subtly upselling. 6) Triangular bag composition is visually stable and premium-feeling. 7) No human model keeps focus on product while preserving aspirational lifestyle projection.",
+        "Three concrete performance drivers explain the ROI of 5.4: (1) Authentic lifestyle photography — real-looking, sun-lit outdoor shot with genuine emotion outperforms studio or AI imagery for health brands by building trust and relatability; (2) Product integration without hard sell — the branded bowl is held naturally mid-laugh rather than thrust toward camera, creating aspirational association rather than transactional feel; (3) Minimal copy with maximum authority — the single short claim 'Dubai's most trusted meal plan' uses social proof framing and local identity in under 5 words, reducing cognitive load while triggering FOMO and community belonging. The brand color discipline (green on packaging, orange on badge) creates visual brand recall without overwhelming the lifestyle imagery.",
+        "Brand-identity-as-ad pattern performing well due to: (1) zero visual clutter driving instant brand recall, (2) exact brand color fidelity building subconscious trust, (3) slash punctuation creating memorability and distinctiveness, (4) dark premium green background triggering health and nature associations subliminally, (5) confidence signal — brand secure enough to show nothing but its name — which resonates with sophisticated UAE health-conscious audience. ROI5.4 likely driven by retargeting context where brand recognition is already established.",
+        "1) Direct second-person aspiration hook ('Could Be You') creates immediate personal relevance. 2) Full brand color system used with discipline — no off-palette elements diluting identity. 3) Human subject shows visible fitness results without being unattainable, matching aspirational but realistic positioning. 4) Product integrated naturally into the scene (held at hip) rather than isolated, linking lifestyle to product. 5) High-contrast discount badge in brand red/orange creates a focal interrupt that drives conversion intent. 6) Clean cream negative space prevents visual overload and maintains premium feel. 7) Promo code personalizes the CTA ('BETTERYOU') reinforcing the transformation narrative. These combined elements — aspiration + social proof framing + clear offer + brand cohesion — explain the strong ROI 7.1 performance.",
+        "High CTR driven by: (1) genuine human emotion — authentic laugh creates immediate emotional resonance and thumb-stop; (2) split-panel layout cleanly separates inspiration from rational offer, reducing cognitive load; (3) aspirational mirror effect — 'COULD BE YOU' directly invites viewer projection onto the subject; (4) discount code with motivational name 'BETTERYOU' doubles as emotional copy; (5) on-brand green product packaging reinforces brand recall within the lifestyle shot; (6) real photography at near-zero AI index builds trust with health-conscious audience.",
+        "1) Split bold-color panel + lifestyle photo is a proven direct-response layout that drives both attention and trust. 2) 'COULD BE YOU' second-person framing creates strong psychological identification with the viewer. 3) Moving-box context is a highly specific, emotionally resonant moment that makes the ad feel hyper-targeted rather than generic. 4) Promo code name 'BETTERYOU' reinforces identity alignment with health persona. 5) Real photography (not AI) builds authenticity and trust. 6) Single, clear offer with explicit discount percentage reduces cognitive load. 7) Brand colors dominate without overwhelming — red commands attention while green on the bowl subtly reinforces brand recognition at the product level.",
+        "1) Feature-as-benefit framing: 'unlimited pauses' reframes a functional product feature into an emotional self-care narrative, reducing churn anxiety. 2) Dual-panel split layout cleanly separates offer information from lifestyle aspiration, allowing each zone to do its job without competing. 3) UI notification overlay (pause badge) creates native-app familiarity and demonstrates the product experience in-ad. 4) Post-workout meal placement triggers strong contextual relevance for fitness personas at the moment of highest nutritional intent. 5) Promo code 'GIFT25' uses gift psychology to increase perceived value. 6) Trust badges (Tabby, Tamara + 4.7 rating) at bottom-left reduce payment and quality hesitation without dominating the creative. 7) Full brand color compliance across all elements creates visual coherence that builds brand recognition at speed.",
+        "1) Full brand color system activation creates visual coherence and brand recall. 2) Split-panel tension between calm offer space and energetic lifestyle imagery drives both rational and emotional engagement. 3) Boxed discount element with contrasting border isolates the 25% offer, making it scannable at thumb-scroll speed. 4) Three-word bold headline stack maximizes font size within column constraints for instant readability. 5) 'Unlimited pauses' repeated twice (body + footer) reinforces the key objection-handler for subscription hesitation. 6) Smiling male model holding multiple containers signals abundance and satisfaction, directly countering 'diet food is bland' perception. 7) Payment partner logos (Tabby/Tamara) reduce friction for BNPL-receptive UAE audience. 8) Trackable promo code enables direct attribution, indicating performance marketing orientation.",
+        "1) Split-panel layout cleanly separates aspiration (photo) from rational offer (text), serving both emotional and logical buying triggers simultaneously. 2) Mirror-audience casting — fit middle-aged male cyclist directly reflects the target persona, boosting identification. 3) Year-anchored headline ('2026') creates timely relevance and urgency without explicit countdown pressure. 4) Oversized bold display type ('COULD BE YOU!') maximizes thumb-stop power in feed. 5) Branded bag integrated naturally into lifestyle shot reinforces brand without feeling staged. 6) Discount offer box with outlined border creates visual containment that draws the eye as a distinct CTA zone. 7) Tight brand color discipline across the full creative builds brand recall with repeated exposure — critical for ROI at scale.",
+        "Top performance driven by: (1) bold brand-color dominance creating instant visual recognition and thumb-stop contrast; (2) aspirational but relatable athlete persona — not intimidating, seated and relaxed post-sport; (3) dual-purpose layout separating emotion (photo) from logic (offer + proof) cleanly; (4) strong time-bound commitment framing ('Next 30 days') paired with zero-friction benefit ('no prep'); (5) promo code 'GETFIT' reinforces persona identity while enabling tracking; (6) social proof (4.7 / 1K+ reviews) placed near bottom to close trust loop before CTA; (7) golden hour lighting elevates perceived lifestyle aspiration while keeping scene grounded and realistic.",
+        "1) Visual-copy wordplay: the balance pose physically demonstrates 'flexibility' while the copy uses it as a subscription feature — dual meaning drives engagement and memorability. 2) Aspirational human anchor: real athletic photography (not AI) with a technically impressive pose signals authenticity and premium feel. 3) Benefit-forward discount badge: the 25% off is visually contained in a high-contrast green badge, making the value proposition scannable in under 2 seconds. 4) Product placement at natural focal endpoint: the Delicut bowl sits at the bottom of the pose's visual flow, ensuring the product is seen after the eye travels the full composition. 5) Bottom red banner creates urgency and benefit repetition — a proven direct response pattern. 6) Brand color discipline across headline, badge, and banner builds subconscious brand recognition at high frequency."
+      ],
+      "average_performer_patterns": []
+    },
+    "mid-life-mansoon": {
+      "top_performer_count": 1,
+      "average_performer_count": 0,
+      "avg_human_to_text_ratio": 0.52,
+      "avg_ai_index": 0.15,
+      "top_performer_avg_human_to_text_ratio": 0.52,
+      "average_performer_avg_human_to_text_ratio": null,
+      "top_performer_avg_ai_index": 0.15,
+      "average_performer_avg_ai_index": null,
+      "emotion_tones": [
+        "High positive energy — joy, empowerment, and achievability. The laughing subject radiates self-acceptance and active lifestyle aspiration. Tone is encouraging and non-judgmental, celebrating progress over perfection. Aspirational but accessible, not intimidating. New Year resolution energy with a realistic, warm undertone."
+      ],
+      "top_performer_patterns": [
+        "Top performer patterns: (1) Inclusive body representation lowers psychological barrier to entry — viewer sees themselves in the subject. (2) Brand color saturation is perfect — red headline creates immediate visual stop-scroll impact. (3) Split layout cleanly separates aspiration (image) from action (offer), reducing cognitive load. (4) Concrete discount number (26%, AED 175) builds trust and urgency simultaneously. (5) Props (branded bag on yoga mat) naturalistically integrate product into lifestyle context without forced staging. (6) Joyful laughing expression triggers positive emotional transfer. (7) Promo code with month reference (FEB2026) signals time-limited relevance, driving conversion urgency."
+      ],
+      "average_performer_patterns": []
+    },
+    "new-nikky": {
+      "top_performer_count": 8,
+      "average_performer_count": 7,
+      "avg_human_to_text_ratio": 0.56,
+      "avg_ai_index": 0.31,
+      "top_performer_avg_human_to_text_ratio": 0.61,
+      "average_performer_avg_human_to_text_ratio": 0.5,
+      "top_performer_avg_ai_index": 0.5,
+      "average_performer_avg_ai_index": 0.09,
+      "emotion_tones": [
+        "High positive energy — joy, relief, spontaneity. The laughing expression conveys 'I've got this handled even in chaos.' Lifestyle vibe is aspirational-relatable: young expat, moving into a new place, not stressed about food. Aspiration level is moderate — accessible and warm, not luxury. Strongly relatable over polished.",
+        "Warm, celebratory, and low-pressure. The festive bow signals gifting and seasonal joy. The 'pause anytime' message conveys flexibility and trust, reducing subscription anxiety. Aspirational but accessible — healthy eating framed as a gift to oneself. Moderate aspiration level, focused on comfort and convenience rather than elite lifestyle.",
+        "Bold, confident, urban-cool energy. Minimal and direct — projects brand authority rather than aspiration through lifestyle imagery. Tone is edgy and modern, like a streetwear drop announcement. Low warmth, high memorability.",
+        "Casual urban lifestyle vibe with moderate aspiration. Conveys convenience and flexibility rather than indulgence or wellness transformation. The on-the-go motion feel is relatable but not particularly exciting or emotionally charged.",
+        "Cold, minimal, brand-identity-forward rather than emotionally engaging. Conveys brand confidence but zero aspiration, no lifestyle cue, no food desire trigger. Feels like a logo slide or brand intro rather than a performance ad.",
+        "Mild guilt and self-awareness; relatable domestic fatigue. Low aspiration but high relatability — the stained bag signals over-reliance on delivery. Honest, slightly uncomfortable energy that creates a problem-aware moment before the brand offers a solution.",
+        "Relatable financial frustration — conveys mild stress and the common pain point of healthy eating being expensive. Aspirational in reverse — it validates the audience's struggle rather than glamorizing a lifestyle. Empathetic, grounded, problem-aware energy. Low aspiration but high relatability.",
+        "Warm, nostalgic, domestic comfort. Evokes the feeling of a home-cooked meal — safety, familiarity, and care. Aspiration level is moderate and relatable rather than aspirational-luxury. The vibe is 'wholesome settling in' not 'fine dining', which feels emotionally accessible and low-pressure.",
+        "Rational-aspirational blend — the scale metaphor appeals to logical decision-making (comparison shopping) while the 'Cheaper. Healthier. Better' copy taps into self-improvement aspiration. Low emotional intensity but high persuasion clarity. Tone is confident, slightly smug, empowering.",
+        "Functional and informational rather than aspirational. Conveys tech-enabled convenience and control. Low emotional warmth — feels more like a product demo than a lifestyle invitation. Aspiration level is moderate-low; targets logic over desire.",
+        "Aspirational yet approachable — the 'ugh to yum' framing is relatable and slightly playful. Conveys healthy indulgence, clean eating lifestyle with a light motivational nudge. Medium aspiration level — not luxury, not budget, but health-conscious convenience.",
+        "Aspirational urban lifestyle energy — busy, health-conscious, on-the-go modern woman who has her nutrition sorted without slowing down. Conveys effortless wellness, confidence, and city-smart living. Mid-to-high aspiration level. Relaxed yet purposeful mood reinforced by headphones and stride.",
+        "Reassuring and permission-giving — 'you can eat real food and still lose weight.' Moderate aspiration level. Lifestyle vibe is practical and indulgent-yet-healthy, targeting guilt-free enjoyment. Energetic but not high-intensity; approachable and sensible rather than aspirational or elite.",
+        "Practical and informational rather than aspirational. Conveys convenience and variety but lacks lifestyle warmth or emotional pull. The crowded product shot feels more like a product catalog than an aspirational healthy lifestyle moment. Low-to-medium aspiration level.",
+        "Aspirational yet approachable — conveys indulgent freshness and Mediterranean lifestyle. The burrata dish feels premium and pleasurable rather than restrictive, directly reinforcing the 'healthy doesn't have to be bland' message. Moderate aspiration, warm and inviting energy."
+      ],
+      "top_performer_patterns": [
+        "1) Visual metaphor (balance scale) does persuasion work without requiring much copy — immediately communicates value comparison. 2) Brand product is physically present on the scale, reinforcing product familiarity. 3) Three-word staccato headline structure is highly scannable on mobile. 4) Large discount numeral '20%' in bordered box creates a focal anchor in the mid-frame. 5) Neutral background maximizes contrast for both green text and red containers. 6) Promo code inclusion drives measurable conversion tracking, suggesting performance-optimized creative discipline. 7) No human faces reduces production cost while keeping CTR high through concept clarity.",
+        "1. Relatable situational context: moving boxes immediately signal 'newcomer' to the target audience without text. 2. Curiosity-gap headline ('3 Problems') drives click/swipe intent by withholding resolution. 3. Branded product placement: bowl is held prominently, logo visible — passive brand recall. 4. Emotional contrast: chaotic moving situation + laughing subject = Delicut solves the stress. 5. Color continuity: red bowl echoes red CTA banner, creating visual flow that ties product to action. 6. Persona mirroring: subject demographics (young, casual, expat-coded) directly match new-nikky, reducing psychological distance. 7. Minimal copy load reduces friction — one headline, one button. 8. AI-generated image allows cost-effective production of a very specific lifestyle scenario that would be expensive to shoot.",
+        "1) Emotional question hook directly mirrors the persona's lived experience, creating immediate resonance. 2) Brand colors embedded naturally into food props (tomatoes, peppers) reinforces brand identity without feeling branded. 3) Active cooking motion (wooden spoon stirring) creates kinetic energy in a static frame, boosting thumb-stop rate. 4) Pill-badge text treatment keeps copy clean and non-intrusive while remaining legible. 5) Warm wood + cream palette triggers domestic comfort associations. 6) Absence of hard CTA lowers sales pressure, making it feel content-like — likely driving higher organic engagement and trust signals that correlate with the 6.2 ROI.",
+        "Pain-point mirroring via a single prop (greasy bag) that instantly signals the problem without a person present — reduces alienation. Brand colors used precisely in text box (cream + spinach green) maintain identity without visual clutter. Question-format headline activates self-identification. Minimal copy preserves visual breathing room. Warm neutral palette feels premium and editorial rather than promotional, increasing scroll-stop rate. Receipt as secondary prop adds specificity and cost-consciousness subtext relevant to UAE delivery culture.",
+        "Pain-point mirroring drives high ROI — the ad doesn't sell, it empathizes first, which lowers psychological resistance. Use of real photography with natural hands and authentic wallet prop builds trust over polished AI imagery. Brand colors are embedded subtly (green text, cream card) maintaining identity without overselling. Negative space strategy lets the visual breathe while directing eye flow to copy. The open empty wallet is a universally understood symbol of financial strain — no explanation needed, instant emotional hook. Short punchy copy under 10 words ensures full read-through. No CTA creates curiosity loop, likely driving click-through to learn the brand's solution.",
+        "Top performance driven by: (1) branded product-as-prop technique — tote bag doubles as organic logo placement mid-frame, reinforcing brand recall without feeling like an ad; (2) motion implies lifestyle integration rather than static product push; (3) clear visual hierarchy separates aspirational image from rational offer copy using card overlay, preventing cognitive overload; (4) brand color consistency across bag, logo, and discount text creates subliminal brand reinforcement; (5) social proof anchor ('most loved') combined with hard discount ('20% OFF') addresses both emotional and rational buying triggers simultaneously; (6) urban background signals UAE-market relevance without being explicit; (7) headphones detail signals independence and modern lifestyle, resonating with target persona.",
+        "Extreme minimalism creates scroll-stopping contrast in a feed full of food imagery and promotional clutter. The forward-slash framing borrows from tech/developer culture creating subcultural cool. High brand color saturation ensures recognition. ROI performance likely driven by retargeting efficiency — this functions as a brand recall anchor after prior touchpoints, not a cold conversion ad.",
+        "1) Objection-first headline — leading with 'Pause anytime' directly counters subscription hesitancy, a proven CTR driver for subscription brands. 2) Personalized product label creates curiosity and emotional connection. 3) Festive gift bow transforms a functional product into an emotionally resonant seasonal item. 4) Strong discount anchor (25%) in a visually isolated box directs the eye efficiently. 5) Dual payment partner logos (Tabby, Tamara) reduce financial friction for BNPL-sensitive UAE audience. 6) Brand color discipline across bow, logo, and accents creates subconscious brand reinforcement without feeling cluttered."
+      ],
+      "average_performer_patterns": [
+        "Average CTR explained by: (1) strong, differentiated headline that challenges diet norms is a positive hook but doesn't create urgency; (2) split layout is clean but the right panel feels information-dense with three stacked content blocks (price, discount, CTA) reducing visual breathing room; (3) food imagery is real and appetizing but burger+fries combo may create cognitive dissonance with weight-loss messaging for new prospects; (4) discount badge (25% off) adds value but may cheapen premium healthy meal brand perception; (5) promo code 'BETTERYOU' is a nice personalization touch but buried below fold of attention; (6) no human presence or lifestyle imagery reduces emotional resonance and social proof for acquisition-stage audience.",
+        "Average CTR (0.3) is explained by several competing factors: strong brand consistency and clear pricing are trust-builders, but the food hero (burrata) is visually premium yet ambiguous as a 'meal plan' signal. The split layout is clean but formulaic — left food, right copy is a common pattern that doesn't stop the scroll. The headline is engaging but the subheadline is generic. The discount mechanic is solid but the promo code placement below CTA adds a secondary step that may dilute click intent. No human presence or lifestyle context weakens aspirational connection for a new persona.",
+        "Average CTR likely driven by: (1) strong food photography with high appetite appeal, (2) brand-aligned color banner that creates clear visual break but also disrupts food immersion, (3) headline addresses a real objection but feels slightly generic/expected, (4) 25% discount is compelling but the promo code mechanic adds friction, (5) burrata as hero is premium but not uniquely Delicut-branded, making it feel like a generic food ad. No human presence reduces emotional connection for this persona. The ad is competent but lacks a distinctive hook or storytelling element to push CTR above average.",
+        "Average performance explained by: (1) App screenshot as hero reduces food desirability — no appetizing meal photography driving craving or aspiration; (2) Copy is benefit-clear but emotionally flat, missing urgency or social proof; (3) Hand-holding-phone adds human element but feels generic/stock; (4) UI dashboard with numbers contradicts the 'ditch the numbers' headline creating cognitive dissonance; (5) Brand colors present but palette feels utilitarian; (6) Bottom text panel breaks visual flow and reduces scroll-stopping power in feed context.",
+        "Average performance likely driven by: (1) cluttered hero shot with too many containers competing for attention reducing visual focus; (2) no human face or lifestyle context to build emotional connection; (3) copy panel is clear and benefit-driven which partially compensates; (4) brand green is visible but diluted by visual noise; (5) open salad bowl in foreground is the only appetite-appeal element but is partially obscured; (6) lack of a strong CTA limits conversion intent; (7) real photography adds authenticity but composition is not optimized for thumb-stopping scroll behavior",
+        "Average performance driven by: strong on-brand color execution and clean layout, but the hero visual is the back/legs of a person rather than face or food — reducing emotional connection. The copy addresses a retention-oriented benefit (pausing meals) rather than an acquisition hook, making it less compelling for new prospects. No food imagery means no appetite appeal. The functional message is clear but not motivating enough to drive clicks from cold audiences. The bag-as-hero is a brand awareness pattern more than a conversion pattern.",
+        "Exclusively typographic ad with zero food or human imagery explains the low 0.41 CTR. No visual reward for the eye, no hunger or lifestyle trigger, no CTA creates no click motivation. The forward-slash framing is a mildly distinctive stylistic choice but insufficient to drive action. Functions as a brand awareness asset, not a performance asset. Negative space dominance with no focal tension results in scroll-past behavior."
+      ]
+    }
+  }
+}
