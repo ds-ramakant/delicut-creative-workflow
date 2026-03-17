@@ -17,8 +17,14 @@ IMAGES_DIR  = Path("outputs/images")
 SESSION_LOG = Path("outputs/session_log.xlsx")
 DIMENSIONS  = "1080x1080"
 ASPECT_RATIO = "1:1"
-ENGINE       = "Imagen4Ultra"
+ENGINE       = "Imagen3Capability"
 PERSONA      = "healthy-harry"
+
+# Model for product-reference generation (edit_image with SubjectReferenceImage)
+MODEL = "imagen-3.0-capability-001"
+
+# Meal tray reference image — cut-out with no background
+TRAY_REFERENCE = Path("ads/reference/Meal tray red nobg.png")
 
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
 
@@ -280,10 +286,29 @@ def append_row(ws, values: list):
 # ── Image generation ──────────────────────────────────────────────────────────
 
 def generate_image(prompt: str, output_path: Path) -> bool:
-    response = client.models.generate_images(
-        model="imagen-4.0-ultra-generate-001",
+    """Generate a scene with the Delicut meal tray placed as a product reference."""
+    if not TRAY_REFERENCE.exists():
+        raise FileNotFoundError(f"Tray reference image not found: {TRAY_REFERENCE}")
+
+    tray_ref = types.SubjectReferenceImage(
+        reference_id=1,
+        reference_image=types.Image.from_file(location=str(TRAY_REFERENCE)),
+        config=types.SubjectReferenceConfig(
+            subject_type=types.SubjectReferenceType.SUBJECT_TYPE_PRODUCT,
+            subject_description=(
+                "Delicut 900ml meal prep tray. Square form factor with soft rounded corners. "
+                "Warm beige matte base. Clear rigid plastic lid. "
+                "Bold red wraparound label band with '/delicut/' in white lettering. "
+                "Do not alter, recolor, or redesign the tray. Label must be clearly readable."
+            ),
+        ),
+    )
+
+    response = client.models.edit_image(
+        model=MODEL,
         prompt=prompt,
-        config=types.GenerateImagesConfig(
+        reference_images=[tray_ref],
+        config=types.EditImageConfig(
             number_of_images=1,
             aspect_ratio=ASPECT_RATIO,
             person_generation="allow_adult",
@@ -303,7 +328,7 @@ def main():
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
     session_id = make_session_id()
-    iteration  = 3
+    iteration  = 4
     variants   = get_variants(session_id)
 
     print(f"Session ID : {session_id}")
