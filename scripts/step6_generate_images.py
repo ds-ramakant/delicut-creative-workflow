@@ -28,65 +28,212 @@ def make_session_id() -> str:
     now = datetime.now()
     return f"harry_{now.strftime('%m%d-%H%M')}"
 
+# ── Technical tail ────────────────────────────────────────────────────────────
+# Appended to every variant prompt automatically.
+# Covers camera system, settings, lighting rules, color treatment, and realism.
+
+TECHNICAL_TAIL = """
+CAMERA SYSTEM:
+Canon R5 / Sony A7R IV. Natural lens perspective equivalent to 35mm–50mm full-frame.
+No wide-angle distortion. No telephoto compression.
+
+CAMERA SETTINGS (lifestyle / action):
+ISO 400. Shutter 1/1600 sec. Aperture f/4. Color temperature 5600K, neutral white balance.
+
+CAMERA SETTINGS (product flat-lay):
+ISO 200. Shutter 1/160 sec. Aperture f/2.8. Color temperature 5200K, neutral white balance.
+
+LIGHTING:
+Natural daylight only. No artificial flash, no studio strobes, no colored gels.
+Direction must be specified per scene. Quality defined as soft diffused or hard directional.
+Shadows are soft falloff or crisp depending on scene — described per variant above.
+Highlights are clean, not blown.
+
+COLOR TREATMENT:
+True-to-life color. Neutral whites — no yellow, orange, or blue cast.
+Balanced contrast — never cinematic or overgraded. No LUTs. No filters. No stylization.
+
+TEXTURE REALISM:
+Visible skin texture — natural pores, light sweat sheen where appropriate.
+Fabric shows natural behavior — wrinkles, stretch, folds at joints.
+Product surfaces show material texture — matte plastic, fabric weave, metal finish.
+
+DEPTH OF FIELD:
+Subject or hero product in sharp focus. Background softly blurred but contextually readable.
+
+COMPOSITION:
+Intentional but unstyled. Everything feels observed, not staged.
+Clear subject hierarchy. Use of negative space for premium, clean feel.
+No floating objects. Correct gravity, shadows, and light falloff.
+
+STRICT OUTPUT:
+No text overlays. No logos other than Delicut branding on product.
+No UI elements. No signage. Correct human anatomy and natural proportions.
+Ultra-high-definition editorial realism. Natural grain, not noise-free plastic look.
+"""
+
+
+def build_prompt(scene_brief: str) -> str:
+    """Combine the scene-specific brief with the universal technical tail."""
+    return scene_brief.strip() + "\n" + TECHNICAL_TAIL.strip()
+
+
 # ── Variants ──────────────────────────────────────────────────────────────────
 
 def get_variants(session_id: str) -> list[dict]:
     return [
         {
             "variant": "A",
-            "slug": "locker-room-male",
-            "prompt": (
-                "Athletic male, 28–32, lean defined physique, sitting alone on a wooden gym locker room bench post-workout. "
-                "Wearing dark fitted compression shorts and a sleeveless training top. "
-                "Forearms resting on knees, head slightly down, composed and focused expression. "
-                "Natural side light from a high window casting soft shadows across the locker room. "
-                "A 900ml square meal prep tray with soft rounded corners, warm beige matte base and clear rigid plastic lid "
-                "with a bold red label band reading '/delicut/' sits on the bench beside his gym bag. "
-                "Shallow depth of field, locker room softly blurred in background. "
-                "No other text. No other branding. "
-                "Photorealistic, cinematic, shot on 35mm, muted warm tones. 1080x1080."
-            ),
+            "slug": "treadmill-female",
+            "prompt": build_prompt("""
+SCENE:
+Modern commercial gym interior. Rows of treadmills, mirrors along one wall.
+Clean, well-lit space. Natural light from floor-to-ceiling windows on the left side.
+Background gym equipment and mirrors visible but softly out of focus.
+
+SUBJECT:
+Lean athletic female, mid-20s. Toned physique, natural proportions.
+Wearing a fitted sports bra and high-waist training shorts, midriff visible.
+Hair tied back in a high ponytail. Skin shows natural light sweat sheen.
+
+POSE:
+Running powerfully on a treadmill. Mid-stride, legs driving forward.
+Strong forward gaze — candid intensity, not posed. Slight motion blur on legs suggesting real speed.
+Natural weight distribution, forward lean of an actual runner.
+
+LIGHTING:
+Natural daylight from left-side floor-to-ceiling windows. Soft diffused light.
+Soft shadow falloff on the right side of the body. Clean balanced exposure.
+No overhead spot. No rim light.
+
+CAMERA:
+50mm equivalent. Eye-level angle, slightly front-side of the treadmill.
+Mid-thigh to head crop. Background softly blurred, gym context still readable.
+Use lifestyle/action camera settings.
+
+MOOD:
+Powerful, driven, in-the-zone. Energy of someone who makes no excuses.
+"""),
         },
         {
             "variant": "B",
-            "slug": "hands-contrast",
-            "prompt": (
-                "Close-up of a single pair of athletic male hands on a dark gym floor. "
-                "Left hand grips a clear protein shaker, right hand rests beside a 900ml square meal prep tray "
-                "with warm beige base and clear lid with a bold red '/delicut/' label band. "
-                "Both objects on the same surface, hands natural and relaxed. "
-                "Single overhead studio light, deep clean shadows. "
-                "No face visible. No other text. No other branding. "
-                "Photorealistic, commercial photography, high contrast, sharp focus. 1080x1080."
-            ),
+            "slug": "abstract-green",
+            "prompt": build_prompt("""
+SCENE:
+Perfect overhead flat-lay on a deep spinach green surface, exact hex #043F12.
+Clean, minimal studio setup. Generous negative space. No background clutter.
+
+SUBJECT (HERO PRODUCT):
+Delicut 900ml meal prep tray — primary and dominant focus of the frame.
+Square form factor with soft rounded corners. Warm beige matte base.
+Clear rigid plastic lid. Bold red wraparound label band with '/delicut/' in white lettering.
+
+PRODUCT RULES:
+Do not alter, restyle, recolor, or redesign the tray. Maintain exact shape, material, and branding.
+Label must be clearly visible and readable.
+
+ARRANGEMENT:
+Tray centered in frame. At 10 o'clock: a single chalk-dusted white weight plate.
+At 4 o'clock: a neatly folded white gym towel. At 7 o'clock: a matte stainless steel water bottle.
+Each object naturally grounded with a realistic shadow beneath it.
+
+LIGHTING:
+Top-down overhead studio light. Hard directional, creating crisp clean shadows.
+No fill light. No colored gels. Color temperature 5200K.
+Use product flat-lay camera settings.
+
+CAMERA:
+50mm equivalent. Perfect 90-degree overhead angle, no perspective tilt.
+Objects fill approximately 70% of frame. Negative space is the green surface.
+
+MOOD:
+Clean, precise, performance-driven. Gym gear meets macro-perfect meal prep.
+"""),
         },
         {
             "variant": "C",
-            "slug": "treadmill-female",
-            "prompt": (
-                "Lean athletic female, mid-20s, running powerfully on a treadmill in a bright modern gym. "
-                "Wearing a fitted sports bra and high-waist shorts with midriff visible. "
-                "Hair tied back in a high ponytail, strong forward gaze, confident expression. "
-                "Legs in mid-stride, slight motion blur suggesting speed. "
-                "Bright overhead gym lighting, mirrors and equipment softly visible in background. "
-                "Shot from a slight front-side angle at eye level. Natural athletic proportions, strong posture. "
-                "No text. No branding. No logos. "
-                "Photorealistic, energetic, shot on 50mm, bright and clean. 1080x1080."
-            ),
+            "slug": "fridge-moment",
+            "prompt": build_prompt("""
+SCENE:
+Modern kitchen. Clean, minimal interior — white or light stone countertop visible.
+Refrigerator open in the background, interior light on. Time of day: morning.
+Natural light from a window to the left, soft and warm.
+
+SUBJECT:
+Athletic male, late 20s to early 30s. Lean but not bulky — fitness-conscious physique.
+Wearing a clean fitted white or grey t-shirt and training shorts.
+Natural, relaxed posture — not flexing, not posed.
+
+POSE:
+Reaching into the fridge or holding a Delicut 900ml meal prep tray at chest height.
+Looking at the tray with a natural satisfied expression — mid-moment, not smiling for camera.
+Weight shifted slightly to one leg. Arm extended naturally toward fridge.
+
+PRODUCT:
+Delicut 900ml meal prep tray. Warm beige matte base, clear rigid lid,
+bold red wraparound label reading '/delicut/' in white. Held naturally in one hand.
+Slight tilt from the grip — not perfectly horizontal. Fingers wrapped naturally around base.
+
+PRODUCT RULES:
+Do not alter tray design, color, or label. Label must be clearly readable.
+
+LIGHTING:
+Natural morning light from left window. Soft diffused quality. 5600K neutral white.
+Fridge interior light adds subtle warm fill from behind. No flash. No overhead spot.
+Soft shadow on right side of subject.
+
+CAMERA:
+35mm equivalent. Eye-level, slightly elevated angle.
+Three-quarter body shot — top of head to mid-thigh. Subject slightly left of center.
+Background kitchen and open fridge softly out of focus but readable.
+Use lifestyle/action camera settings.
+
+MOOD:
+Effortless healthy living. The fridge-smile moment — satisfaction without effort.
+"""),
         },
         {
             "variant": "D",
-            "slug": "abstract-green",
-            "prompt": (
-                "Top-down flat-lay on a deep spinach green surface, hex #043F12. "
-                "Centre frame: a 900ml square meal prep tray with warm beige matte base, clear rigid plastic lid, "
-                "bold red wraparound label band reading '/delicut/' in white. "
-                "Arranged around it: a single white chalk-dusted weight plate, "
-                "a neatly folded white gym towel, a stainless steel water bottle. "
-                "Hard studio overhead lighting, crisp clean shadows, generous negative space. "
-                "No additional text. No other branding. "
-                "Commercial product photography, ultra-clean, high resolution. 1080x1080."
-            ),
+            "slug": "post-workout-bench",
+            "prompt": build_prompt("""
+SCENE:
+Gym locker room or quiet gym corner. Wooden bench in foreground.
+Lockers or a plain gym wall softly out of focus in background.
+Subdued, post-workout atmosphere — natural light from a high side window.
+
+SUBJECT:
+Athletic male, 28–32. Lean defined physique — not bulky, functionally fit.
+Wearing dark fitted compression shorts and a sleeveless training top.
+Natural post-workout state: slightly flushed, light sweat on arms and neck.
+
+POSE:
+Sitting on the bench. Forearms resting on knees, slight forward lean.
+Head slightly down, composed and focused — the stillness after a hard session.
+Not looking at camera. Hands relaxed, fingers loosely interlaced.
+
+PRODUCT (PRIMARY FOCUS):
+Delicut 900ml meal prep tray placed on the bench directly beside him — in sharp focus.
+Warm beige matte base, clear rigid lid, bold red '/delicut/' label clearly visible.
+Bag or gym kit partially visible beside tray, naturally suggesting he brought it for recovery.
+
+PRODUCT RULES:
+Tray is the sharpest element in the frame. Do not alter design, color, or label.
+Label must be clearly readable.
+
+LIGHTING:
+Natural side light from a high window. Single light source, slightly directional.
+Soft shadows across the locker room floor. Highlights on tray lid and subject's arms.
+No artificial fill. No rim light. 5600K neutral white.
+
+CAMERA:
+35mm equivalent. Low to mid angle — camera slightly below bench height.
+Focus on tray (sharp). Subject mid-ground, slightly blurred (depth of field).
+Mid-shot — bench surface to subject's shoulders. Tray occupies left third of frame.
+Use lifestyle/action camera settings.
+
+MOOD:
+Disciplined. Post-effort calm. The meal is the reward.
+"""),
         },
     ]
 
@@ -156,7 +303,7 @@ def main():
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
     session_id = make_session_id()
-    iteration  = 2
+    iteration  = 3
     variants   = get_variants(session_id)
 
     print(f"Session ID : {session_id}")
