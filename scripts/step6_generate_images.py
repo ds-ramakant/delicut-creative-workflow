@@ -23,8 +23,8 @@ PERSONA      = "healthy-harry"
 # Model for product-reference generation (edit_image with SubjectReferenceImage)
 MODEL = "imagen-3.0-capability-001"
 
-# Meal tray reference image — cut-out with no background
-TRAY_REFERENCE = Path("ads/reference/Meal tray red nobg.png")
+# Meal tray reference image — green containers with lids, matching top-performer ads
+TRAY_REFERENCE = Path("ads/reference/Meal tray 6-2.png")
 
 client = genai.Client(
     vertexai=True,
@@ -134,12 +134,12 @@ Perfect overhead flat-lay on a deep spinach green surface, exact hex #043F12.
 Clean, minimal studio setup. Generous negative space. No background clutter.
 
 SUBJECT (HERO PRODUCT):
-Delicut 900ml meal prep tray — primary and dominant focus of the frame.
-Square form factor with soft rounded corners. Warm beige matte base.
-Clear rigid plastic lid. Bold red wraparound label band with '/delicut/' in white lettering.
+Delicut meal prep container — primary and dominant focus of the frame.
+Round shallow form factor. Deep spinach-green (#043F12) exterior sleeve.
+Bold white '/delicut' lettering wrapping the sides. Clear snap-on lid with silver rim edge.
 
 PRODUCT RULES:
-Do not alter, restyle, recolor, or redesign the tray. Maintain exact shape, material, and branding.
+Do not alter, recolor, or redesign the container. Maintain exact green color and white branding.
 Label must be clearly visible and readable.
 
 ARRANGEMENT:
@@ -180,9 +180,9 @@ Looking at the tray with a natural satisfied expression — mid-moment, not smil
 Weight shifted slightly to one leg. Arm extended naturally toward fridge.
 
 PRODUCT:
-Delicut 900ml meal prep tray. Warm beige matte base, clear rigid lid,
-bold red wraparound label reading '/delicut/' in white. Held naturally in one hand.
-Slight tilt from the grip — not perfectly horizontal. Fingers wrapped naturally around base.
+Delicut meal prep container. Round shallow form factor, deep spinach-green (#043F12) exterior
+printed with '/delicut' in bold white lettering. Clear snap-on lid with silver rim.
+Held naturally in one hand. Slight tilt from grip. Fingers wrapped naturally around base.
 
 PRODUCT RULES:
 Do not alter tray design, color, or label. Label must be clearly readable.
@@ -222,13 +222,13 @@ Head slightly down, composed and focused — the stillness after a hard session.
 Not looking at camera. Hands relaxed, fingers loosely interlaced.
 
 PRODUCT (PRIMARY FOCUS):
-Delicut 900ml meal prep tray placed on the bench directly beside him — in sharp focus.
-Warm beige matte base, clear rigid lid, bold red '/delicut/' label clearly visible.
-Bag or gym kit partially visible beside tray, naturally suggesting he brought it for recovery.
+Delicut meal prep container placed on the bench directly beside him — in sharp focus.
+Round, deep spinach-green (#043F12) exterior with '/delicut' in bold white lettering, clear snap-on lid.
+Gym kit partially visible beside it, naturally suggesting he brought it for recovery.
 
 PRODUCT RULES:
-Tray is the sharpest element in the frame. Do not alter design, color, or label.
-Label must be clearly readable.
+Container is the sharpest element in the frame. Do not alter design, color, or branding.
+Green exterior and white '/delicut' text must be clearly readable.
 
 LIGHTING:
 Natural side light from a high window. Single light source, slightly directional.
@@ -300,10 +300,10 @@ def generate_image(prompt: str, output_path: Path) -> bool:
         config=types.SubjectReferenceConfig(
             subject_type=types.SubjectReferenceType.SUBJECT_TYPE_PRODUCT,
             subject_description=(
-                "Delicut 900ml meal prep tray. Square form factor with soft rounded corners. "
-                "Warm beige matte base. Clear rigid plastic lid. "
-                "Bold red wraparound label band with '/delicut/' in white lettering. "
-                "Do not alter, recolor, or redesign the tray. Label must be clearly readable."
+                "Delicut meal prep container. Round shallow form factor with a deep spinach-green "
+                "exterior sleeve printed with '/delicut' in bold white sans-serif lettering. "
+                "Clear snap-on plastic lid with silver rim edge. "
+                "Do not alter, recolor, or redesign the container. Branding must be clearly readable."
             ),
         ),
     )
@@ -316,6 +316,11 @@ def generate_image(prompt: str, output_path: Path) -> bool:
             number_of_images=1,
             aspect_ratio=ASPECT_RATIO,
             person_generation="allow_adult",
+            negative_prompt=(
+                "extra hands, extra fingers, deformed hands, mutated hands, extra limbs, "
+                "wrong anatomy, floating objects, text overlays, watermark, logo alterations, "
+                "beige tray, red tray, wrong product color, blurry product, unreadable label"
+            ),
         ),
     )
     if not response.generated_images:
@@ -332,7 +337,7 @@ def main():
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
     session_id = make_session_id()
-    iteration  = 4
+    iteration  = 5
     variants   = get_variants(session_id)
 
     print(f"Session ID : {session_id}")
