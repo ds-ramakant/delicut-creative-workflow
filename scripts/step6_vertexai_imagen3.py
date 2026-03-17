@@ -1,3 +1,4 @@
+import json
 import os
 import time
 from datetime import datetime
@@ -83,14 +84,23 @@ Ultra-high-definition editorial realism. Natural grain, not noise-free plastic l
 """
 
 
-def build_prompt(scene_brief: str) -> str:
-    """Combine the scene-specific brief with the universal technical tail."""
-    return scene_brief.strip() + "\n" + TECHNICAL_TAIL.strip()
+PROMPTS_STAGING = Path("outputs/prompts_staging.json")
 
 
 # ── Variants ──────────────────────────────────────────────────────────────────
 
 def get_variants(session_id: str) -> list[dict]:
+    """Read variants from prompts_staging.json — edit that file to change prompts."""
+    if not PROMPTS_STAGING.exists():
+        raise FileNotFoundError(f"Prompts staging file not found: {PROMPTS_STAGING}")
+    data = json.load(PROMPTS_STAGING.open(encoding="utf-8"))
+    return [
+        {"variant": v["variant"], "slug": v["slug"], "prompt": v["prompt"]}
+        for v in data["variants"]
+    ]
+
+
+def _old_variants_unused(session_id: str) -> list[dict]:
     return [
         {
             "variant": "A",
@@ -337,7 +347,7 @@ def main():
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
     session_id = make_session_id()
-    iteration  = 5
+    iteration  = 6
     variants   = get_variants(session_id)
 
     print(f"Session ID : {session_id}")
