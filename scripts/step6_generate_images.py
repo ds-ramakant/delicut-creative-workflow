@@ -18,7 +18,7 @@ SESSION_LOG  = Path("outputs/session_log.xlsx")
 ADCOPY_LOG   = Path("outputs/adcopy_log.xlsx")
 DIMENSIONS   = "1080x1080"
 ASPECT_RATIO = "1:1"
-ENGINE       = "Gemini"
+ENGINE       = "Imagen4Ultra"
 PERSONA      = "healthy-harry"
 
 client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -161,7 +161,7 @@ def append_row(ws, values: list):
 
 def generate_image(prompt: str, output_path: Path) -> bool:
     response = client.models.generate_images(
-        model="imagen-3.0-generate-002",
+        model="imagen-4.0-ultra-generate-001",
         prompt=prompt,
         config=types.GenerateImagesConfig(
             number_of_images=1,
