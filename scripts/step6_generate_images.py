@@ -37,13 +37,15 @@ def get_variants(session_id: str) -> list[dict]:
             "variant": "A",
             "slug": "locker-room-male",
             "prompt": (
-                "Athletic male, 25–35, lean muscular build, sitting on a wooden gym locker room bench "
-                "in a moment of quiet focus post-workout. Wearing dark fitted gym shorts and a compression top. "
-                "Head slightly bowed, elbows resting on knees, composed and determined expression. "
-                "Gym bag on the bench beside him. Soft natural light from a high window. "
-                "Clean, minimal locker room background, shallow depth of field. "
-                "No text. No branding. No logos. "
-                "Photorealistic, shot on 35mm, muted tones, cinematic quality. 1080x1080."
+                "Athletic male, 28–32, lean defined physique, sitting alone on a wooden gym locker room bench post-workout. "
+                "Wearing dark fitted compression shorts and a sleeveless training top. "
+                "Forearms resting on knees, head slightly down, composed and focused expression. "
+                "Natural side light from a high window casting soft shadows across the locker room. "
+                "A 900ml square meal prep tray with soft rounded corners, warm beige matte base and clear rigid plastic lid "
+                "with a bold red label band reading '/delicut/' sits on the bench beside his gym bag. "
+                "Shallow depth of field, locker room softly blurred in background. "
+                "No other text. No other branding. "
+                "Photorealistic, cinematic, shot on 35mm, muted warm tones. 1080x1080."
             ),
             "text_on_image": (
                 "Headline [29 chars]: 'You track reps. Track macros.'\n"
@@ -56,13 +58,13 @@ def get_variants(session_id: str) -> list[dict]:
             "variant": "B",
             "slug": "hands-contrast",
             "prompt": (
-                "Extreme close-up of two hands against a dark gym floor background. "
-                "Left hand holds a clear protein shaker bottle with whey residue. "
-                "Right hand holds a clean sealed meal prep container. "
-                "Hands are athletic, slightly worn — suggest active use. "
-                "Lighting is dramatic, single source from above, deep shadows. "
-                "No face visible. No text. No branding. No logos. "
-                "Photorealistic, commercial photography style, high contrast, sharp focus on hands. 1080x1080."
+                "Close-up of a single pair of athletic male hands on a dark gym floor. "
+                "Left hand grips a clear protein shaker, right hand rests beside a 900ml square meal prep tray "
+                "with warm beige base and clear lid with a bold red '/delicut/' label band. "
+                "Both objects on the same surface, hands natural and relaxed. "
+                "Single overhead studio light, deep clean shadows. "
+                "No face visible. No other text. No other branding. "
+                "Photorealistic, commercial photography, high contrast, sharp focus. 1080x1080."
             ),
             "text_on_image": (
                 "Headline [29 chars]: 'You track reps. Track macros.'\n"
@@ -75,13 +77,14 @@ def get_variants(session_id: str) -> list[dict]:
             "variant": "C",
             "slug": "treadmill-female",
             "prompt": (
-                "Lean athletic female, mid-20s, running on a treadmill in a modern gym. "
-                "Wearing a two-piece gym outfit — sports bra and fitted shorts — with midriff visible. "
-                "Hair tied back, focused forward gaze, slight motion blur on legs suggesting speed. "
-                "Gym environment visible in background — mirrors, equipment, soft overhead lighting. "
-                "Shot from a slight side angle. Natural athletic body proportions. "
+                "Lean athletic female, mid-20s, running powerfully on a treadmill in a bright modern gym. "
+                "Wearing a fitted sports bra and high-waist shorts with midriff visible. "
+                "Hair tied back in a high ponytail, strong forward gaze, confident expression. "
+                "Legs in mid-stride, slight motion blur suggesting speed. "
+                "Bright overhead gym lighting, mirrors and equipment softly visible in background. "
+                "Shot from a slight front-side angle at eye level. Natural athletic proportions, strong posture. "
                 "No text. No branding. No logos. "
-                "Photorealistic, candid energy, shot on 50mm, warm gym lighting. 1080x1080."
+                "Photorealistic, energetic, shot on 50mm, bright and clean. 1080x1080."
             ),
             "text_on_image": (
                 "Headline [29 chars]: 'You track reps. Track macros.'\n"
@@ -94,13 +97,14 @@ def get_variants(session_id: str) -> list[dict]:
             "variant": "D",
             "slug": "abstract-green",
             "prompt": (
-                "Abstract flat-lay composition. Deep spinach green background, hex #043F12. "
-                "Scattered minimalist fitness props — a single white chalk-dusted weight plate, "
-                "a folded white gym towel, a clean stainless steel water bottle — "
-                "arranged with generous negative space. "
-                "Top-down overhead shot. Hard studio lighting, crisp shadows. "
-                "No human presence. No text. No branding. No logos. "
-                "Commercial product photography aesthetic, ultra-clean, high resolution. 1080x1080."
+                "Top-down flat-lay on a deep spinach green surface, hex #043F12. "
+                "Centre frame: a 900ml square meal prep tray with warm beige matte base, clear rigid plastic lid, "
+                "bold red wraparound label band reading '/delicut/' in white. "
+                "Arranged around it: a single white chalk-dusted weight plate, "
+                "a neatly folded white gym towel, a stainless steel water bottle. "
+                "Hard studio overhead lighting, crisp clean shadows, generous negative space. "
+                "No additional text. No other branding. "
+                "Commercial product photography, ultra-clean, high resolution. 1080x1080."
             ),
             "text_on_image": (
                 "Headline [29 chars]: 'You track reps. Track macros.'\n"
@@ -183,7 +187,7 @@ def main():
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
 
     session_id = make_session_id()
-    iteration  = 1
+    iteration  = 2
     variants   = get_variants(session_id)
 
     print(f"Session ID : {session_id}")
