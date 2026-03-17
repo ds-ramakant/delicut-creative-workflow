@@ -6,7 +6,8 @@
       "Bash(pip show:*)",
       "WebSearch",
       "Bash(python:*)",
-      "WebFetch(domain:fal.ai)"
+      "WebFetch(domain:fal.ai)",
+      "Bash(venv/Scripts/python -c \":*)"
     ]
   }
 }

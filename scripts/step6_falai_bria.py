@@ -22,8 +22,8 @@ DIMENSIONS       = "1080x1080"
 ENGINE           = "BriaProductShot"
 PERSONA          = "healthy-harry"
 
-# Reference image — green meal tray cut-out used as the product to place in scene
-PRODUCT_REFERENCE = Path("ads/reference/Meal tray 6-2.png")
+# Default reference — used only if a variant has no reference_image set
+DEFAULT_REFERENCE = Path("ads/reference/product_refs/tray_900ml_side.png")
 
 # fal.ai model endpoint
 MODEL_ID  = "fal-ai/bria/product-shot"
@@ -107,16 +107,16 @@ def _submit_and_poll(payload: dict) -> dict:
 
 # ── Image generation ──────────────────────────────────────────────────────────
 
-def generate_image(scene_description: str, output_path: Path) -> bool:
+def generate_image(scene_description: str, output_path: Path, reference_image: Path) -> bool:
     """
     Place the Delicut product reference into a generated scene using Bria Product Shot.
     The model handles product rendering from the reference image — the prompt
     describes the scene only, not the product.
     """
-    if not PRODUCT_REFERENCE.exists():
-        raise FileNotFoundError(f"Product reference not found: {PRODUCT_REFERENCE}")
+    if not reference_image.exists():
+        raise FileNotFoundError(f"Product reference not found: {reference_image}")
 
-    product_image_uri = _image_to_data_uri(PRODUCT_REFERENCE)
+    product_image_uri = _image_to_data_uri(reference_image)
 
     payload = {
         "image_url": product_image_uri,
@@ -173,7 +173,12 @@ def get_variants() -> list[dict]:
         raise FileNotFoundError(f"Not found: {PROMPTS_STAGING}")
     data = json.load(PROMPTS_STAGING.open(encoding="utf-8"))
     return [
-        {"variant": v["variant"], "slug": v["slug"], "prompt": v["prompt"]}
+        {
+            "variant": v["variant"],
+            "slug": v["slug"],
+            "prompt": v["prompt"],
+            "reference_image": Path(v["reference_image"]) if v.get("reference_image") else DEFAULT_REFERENCE,
+        }
         for v in data["variants"]
     ]
 
@@ -221,15 +226,15 @@ def append_row(ws, values: list):
 
 def main():
     print("Step 6: Generating images with Bria Product Shot (fal.ai)\n")
-    print(f"Product reference : {PRODUCT_REFERENCE}")
+    print(f"Default reference : {DEFAULT_REFERENCE}")
     print(f"Model             : {MODEL_ID}\n")
 
     if not os.getenv("FAL_KEY"):
         print("ERROR: FAL_KEY not set in .env")
         return
 
-    if not PRODUCT_REFERENCE.exists():
-        print(f"ERROR: Product reference image not found: {PRODUCT_REFERENCE}")
+    if not DEFAULT_REFERENCE.exists():
+        print(f"ERROR: Default reference image not found: {DEFAULT_REFERENCE}")
         return
 
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
@@ -253,10 +258,12 @@ def main():
         image_name = f"{session_id}_{v['slug']}_{ENGINE}.png"
         image_path = IMAGES_DIR / image_name
 
+        ref = v["reference_image"]
         print(f"[Variant {label}] {v['slug']} — generating...")
+        print(f"  Reference : {ref}")
 
         try:
-            generate_image(prompt, image_path)
+            generate_image(prompt, image_path, ref)
             print(f"  Saved  -> {image_path}")
             log_path = str(image_path)
         except Exception as e:

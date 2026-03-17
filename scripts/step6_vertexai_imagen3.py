@@ -24,8 +24,8 @@ PERSONA      = "healthy-harry"
 # Model for product-reference generation (edit_image with SubjectReferenceImage)
 MODEL = "imagen-3.0-capability-001"
 
-# Meal tray reference image — green containers with lids, matching top-performer ads
-TRAY_REFERENCE = Path("ads/reference/Meal tray 6-2.png")
+# Default reference — used if a variant has no reference_image set in prompts_staging.json
+DEFAULT_REFERENCE = Path("ads/reference/product_refs/tray_900ml_side.png")
 
 client = genai.Client(
     vertexai=True,
@@ -95,7 +95,12 @@ def get_variants(session_id: str) -> list[dict]:
         raise FileNotFoundError(f"Prompts staging file not found: {PROMPTS_STAGING}")
     data = json.load(PROMPTS_STAGING.open(encoding="utf-8"))
     return [
-        {"variant": v["variant"], "slug": v["slug"], "prompt": v["prompt"]}
+        {
+            "variant": v["variant"],
+            "slug": v["slug"],
+            "prompt": v["prompt"],
+            "reference_image": Path(v["reference_image"]) if v.get("reference_image") else DEFAULT_REFERENCE,
+        }
         for v in data["variants"]
     ]
 
@@ -299,14 +304,14 @@ def append_row(ws, values: list):
 
 # ── Image generation ──────────────────────────────────────────────────────────
 
-def generate_image(prompt: str, output_path: Path) -> bool:
+def generate_image(prompt: str, output_path: Path, reference_image: Path) -> bool:
     """Generate a scene with the Delicut meal tray placed as a product reference."""
-    if not TRAY_REFERENCE.exists():
-        raise FileNotFoundError(f"Tray reference image not found: {TRAY_REFERENCE}")
+    if not reference_image.exists():
+        raise FileNotFoundError(f"Tray reference image not found: {reference_image}")
 
     tray_ref = types.SubjectReferenceImage(
         reference_id=1,
-        reference_image=types.Image.from_file(location=str(TRAY_REFERENCE)),
+        reference_image=types.Image.from_file(location=str(reference_image)),
         config=types.SubjectReferenceConfig(
             subject_type=types.SubjectReferenceType.SUBJECT_TYPE_PRODUCT,
             subject_description=(
@@ -365,10 +370,12 @@ def main():
         image_name = f"{session_id}_{v['slug']}_{ENGINE}.png"
         image_path = IMAGES_DIR / image_name
 
-        print(f"[Variant {label}] Generating...")
+        ref = v["reference_image"]
+        print(f"[Variant {label}] {v['slug']} — generating...")
+        print(f"  Reference : {ref}")
 
         try:
-            success = generate_image(prompt, image_path)
+            success = generate_image(prompt, image_path, ref)
             if success:
                 print(f"  Saved → {image_path}")
             else:
