@@ -1,0 +1,241 @@
+{
+  "generated_at": "2026-03-17T10:33:26.162218Z",
+  "source_file": "Delicut Brand Visuals - fonts colors.pdf",
+  "brand_principles": {
+    "logo_concept": "Isologotype — the wordmark 'delicut' with two sidebars (slashes) that reinforce the concept of 'cut' or 'break'.",
+    "typography_concept": "Sans-serif for roundness, freshness, and youth. Conveys practical quality without gourmet ornaments.",
+    "color_concept": "Green for healthy and natural. Beige/cream for raw essence. Warm palette overall.",
+    "shape_language": "Rounded forms for featured boxes and containers. Slash/cut elements as brand motifs.",
+    "logo_min_size": "15mm / 45px full logo. 8.5mm / 25px for avatar/favicon responsive version.",
+    "brand_voice": "Simple, maximum impact with minimum elements. Practical quality. No gourmet pretension.",
+    "primary_colors": [
+      "#043F12",
+      "#FF3F1F",
+      "#EA5D29",
+      "#F9F4ED"
+    ],
+    "extended_colors": [
+      "#DCD5D7",
+      "#D57903",
+      "#917136",
+      "#AC7950",
+      "#C4AD3A"
+    ]
+  },
+  "colors": [
+    {
+      "name": "Spinach",
+      "hex": "#043F12",
+      "rgb": {
+        "r": 4,
+        "g": 63,
+        "b": 18
+      },
+      "cmyk": {
+        "c": 75,
+        "m": 17,
+        "y": 74,
+        "k": 75
+      },
+      "pantone": "357",
+      "role": "Primary brand color. Conveys health, nature, and freshness. Used for backgrounds, headlines, CTA buttons, and dominant panel color.",
+      "prompt_inject": "deep spinach green (#043F12)"
+    },
+    {
+      "name": "Grenade",
+      "hex": "#FF3F1F",
+      "rgb": {
+        "r": 255,
+        "g": 63,
+        "b": 31
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 78,
+        "y": 100,
+        "k": 0
+      },
+      "pantone": "172",
+      "role": "Accent color for urgency, offers, discounts, and CTA highlights. Used for badges, price callouts, and promotional elements.",
+      "prompt_inject": "grenade red (#FF3F1F)"
+    },
+    {
+      "name": "Pumpkin",
+      "hex": "#EA5D29",
+      "rgb": {
+        "r": 234,
+        "g": 93,
+        "b": 41
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 60,
+        "y": 82,
+        "k": 8
+      },
+      "pantone": "1585",
+      "role": "Secondary accent. Used alongside Grenade for warmth, offer elements, and CTA buttons.",
+      "prompt_inject": "pumpkin orange (#EA5D29)"
+    },
+    {
+      "name": "Cream",
+      "hex": "#F9F4ED",
+      "rgb": {
+        "r": 249,
+        "g": 244,
+        "b": 237
+      },
+      "cmyk": {
+        "c": 3,
+        "m": 4,
+        "y": 7,
+        "k": 0
+      },
+      "pantone": "7506 (40%)",
+      "role": "Background color and body copy color on dark panels. Conveys raw, natural, premium feel.",
+      "prompt_inject": "warm cream (#F9F4ED)"
+    },
+    {
+      "name": "Warm Grey",
+      "hex": "#DCD5D7",
+      "rgb": {
+        "r": 220,
+        "g": 213,
+        "b": 215
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 3,
+        "y": 2,
+        "k": 14
+      },
+      "pantone": "Cool Grey 1",
+      "role": "Neutral secondary. Used for backgrounds, dividers, and subtle UI elements.",
+      "prompt_inject": "warm grey (#DCD5D7)"
+    },
+    {
+      "name": "Curry",
+      "hex": "#D57903",
+      "rgb": {
+        "r": 213,
+        "g": 121,
+        "b": 3
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 54,
+        "y": 100,
+        "k": 5
+      },
+      "pantone": "1385",
+      "role": "Extended palette. Warm appetite-driving tone used in food photography and seasonal content.",
+      "prompt_inject": "curry yellow (#D57903)"
+    },
+    {
+      "name": "Masala",
+      "hex": "#917136",
+      "rgb": {
+        "r": 145,
+        "g": 113,
+        "b": 54
+      },
+      "cmyk": {
+        "c": 0,
+        "m": 42,
+        "y": 100,
+        "k": 16
+      },
+      "pantone": "131",
+      "role": "Extended palette. Earthy, grounded tone for lifestyle and food contexts.",
+      "prompt_inject": "masala brown (#917136)"
+    },
+    {
+      "name": "Cinnamon",
+      "hex": "#AC7950",
+      "rgb": {
+        "r": 172,
+        "g": 121,
+        "b": 80
+      },
+      "cmyk": {
+        "c": 5,
+        "m": 42,
+        "y": 66,
+        "k": 9
+      },
+      "pantone": "722",
+      "role": "Extended palette. Warm spice tone for food-adjacent content.",
+      "prompt_inject": "cinnamon (#AC7950)"
+    },
+    {
+      "name": "Courgette",
+      "hex": "#C4AD3A",
+      "rgb": {
+        "r": 196,
+        "g": 173,
+        "b": 58
+      },
+      "cmyk": {
+        "c": 7,
+        "m": 7,
+        "y": 100,
+        "k": 7
+      },
+      "pantone": "606",
+      "role": "Extended palette. Fresh vegetable tone for ingredient and health content.",
+      "prompt_inject": "courgette yellow-green (#C4AD3A)"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Maison Bold",
+      "weight": "Bold",
+      "tracking": -20,
+      "role": "Logo typography. Used for the primary /delicut/ wordmark.",
+      "use_cases": [
+        "logo",
+        "hero headlines"
+      ],
+      "prompt_inject": "bold sans-serif, tight tracking, clean geometric letterforms"
+    },
+    {
+      "name": "Maison Demi",
+      "weight": "Demi",
+      "tracking": -20,
+      "role": "Main typography. Primary headline font across all brand communications.",
+      "use_cases": [
+        "headlines",
+        "subheadlines",
+        "CTA buttons"
+      ],
+      "prompt_inject": "demi-bold sans-serif, slightly tight tracking, modern and clean"
+    },
+    {
+      "name": "Maison Light",
+      "weight": "Light",
+      "tracking": -20,
+      "role": "Slash / accent typography. Used for sidebars and structural brand elements.",
+      "use_cases": [
+        "slash elements",
+        "decorative text",
+        "taglines"
+      ],
+      "prompt_inject": "light weight sans-serif, clean and minimal"
+    },
+    {
+      "name": "Maison Medium",
+      "weight": "Medium",
+      "tracking": -20,
+      "role": "Content typography. Used for body copy, descriptions, and supporting text.",
+      "use_cases": [
+        "body copy",
+        "descriptions",
+        "labels",
+        "nutritional info"
+      ],
+      "prompt_inject": "medium weight sans-serif, highly legible, neutral and clean"
+    }
+  ],
+  "image_prompt_palette": "Brand color palette: deep spinach green (#043F12) as primary, warm cream (#F9F4ED) for backgrounds and light text, grenade red (#FF3F1F) and pumpkin orange (#EA5D29) as accents. Extended palette includes curry yellow (#D57903), masala brown (#917136), cinnamon (#AC7950), and courgette yellow-green (#C4AD3A).",
+  "image_prompt_typography": "Typography: Maison font family. Bold/Demi weights for headlines with tight tracking. Clean geometric sans-serif. No decorative or serif fonts."
+}
