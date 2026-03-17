@@ -26,7 +26,11 @@ MODEL = "imagen-3.0-capability-001"
 # Meal tray reference image — cut-out with no background
 TRAY_REFERENCE = Path("ads/reference/Meal tray red nobg.png")
 
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+client = genai.Client(
+    vertexai=True,
+    project=os.getenv("GOOGLE_CLOUD_PROJECT"),
+    location=os.getenv("GOOGLE_CLOUD_LOCATION", "us-central1"),
+)
 
 # ── Session ───────────────────────────────────────────────────────────────────
 
