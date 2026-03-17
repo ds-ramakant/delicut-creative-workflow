@@ -13,10 +13,9 @@ load_dotenv()
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-IMAGES_DIR   = Path("outputs/images")
-SESSION_LOG  = Path("outputs/session_log.xlsx")
-ADCOPY_LOG   = Path("outputs/adcopy_log.xlsx")
-DIMENSIONS   = "1080x1080"
+IMAGES_DIR  = Path("outputs/images")
+SESSION_LOG = Path("outputs/session_log.xlsx")
+DIMENSIONS  = "1080x1080"
 ASPECT_RATIO = "1:1"
 ENGINE       = "Imagen4Ultra"
 PERSONA      = "healthy-harry"
@@ -47,12 +46,6 @@ def get_variants(session_id: str) -> list[dict]:
                 "No other text. No other branding. "
                 "Photorealistic, cinematic, shot on 35mm, muted warm tones. 1080x1080."
             ),
-            "text_on_image": (
-                "Headline [29 chars]: 'You track reps. Track macros.'\n"
-                "Subline [66 chars]: 'Low Carb High Protein meal plans. Macro-accurate. Delivered daily.'\n"
-                "CTA: 'Start eating right'\n"
-                "Offer: '25% Off your first plan | Use code: BETTERYOU'"
-            ),
         },
         {
             "variant": "B",
@@ -65,12 +58,6 @@ def get_variants(session_id: str) -> list[dict]:
                 "Single overhead studio light, deep clean shadows. "
                 "No face visible. No other text. No other branding. "
                 "Photorealistic, commercial photography, high contrast, sharp focus. 1080x1080."
-            ),
-            "text_on_image": (
-                "Headline [29 chars]: 'You track reps. Track macros.'\n"
-                "Subline [57 chars]: 'Macro-balanced Low Carb High Protein meals. No guesswork.'\n"
-                "CTA: 'Order now'\n"
-                "Offer: '25% Off your first plan | Use code: BETTERYOU'"
             ),
         },
         {
@@ -86,12 +73,6 @@ def get_variants(session_id: str) -> list[dict]:
                 "No text. No branding. No logos. "
                 "Photorealistic, energetic, shot on 50mm, bright and clean. 1080x1080."
             ),
-            "text_on_image": (
-                "Headline [29 chars]: 'You track reps. Track macros.'\n"
-                "Subline [55 chars]: 'Low Carb High Protein plans built for people who train.'\n"
-                "CTA: 'Get your plan'\n"
-                "Offer: '25% Off your first plan | Use code: BETTERYOU'"
-            ),
         },
         {
             "variant": "D",
@@ -106,12 +87,6 @@ def get_variants(session_id: str) -> list[dict]:
                 "No additional text. No other branding. "
                 "Commercial product photography, ultra-clean, high resolution. 1080x1080."
             ),
-            "text_on_image": (
-                "Headline [29 chars]: 'You track reps. Track macros.'\n"
-                "Subline [60 chars]: 'Macro-perfect Low Carb High Protein meals. Every single day.'\n"
-                "CTA: 'Order now'\n"
-                "Offer: '25% Off your first plan | Use code: BETTERYOU'"
-            ),
         },
     ]
 
@@ -121,12 +96,6 @@ SESSION_HEADERS = [
     "session_id", "persona", "iteration", "variant",
     "engine", "dimensions", "prompt", "image_file",
     "score", "notes", "status",
-]
-
-ADCOPY_HEADERS = [
-    "session_id", "persona", "iteration", "variant",
-    "engine", "dimensions", "prompt", "image_file",
-    "text_on_image",
 ]
 
 HEADER_FILL  = PatternFill("solid", fgColor="043F12")
@@ -156,7 +125,7 @@ def get_or_create_workbook(path: Path, headers: list[str]) -> openpyxl.Workbook:
 
 def append_row(ws, values: list):
     ws.append(values)
-    # wrap text in prompt and text_on_image cells
+    # wrap text in long cells
     for cell in ws[ws.max_row]:
         cell.alignment = Alignment(wrap_text=True, vertical="top")
 
@@ -195,11 +164,9 @@ def main():
     print(f"Engine     : {ENGINE}")
     print(f"Dimensions : {DIMENSIONS}\n")
 
-    # Open or create both workbooks
+    # Open or create session log
     wb_session = get_or_create_workbook(SESSION_LOG, SESSION_HEADERS)
-    wb_adcopy  = get_or_create_workbook(ADCOPY_LOG,  ADCOPY_HEADERS)
     ws_session = wb_session.active
-    ws_adcopy  = wb_adcopy.active
 
     for v in variants:
         label      = v["variant"]
@@ -227,27 +194,18 @@ def main():
             "", "", "pending",
         ])
 
-        # Write to adcopy_log
-        append_row(ws_adcopy, [
-            session_id, PERSONA, iteration, label,
-            ENGINE, DIMENSIONS, prompt, str(image_path),
-            v["text_on_image"],
-        ])
-
         if label != variants[-1]["variant"]:
             time.sleep(1)
 
-    # Save both files
     SESSION_LOG.parent.mkdir(parents=True, exist_ok=True)
     wb_session.save(SESSION_LOG)
-    wb_adcopy.save(ADCOPY_LOG)
 
     print(f"\nDone.")
-    print(f"Images saved to  : {IMAGES_DIR}")
-    print(f"Session log      : {SESSION_LOG}")
-    print(f"Ad copy log      : {ADCOPY_LOG}")
+    print(f"Images saved to : {IMAGES_DIR}")
+    print(f"Session log     : {SESSION_LOG}")
     print(f"\nNext step: open session_log.xlsx, score each image (1–5),")
     print(f"add notes, set status to 'needs-refinement' or 'approved', save.")
+    print(f"Then run step7_generate_adcopy.py to generate copy for approved images.")
 
 
 if __name__ == "__main__":

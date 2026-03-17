@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; d=json.load\\(open\\(''outputs/copy_dna.json'', encoding=''utf-8''\\)\\); print\\(f''Images: {d[\"\"total_images_analysed\"\"]}''\\); print\\(f''Generated: {d[\"\"generated_at\"\"]}''\\)\")"
+    ]
+  }
+}

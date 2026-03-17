@@ -1,6 +1,6 @@
 ================================================================================
 DELICUT CREATIVE WORKFLOW JOURNAL
-Last updated: Tuesday, 17 March 2026 — 1:16 PM
+Last updated: Tuesday, 17 March 2026 — 5:00 PM
 ================================================================================
 
 PROJECT OVERVIEW
@@ -18,11 +18,11 @@ PIPELINE OVERVIEW
 Step 1 — Excel brief (briefs/) with persona, hook, image description
 Step 2 — Claude generates image prompts per persona
 Step 3 — Analyse Delicut top-performing ads → outputs/creative_dna.json       [DONE]
-Step 4 — Analyse competitor ads → outputs/competitor_audit.json                [IN PROGRESS]
-Step 5 — Enrich prompts with creative_dna.json + competitor_audit.json
-Step 6 — Generate images across Midjourney / Gemini / Ideogram / Magic Media
-Step 7 — Figma API auto-populates master templates
-Step 8 — Batch export all 6 size formats per persona
+Step 4 — Analyse competitor ads → outputs/competitor_audit.json                [DONE]
+Step 5 — Enrich prompts with creative_dna.json + competitor_audit.json         [IN PROGRESS]
+Step 6 — Generate images across Midjourney / Gemini / Ideogram / Magic Media   [IN PROGRESS]
+Step 7 — Figma API auto-populates master templates                             [TODO]
+Step 8 — Batch export all 6 size formats per persona                           [TODO]
 
 
 ================================================================================
@@ -94,26 +94,20 @@ STAGE 4 — GENERATE + REVIEW
 --------------------------------------------------------------------------------
 Who: Script (generation) + User (review)
 What: Images are generated per variant using the chosen engine.
-      Two files are written simultaneously:
+      Only session_log.xlsx is written at this stage.
+      adcopy_log.xlsx is NOT created here — copy is generated separately
+      after approval so that it is inspired by the actual approved image.
 
-  FILE 1 — outputs/session_log.xlsx (image tracking + feedback)
+  FILE — outputs/session_log.xlsx (image tracking + feedback)
   Columns:
-    session_id   | persona | iteration | variant | engine | prompt |
-    image_file   | score   | notes     | status
+    session_id   | persona | iteration | variant | engine | dimensions |
+    prompt       | image_file | score   | notes   | status
 
-  FILE 2 — outputs/adcopy_log.xlsx (copy reference + designer handoff)
-  Columns:
-    session_id   | persona | iteration | variant | engine | prompt |
-    image_file   | text_on_image
-
-  - image_file: path to the saved generated image
-  - score: user fills 1–5 after reviewing the image
-  - notes: user fills free-text feedback comments
+  - score:  user fills 1–5 after reviewing the image
+  - notes:  user fills free-text feedback comments
   - status: user sets to pending / needs-refinement / approved
-  - text_on_image: Claude pre-fills suggested copy from the brief hook and
-    persona. Designers adjust freely as Figma layers.
 
-Output: 4 images saved locally, both Excel files updated with new rows
+Output: 4 images saved locally, session_log.xlsx updated
 
 Gate: User opens session_log.xlsx, scores each image (1–5), adds notes,
       sets status, saves file, and tells Claude "done"
@@ -125,24 +119,55 @@ STAGE 5 — ITERATE OR APPROVE
 Who: Claude (prompt refinement) + Script (regeneration)
 What: For each variant:
       - Score < 4 → Claude refines the prompt based on user notes →
-        regenerate that variant only → new row appended to both Excel files
-      - Score >= 4 → status flipped to "approved" → image advances to Stage 6
-      Full history is preserved across iterations in both Excel files —
-      original prompt, what changed, why, and the final approved version.
-Output: Refined images + updated rows in session_log.xlsx and adcopy_log.xlsx
+        regenerate that variant only → new row appended to session_log.xlsx
+      - Score >= 4 + status = approved → image advances to Stage 6
+      Full history preserved in session_log.xlsx across all iterations.
+Output: Refined images + updated rows in session_log.xlsx
 
 Gate: Explicit per-image approval (score >= 4 + status = approved)
       before any image moves to Stage 6
 
 
 --------------------------------------------------------------------------------
-STAGE 6 — FIGMA HANDOFF
+STAGE 6 — AD COPY GENERATION
+--------------------------------------------------------------------------------
+Who: Script (step7_generate_adcopy.py) — Claude Vision + Claude copy
+What: Triggered only after image approval. For each approved image:
+      1. Claude Vision reads the approved image
+      2. Identifies the dominant emotion, subject, and visual moment
+      3. Generates image_text — punchy overlay copy inspired directly by
+         what is visible in the image (not the brief hook)
+      4. Generates ad_descriptors — structured copy package:
+           Headline: ≤30 characters
+           Subline:  ≤90 characters
+           CTA:      short action phrase
+           Offer:    "25% Off your first plan | Use code: BETTERYOU"
+      5. Both outputs are informed by copy_dna.json — patterns extracted
+         from Delicut's top-performing ads via step3b
+
+  FILE — outputs/adcopy_log.xlsx (copy for designer handoff)
+  Columns:
+    session_id   | persona | iteration | variant | engine | dimensions |
+    image_file   | image_text | ad_descriptors
+
+  - image_text:     bold overlay copy placed directly ON the image
+  - ad_descriptors: headline / subline / CTA / offer — outside the frame,
+                    added manually by designers in Figma
+
+Output: adcopy_log.xlsx populated with one row per approved image
+
+Gate: User reviews copy before Figma handoff
+
+
+--------------------------------------------------------------------------------
+STAGE 7 — FIGMA HANDOFF
 --------------------------------------------------------------------------------
 Who: Script (Figma API)
 What: For each approved image:
       - Clean image pushed into Figma master template as a background layer
-      - text_on_image from adcopy_log.xlsx placed as a separate editable
-        text layer — designers adjust freely
+      - image_text from adcopy_log.xlsx placed as overlay text layer
+      - ad_descriptors (headline/subline/CTA/offer) available as reference
+        — designers apply and adjust these freely outside the frame
       - Frame exported in all 6 size formats:
         1080x1080, 1080x1920, 1920x1080, 1200x628, 1080x1350, 960x1200
 Output: Figma frames ready for designer review
@@ -156,18 +181,27 @@ FILE + FOLDER STRUCTURE
 
 outputs/
   session_log.xlsx       — image generation tracking, scores, feedback
-  adcopy_log.xlsx        — copy suggestions per variant for designer handoff
+  adcopy_log.xlsx        — image_text + ad_descriptors, written after approval
   competitor_audit.json  — competitor ad analysis (Step 4)
-  creative_dna.json      — Delicut top-performer analysis (Step 3)
+  creative_dna.json      — Delicut top-performer visual analysis (Step 3)
+  copy_dna.json          — Delicut top-performer copy patterns (Step 3b)
+  brand_library.json     — brand guidelines extracted from reference PDF
+  reference_library.json — reference image library index
+  scoring_guide.txt      — 1–5 scoring rubric + feedback instructions for user
   images/                — all generated images, named by session+variant
   workflow_journal.txt   — this file
 
 scripts/
+  check_models.py                    [DONE]
+  step2_process_references.py        [DONE]
+  step2b_process_brand_guidelines.py [DONE]
   step3_analyze_top_performers.py    [DONE]
-  step4_analyze_competitors.py       [DONE, running]
+  step3b_analyze_copy_dna.py         [TODO — run once to build copy_dna.json]
+  step4_analyze_competitors.py       [DONE]
+  step6_generate_images.py           [DONE — Gemini Imagen4Ultra, session_log only]
+  step7_generate_adcopy.py           [DONE — Claude Vision, triggered post-approval]
   step5_enrich_prompts.py            [TODO]
-  step6_generate_images.py           [TODO]
-  step7_figma_handoff.py             [TODO]
+  step8_figma_handoff.py             [TODO]
 
 briefs/
   Creative brief_01_harry-nikki-mansoor.xlsx
@@ -180,8 +214,17 @@ CREATIVE BRIEF ROWS
 Row 1 — healthy-harry #1
   Hook:    "You track every rep. Why are you guessing your macros?"
   Product: Low Carb High Protein
-  Status:  ACTIVE — Stage 1 creative direction drafted, pending competitor
-           audit completion before finalising
+  Status:  ACTIVE — Stage 4/5 iteration in progress
+           Engine: Gemini Imagen4Ultra
+
+  Iteration 1 — Session: harry_0317-1502
+    Variants: abstract-green, hands-contrast, locker-room-male, treadmill-female
+    Feedback: provided (see session_log.xlsx)
+
+  Iteration 2 — Session: harry_0317-1622
+    Variants: abstract-green, hands-contrast, locker-room-male, treadmill-female
+    Feedback: provided (see session_log.xlsx)
+    Next: review scores, determine which variants advance to Stage 6 (Figma)
 
 Row 2 — healthy-harry #2
   Hook:    "What if every meal tasted like a cheat meal — but wasn't?"

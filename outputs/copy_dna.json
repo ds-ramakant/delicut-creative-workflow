@@ -1,0 +1,970 @@
+{
+  "generated_at": "2026-03-17T12:39:09.821982Z",
+  "total_images_analysed": 30,
+  "images": [
+    {
+      "filename": "healthy-harry_black-dress_1080x1080_ROI7.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "black-dress_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.4
+      },
+      "verbatim_copy": {
+        "headline": "Slipping into your dream dress with confidence?",
+        "subline": "COULD BE YOU!",
+        "cta": null,
+        "offer": "25% Off On your first lunch and dinner plan",
+        "other_text": [
+          "Use Code: BETTERYOU",
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "COULD BE YOU!",
+      "copy_structure": "Three-tier hierarchy. Tier 1: Aspirational question headline in elegant serif script that sets the emotional scene. Tier 2: Bold, oversized sans-serif declaration 'COULD BE YOU!' that delivers the empowerment payoff and dominates the visual. Tier 3: Promotional mechanics — discount percentage in large red type, plan details in smaller red script, and promo code in dark bold text. A small legal disclaimer anchors the bottom.",
+      "emotional_angle": "transformation / identity",
+      "headline_char_count": 48,
+      "subline_char_count": 13,
+      "click_driver": "The promo code 'BETTERYOU' — it reinforces the aspirational identity narrative of the entire ad while simultaneously providing a concrete, actionable mechanism to claim the 25% discount, bridging emotion and conversion in a single word",
+      "power_words": [
+        "dream",
+        "confidence",
+        "YOU",
+        "BETTERYOU",
+        "Off",
+        "first"
+      ]
+    },
+    {
+      "filename": "healthy-harry_boxes-in-fridge_whatsapp-image_CTR1.0.png",
+      "persona": "healthy-harry",
+      "creative_id": "boxes-in-fridge_whatsapp-image",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.0
+      },
+      "verbatim_copy": {
+        "headline": "No cooking, no guilt, all gains. COULD BE YOU!",
+        "subline": null,
+        "cta": "Use Code: BETTERYOU",
+        "offer": "25% Off",
+        "other_text": [
+          "/delicut"
+        ]
+      },
+      "image_text_overlay": "No cooking, no guilt, all gains. COULD BE YOU!",
+      "copy_structure": "Two-tier hierarchy. Tier 1: Aspirational headline on the red panel combining pain-point removal (no cooking, no guilt) with a benefit promise (all gains) and an identity challenge (COULD BE YOU!). Tier 2: Promotional offer block — large '25% Off' discount anchored by a promo code CTA. Brand identity is reinforced passively through the stacked /delicut meal prep containers in the fridge image rather than as explicit copy.",
+      "emotional_angle": "convenience / identity",
+      "headline_char_count": 47,
+      "subline_char_count": 0,
+      "click_driver": "The identity challenge 'COULD BE YOU!' paired with the 25% Off offer — the headline reframes meal prep as an aspirational lifestyle the viewer is currently missing out on, while the discount code lowers the barrier to act immediately, creating a potent combination of FOMO and incentive.",
+      "power_words": [
+        "No cooking",
+        "no guilt",
+        "all gains",
+        "COULD BE YOU",
+        "25% Off",
+        "BETTERYOU"
+      ]
+    },
+    {
+      "filename": "healthy-harry_boy_1080x1080_ROI5.2.png",
+      "persona": "healthy-harry",
+      "creative_id": "boy_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.2
+      },
+      "verbatim_copy": {
+        "headline": "Opened the fridge and actually smiled?",
+        "subline": "COULD BE YOU!",
+        "cta": null,
+        "offer": "25% Off On your first lunch and dinner plan",
+        "other_text": [
+          "Use Code: BETTERYOU",
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "COULD BE YOU!",
+      "copy_structure": "Three-tier hierarchy. Tier 1: Conversational question headline in elegant script font creates relatability and curiosity. Tier 2: Bold, oversized sans-serif 'COULD BE YOU!' serves as the aspirational payoff and scroll-stopper. Tier 3: Offer block with discount percentage, plan specificity, promo code, and legal disclaimer anchored at the bottom.",
+      "emotional_angle": "identity / transformation — the ad invites the viewer to project themselves into a better lifestyle where meal prep brings joy instead of stress, using aspirational identity framing",
+      "headline_char_count": 38,
+      "subline_char_count": 13,
+      "click_driver": "The promo code 'BETTERYOU' — it reinforces the identity-based emotional angle while giving a tangible, activatable incentive (25% off) that bridges aspiration with immediate action",
+      "power_words": [
+        "actually",
+        "smiled",
+        "COULD BE YOU",
+        "Off",
+        "first",
+        "BETTERYOU"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fit-girl_whatsapp-image_CTR1.0.png",
+      "persona": "healthy-harry",
+      "creative_id": "fit-girl_whatsapp-image",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.0
+      },
+      "verbatim_copy": {
+        "headline": "Eating smart, looking sharper. COULD BE YOU!",
+        "subline": null,
+        "cta": null,
+        "offer": "25% Off\nUse Code: BETTERYOU",
+        "other_text": [
+          "delicut"
+        ]
+      },
+      "image_text_overlay": "Eating smart, looking sharper. COULD BE YOU!",
+      "copy_structure": "Two-tier structure. Tier 1: Aspirational headline on the upper right combining lifestyle benefit with a direct identity challenge ('COULD BE YOU!' in bold caps). Tier 2: Promotional offer block in the lower right with large percentage discount and promo code, visually boxed for emphasis. The brand name appears on the product packaging in-image, serving as subtle Tier 3 branding.",
+      "emotional_angle": "identity",
+      "headline_char_count": 45,
+      "subline_char_count": 0,
+      "click_driver": "The promo code BETTERYOU — it mirrors the identity-driven headline, making the discount feel personally aspirational rather than transactional. The code itself reinforces the emotional promise that using Delicut makes you a better version of yourself, turning a generic 25% off into a self-improvement trigger.",
+      "power_words": [
+        "smart",
+        "sharper",
+        "COULD BE YOU",
+        "BETTERYOU",
+        "25% Off"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fit-smiling-lady_1080x1080_ROI6.png",
+      "persona": "healthy-harry",
+      "creative_id": "fit-smiling-lady_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.0
+      },
+      "verbatim_copy": {
+        "headline": "Fitness month?\nExcuses off.\nMeals on.",
+        "subline": "Next 30 days,\npowered by protein, no prep.",
+        "cta": "Order now",
+        "offer": "20% Off\nOn your first order",
+        "other_text": [
+          "/delicut/",
+          "Use Code: GETFIT",
+          "T&C Apply",
+          "From UAE's most trusted meal plan"
+        ]
+      },
+      "image_text_overlay": "Fitness month?\nExcuses off.\nMeals on.",
+      "copy_structure": "5-tier hierarchy: (1) Brand logo '/delicut/' top-left for instant recognition, (2) Bold serif headline in 3 punchy staccato lines as the primary attention hook, (3) Italic subline providing the rational value proposition — protein-powered, zero prep, 30-day commitment, (4) Red offer block '20% Off On your first order' with promo code 'GETFIT' creating conversion urgency, (5) Red bottom banner 'From UAE's most trusted meal plan' serving as social proof and trust anchor.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 38,
+      "subline_char_count": 43,
+      "click_driver": "The 20% Off first-order discount paired with the promo code GETFIT — it lowers the barrier to trial while the fitness-themed code name reinforces identity alignment with the target audience's current mindset during fitness month.",
+      "power_words": [
+        "Fitness",
+        "Excuses off",
+        "Meals on",
+        "powered",
+        "protein",
+        "no prep",
+        "Off",
+        "first order",
+        "Order now",
+        "GETFIT",
+        "most trusted"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fit-smiling-lady_1080x1080_ROI7.5.png",
+      "persona": "healthy-harry",
+      "creative_id": "fit-smiling-lady_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.5
+      },
+      "verbatim_copy": {
+        "headline": "UAE's fitness month.\nNow excuse-free",
+        "subline": "You stay consistent.\nWe'll stay macro-smart.",
+        "cta": null,
+        "offer": "20% Off\nOn your first order\nUse Code: GETFIT",
+        "other_text": [
+          "/delicut/",
+          "4.7 ★★★★★",
+          "1K+ Google reviews",
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "UAE's fitness month.\nNow excuse-free",
+      "copy_structure": "Four-tier hierarchy: Tier 1 — brand logo (/delicut/) establishes identity at top-left. Tier 2 — bold white headline acts as the attention hook, tying into a timely cultural moment (UAE fitness month) and removing objections. Tier 3 — smaller dark subline creates a brand-consumer pact (you do X, we do Y). Tier 4 — boxed promotional offer with promo code provides the conversion trigger, anchored by social proof (4.7 stars, 1K+ Google reviews) at the bottom for trust.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 36,
+      "subline_char_count": 43,
+      "click_driver": "The promo code 'GETFIT' paired with 20% off on first order — the code name itself mirrors the fitness month context, making the discount feel purpose-built and time-sensitive rather than generic, which increases urgency and relevance simultaneously.",
+      "power_words": [
+        "excuse-free",
+        "consistent",
+        "macro-smart",
+        "fitness",
+        "Off",
+        "first order",
+        "GETFIT"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card1_ROI5.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "fitness-month_carousel-card1",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "verbatim_copy": {
+        "headline": "Dubai fitness month.\nNo excuses. Just good meals.",
+        "subline": "20% off\non Your First Order",
+        "cta": "Order now",
+        "offer": "Use code: GETFIT",
+        "other_text": [
+          "/delicut/"
+        ]
+      },
+      "image_text_overlay": "Dubai fitness month.\nNo excuses. Just good meals.",
+      "copy_structure": "3-tier hierarchy. Tier 1: Brand logo (/delicut/) anchored at top for recognition. Tier 2: Headline in large red serif font on a cream card — delivers the emotional hook tying the brand to a culturally relevant Dubai event. Tier 3: Offer block split left-right — '20% off on Your First Order' on the left provides the incentive, while the CTA button 'Order now' and promo code 'Use code: GETFIT' on the right drive immediate action.",
+      "emotional_angle": "identity",
+      "headline_char_count": 49,
+      "subline_char_count": 27,
+      "click_driver": "The promo code GETFIT — it fuses the Dubai Fitness Month identity hook with a tangible monetary incentive, making the viewer feel the offer is exclusive, time-bound, and personally relevant to their fitness journey",
+      "power_words": [
+        "No excuses",
+        "Just",
+        "good",
+        "fitness",
+        "20% off",
+        "First",
+        "now",
+        "GETFIT"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card2_ROI5.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "fitness-month_carousel-card2",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "verbatim_copy": {
+        "headline": "Get chef-made,\ncalorie-controlled meals",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": []
+      },
+      "image_text_overlay": "Get chef-made, calorie-controlled meals",
+      "copy_structure": "Single-tier structure: one bold text overlay positioned at the bottom-left of the image acting as both headline and value proposition. No subline, CTA, or offer text visible. The food photography itself serves as the secondary communication tier, visually reinforcing the quality claim.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 40,
+      "subline_char_count": 0,
+      "click_driver": "The pairing of 'chef-made' with 'calorie-controlled' resolves the core tension health-conscious consumers face — that nutritious meals sacrifice taste. The appetising noodle dish visually proves you don't have to compromise, making the promise instantly credible.",
+      "power_words": [
+        "chef-made",
+        "calorie-controlled",
+        "Get"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card3_ROI5.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "fitness-month_carousel-card3",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "verbatim_copy": {
+        "headline": null,
+        "subline": "With zero prep or cooking",
+        "cta": null,
+        "offer": null,
+        "other_text": [
+          "delicut",
+          "delicut",
+          "delicut"
+        ]
+      },
+      "image_text_overlay": "With zero prep or cooking",
+      "copy_structure": "Two tiers: Tier 1 is the branded product packaging repeated three times on stacked meal containers (brand reinforcement via visual repetition); Tier 2 is a single bold red-background text overlay at bottom acting as the key value proposition / benefit statement.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 0,
+      "subline_char_count": 25,
+      "click_driver": "The phrase 'zero prep or cooking' paired with the visual of stacked branded meals inside a real home fridge — it instantly resolves the pain point of meal preparation effort while making the solution feel tangible and already in the viewer's life.",
+      "power_words": [
+        "zero",
+        "prep",
+        "cooking"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card4_ROI5.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "fitness-month_carousel-card4",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "verbatim_copy": {
+        "headline": "So delicious,\nyou'll forget it's healthy.",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": []
+      },
+      "image_text_overlay": "So delicious, you'll forget it's healthy.",
+      "copy_structure": "Single-tier structure — one bold headline overlaid on a food hero shot. No subline, no CTA, no offer. The entire persuasion burden rests on one punchy line paired with appetizing food photography. The red banner acts as a visual anchor drawing the eye to the bottom-left.",
+      "emotional_angle": "cognitive reframe / indulgence permission — resolves the tension between wanting comfort food and eating healthy by promising both, eliminating guilt",
+      "headline_char_count": 41,
+      "subline_char_count": 0,
+      "click_driver": "The juxtaposition of visually indulgent food (fried chicken sliders, sweet potato fries, cheese, coleslaw) against the word 'healthy' creates curiosity-driven dissonance — the viewer needs to click to resolve 'how can THIS be healthy?'",
+      "power_words": [
+        "delicious",
+        "healthy",
+        "forget"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card5_ROI5.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "fitness-month_carousel-card5",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "verbatim_copy": {
+        "headline": "Freshly delivered.\nYour place. Your time.",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": [
+          "/delicut",
+          "/cut®",
+          "/delicut®",
+          "delicut®"
+        ]
+      },
+      "image_text_overlay": "Freshly delivered. Your place. Your time.",
+      "copy_structure": "Single-tier structure — one headline overlay at the bottom of the image serves as both the hook and the value proposition. Brand name is reinforced passively through bag branding (repeated across two bags in two colorways). No CTA, no subline, no offer — the ad relies entirely on lifestyle imagery + one punchy tagline to communicate convenience.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 41,
+      "subline_char_count": 0,
+      "click_driver": "The doorstep delivery scene paired with 'Your place. Your time.' — it triggers instant relatability for time-poor UAE consumers by visually proving effortless, scheduled meal delivery without any friction language or decision fatigue",
+      "power_words": [
+        "Freshly",
+        "delivered",
+        "Your"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card6_ROI5.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "fitness-month_carousel-card6",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "verbatim_copy": {
+        "headline": "Dubai's most trusted meal plan.",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": [
+          "delicut / delicut"
+        ]
+      },
+      "image_text_overlay": "Dubai's most trusted meal plan.",
+      "copy_structure": "Single-tier structure — one bold headline in a red/orange pill-shaped text box anchored to the lower-left, acting simultaneously as value proposition and social proof. No subline, no CTA button, no offer overlay. Brand reinforcement is handled passively through the branded bowl the model holds.",
+      "emotional_angle": "social proof",
+      "headline_char_count": 31,
+      "subline_char_count": 0,
+      "click_driver": "The superlative claim 'most trusted' paired with the geo-anchor 'Dubai's' — it leverages local social proof and implicitly positions Delicut as the category leader, triggering curiosity and FOMO in Dubai-based health-conscious audiences.",
+      "power_words": [
+        "most trusted",
+        "Dubai's"
+      ]
+    },
+    {
+      "filename": "healthy-harry_fitness-month_carousel-card7_ROI5.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "fitness-month_carousel-card7",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 5.4
+      },
+      "verbatim_copy": {
+        "headline": null,
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": [
+          "/delicut/"
+        ]
+      },
+      "image_text_overlay": "/delicut/",
+      "copy_structure": "Single-tier structure — brand logo/wordmark only, serving as a pure brand awareness play with no supporting copy, CTA, or offer. The forward slashes frame the brand name as a phonetic or stylistic identity marker.",
+      "emotional_angle": "identity",
+      "headline_char_count": 0,
+      "subline_char_count": 0,
+      "click_driver": "The minimalist brand-only creative on a deep forest green background creates intrigue and curiosity — the absence of any selling message or CTA leverages the curiosity gap, prompting users to click to discover what Delicut is.",
+      "power_words": [
+        "delicut"
+      ]
+    },
+    {
+      "filename": "healthy-harry_girl-with-abs_1080x1080_ROI7.1.png",
+      "persona": "healthy-harry",
+      "creative_id": "girl-with-abs_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.1
+      },
+      "verbatim_copy": {
+        "headline": "Those fitness goals on your feed?",
+        "subline": "COULD BE YOU!",
+        "cta": null,
+        "offer": "25% Off On your first lunch and dinner plan",
+        "other_text": [
+          "Use Code: BETTERYOU",
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "COULD BE YOU!",
+      "copy_structure": "Three-tier hierarchy. Tier 1: Conversational hook question in serif font that establishes relatability and draws the reader in. Tier 2: Bold, oversized aspirational statement ('COULD BE YOU!') in dark green block letters that delivers the emotional payoff and dominates visual real estate. Tier 3: Promotional mechanic — red discount percentage with plan details and promo code acting as the conversion driver at bottom-left.",
+      "emotional_angle": "identity",
+      "headline_char_count": 33,
+      "subline_char_count": 13,
+      "click_driver": "The promo code 'BETTERYOU' — it mirrors the aspirational identity message of the ad, making the discount feel personally empowering rather than purely transactional, while the 25% off provides a concrete rational justification to act now",
+      "power_words": [
+        "fitness goals",
+        "COULD BE YOU",
+        "Off",
+        "first",
+        "BETTERYOU"
+      ]
+    },
+    {
+      "filename": "healthy-harry_girl-with-boxes_whatsapp-image_CTR1.1.png",
+      "persona": "healthy-harry",
+      "creative_id": "girl-with-boxes_whatsapp-image",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.1
+      },
+      "verbatim_copy": {
+        "headline": "Back on track and feeling good? COULD BE YOU!",
+        "subline": null,
+        "cta": null,
+        "offer": "5% Off Use Code: BETTERYOU",
+        "other_text": [
+          "delicut",
+          "delicut",
+          "delicut"
+        ]
+      },
+      "image_text_overlay": "Back on track and feeling good? COULD BE YOU!",
+      "copy_structure": "Two-tier hierarchy. Tier 1: Aspirational headline in large white italic/bold type on red panel — poses a relatable question then pivots to an identity statement in all-caps bold. Tier 2: Promotional offer block boxed in white-bordered rectangle at bottom-right, featuring oversized discount percentage plus promo code in bold caps. Product branding appears organically on meal prep containers held by the model.",
+      "emotional_angle": "identity / transformation",
+      "headline_char_count": 46,
+      "subline_char_count": 0,
+      "click_driver": "The promo code BETTERYOU — it mirrors the aspirational headline, creating a psychological loop where redeeming the code feels like an act of self-improvement rather than just a discount, bridging identity desire with transactional action",
+      "power_words": [
+        "Back on track",
+        "feeling good",
+        "COULD BE YOU",
+        "BETTERYOU",
+        "Off"
+      ]
+    },
+    {
+      "filename": "healthy-harry_girl_1080x1080_ROI7.8.png",
+      "persona": "healthy-harry",
+      "creative_id": "girl_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.8
+      },
+      "verbatim_copy": {
+        "headline": "New in town and eating right already?",
+        "subline": "COULD BE YOU!",
+        "cta": "Use Code: BETTERYOU",
+        "offer": "25% Off On your first lunch and dinner plan",
+        "other_text": [
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "COULD BE YOU!",
+      "copy_structure": "4-tier hierarchy. Tier 1: Italic question headline creates situational relevance and curiosity. Tier 2: Bold oversized 'COULD BE YOU!' serves as the aspirational identity hook and primary scroll-stopper. Tier 3: Boxed offer block with '25% Off' in large type and qualifying details in smaller italic script. Tier 4: Promo code as the actionable CTA with legal disclaimer beneath.",
+      "emotional_angle": "identity",
+      "headline_char_count": 37,
+      "subline_char_count": 13,
+      "click_driver": "The promo code 'BETTERYOU' — it reinforces the identity/aspiration angle from the headline while giving a concrete, memorable redemption mechanism paired with a generous 25% discount, creating both emotional resonance and rational justification to act",
+      "power_words": [
+        "New",
+        "COULD BE YOU",
+        "Off",
+        "first",
+        "BETTERYOU"
+      ]
+    },
+    {
+      "filename": "healthy-harry_gym-man_1080x1080_CTR1.2.png",
+      "persona": "healthy-harry",
+      "creative_id": "gym-man_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.2
+      },
+      "verbatim_copy": {
+        "headline": "Unlimited pauses, a simple gift to yourself.",
+        "subline": "On your first lunch & dinner plan",
+        "cta": "Resume",
+        "offer": "25% Off",
+        "other_text": [
+          "Use Code: GIFT25",
+          "4.7 Rated",
+          "Your meal plan has been paused",
+          "T&C Apply",
+          "tabby",
+          "tamara",
+          "delicut"
+        ]
+      },
+      "image_text_overlay": "Unlimited pauses, a simple gift to yourself.",
+      "copy_structure": "4-tier hierarchy: Tier 1 — bold emotional headline ('Unlimited pauses, a simple gift to yourself.') establishes the core value proposition of flexibility; Tier 2 — large '25% Off' offer block with subline specifying the plan type creates the commercial hook; Tier 3 — promo code 'Use Code: GIFT25' provides the actionable conversion mechanism; Tier 4 — trust signals (4.7 Rated, tabby, tamara) and a simulated UI notification ('Your meal plan has been paused' with 'Resume' button) act as social proof and interactive visual storytelling.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 45,
+      "subline_char_count": 32,
+      "click_driver": "The simulated app notification ('Your meal plan has been paused' with a 'Resume' button) in the bottom-right corner — it works because it mimics a real UI element, triggering pattern recognition and an instinctive urge to interact, while simultaneously demonstrating the 'unlimited pauses' feature as a tangible, relatable product experience rather than an abstract claim.",
+      "power_words": [
+        "Unlimited",
+        "gift",
+        "simple",
+        "Off",
+        "first",
+        "free"
+      ]
+    },
+    {
+      "filename": "healthy-harry_juggler_1080x1080_ROI7.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "juggler_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.4
+      },
+      "verbatim_copy": {
+        "headline": "FRESH FRIDAY SALE",
+        "subline": "For those who want flexibility with unlimited pauses.",
+        "cta": "Unlimited pauses",
+        "offer": "25% Off\nOn lunch and dinner plans",
+        "other_text": [
+          "/delicut/",
+          "Use Code: FRESH2025",
+          "tabby",
+          "tamara"
+        ]
+      },
+      "image_text_overlay": "FRESH FRIDAY SALE",
+      "copy_structure": "4-tier hierarchy. Tier 1: Brand logo (/delicut/) for instant recognition. Tier 2: Bold oversized headline (FRESH FRIDAY SALE) as the primary scroll-stopper. Tier 3: Subline qualifying the audience and surfacing the flexibility USP. Tier 4: Offer block (25% Off + promo code + BNPL logos) as the conversion mechanism, with a bottom banner reinforcing the key differentiator (Unlimited pauses).",
+      "emotional_angle": "convenience",
+      "headline_char_count": 17,
+      "subline_char_count": 52,
+      "click_driver": "25% Off with code FRESH2025 — the concrete discount paired with an immediately actionable promo code lowers the decision barrier and creates urgency tied to a time-limited Friday sale event",
+      "power_words": [
+        "Fresh",
+        "Sale",
+        "Flexibility",
+        "Unlimited",
+        "Off",
+        "Free"
+      ]
+    },
+    {
+      "filename": "healthy-harry_old-man-cycling_1080x1080_ROI7.8.png",
+      "persona": "healthy-harry",
+      "creative_id": "old-man-cycling_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.8
+      },
+      "verbatim_copy": {
+        "headline": "2026, but looking younger COULD BE YOU!",
+        "subline": "26% Off up to AED 175 on your first meal plan",
+        "cta": null,
+        "offer": "Use Code: FEB2026",
+        "other_text": [
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "COULD BE YOU!",
+      "copy_structure": "Three-tier hierarchy. Tier 1: Aspirational headline ('2026, but looking younger COULD BE YOU!') with the last three words massively scaled as the visual anchor. Tier 2: Promotional offer boxed in a bordered container ('26% Off up to AED 175 on your first meal plan') providing the rational incentive. Tier 3: Promo code and legal disclaimer ('Use Code: FEB2026' and 'T&C Apply') as the actionable conversion layer.",
+      "emotional_angle": "identity / transformation",
+      "headline_char_count": 39,
+      "subline_char_count": 46,
+      "click_driver": "The '26% Off' offer tied to the year 2026, creating a clever thematic hook that makes the discount feel timely, exclusive, and event-driven rather than generic — boosting perceived urgency and memorability.",
+      "power_words": [
+        "younger",
+        "COULD BE YOU",
+        "Off",
+        "first",
+        "looking younger"
+      ]
+    },
+    {
+      "filename": "healthy-harry_tennis-man_1080x1080_ROI7.4.png",
+      "persona": "healthy-harry",
+      "creative_id": "tennis-man_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.4
+      },
+      "verbatim_copy": {
+        "headline": "UAE,\nlet's get fit.\nEffortlessly.",
+        "subline": "Next 30 days,\npowered by protein, no prep.",
+        "cta": null,
+        "offer": "20% Off\nOn your first order\nUse Code: GETFIT",
+        "other_text": [
+          "/delicut/",
+          "4.7 ★★★★★",
+          "1K+ Google reviews",
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "UAE,\nlet's get fit.\nEffortlessly.",
+      "copy_structure": "4-tier hierarchy: Tier 1 — Brand logo (/delicut/) establishes identity at top. Tier 2 — Bold headline serves as the emotional hook addressing UAE audience directly with a fitness promise. Tier 3 — Subline provides the rational support (30-day timeframe, protein-powered, zero prep). Tier 4 — Offer block with discount percentage, promo code, and social proof (4.7 stars, 1K+ Google reviews) to drive conversion.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 32,
+      "subline_char_count": 43,
+      "click_driver": "The promo code 'GETFIT' paired with '20% Off On your first order' — the code name itself reinforces the fitness aspiration from the headline, creating semantic alignment between the emotional promise and the transactional incentive, lowering the barrier for first-time trial.",
+      "power_words": [
+        "Effortlessly",
+        "fit",
+        "no prep",
+        "powered by protein",
+        "20% Off",
+        "first order",
+        "GETFIT",
+        "Next 30 days"
+      ]
+    },
+    {
+      "filename": "healthy-harry_yoga-lady_1080x1080_ROI7.png",
+      "persona": "healthy-harry",
+      "creative_id": "yoga-lady_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.0
+      },
+      "verbatim_copy": {
+        "headline": "FRESH FRIDAY SALE",
+        "subline": "For those who want flexibility with unlimited pauses.",
+        "cta": "Unlimited pauses",
+        "offer": "25% Off\nOn lunch and dinner plans",
+        "other_text": [
+          "/delicut/",
+          "Use Code: FRESH2025"
+        ]
+      },
+      "image_text_overlay": "FRESH FRIDAY SALE",
+      "copy_structure": "4-tier hierarchy: Tier 1 — brand logo (/delicut/) anchors top-left for instant recognition. Tier 2 — bold oversized headline (FRESH FRIDAY SALE) serves as the scroll-stopper and event hook. Tier 3 — subline delivers the value proposition (flexibility + unlimited pauses) connecting the yoga visual metaphor to the meal plan benefit. Tier 4 — offer block (25% Off on lunch and dinner plans) with promo code (FRESH2025) drives conversion, followed by a red banner CTA reinforcing the key differentiator (Unlimited pauses).",
+      "emotional_angle": "identity",
+      "headline_char_count": 17,
+      "subline_char_count": 52,
+      "click_driver": "The 25% Off offer paired with the promo code FRESH2025 — it creates an immediate, actionable incentive with a clear redemption path, while 'unlimited pauses' removes the commitment-fear objection that typically blocks meal plan subscriptions.",
+      "power_words": [
+        "FRESH",
+        "SALE",
+        "flexibility",
+        "unlimited",
+        "Off",
+        "Free"
+      ]
+    },
+    {
+      "filename": "mid-life-mansoon_lady-yoga_1080x1080_ROI7.8.png",
+      "persona": "mid-life-mansoon",
+      "creative_id": "lady-yoga_1080x1080",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 7.8
+      },
+      "verbatim_copy": {
+        "headline": "COULD BE YOU!",
+        "subline": "Turning \"this year I will\" into \"I did.\"",
+        "cta": "Use Code: FEB2026",
+        "offer": "26% Off up to AED 175 on your first meal plan",
+        "other_text": [
+          "T&C Apply"
+        ]
+      },
+      "image_text_overlay": "COULD BE YOU!",
+      "copy_structure": "4-tier hierarchy. Tier 1: Aspirational subline in italic serif sets the emotional context ('Turning this year I will into I did.'). Tier 2: Bold sans-serif hero headline in red ('COULD BE YOU!') dominates the left half as the scroll-stopper. Tier 3: Offer box with discount percentage, AED cap, and qualifier ('26% Off up to AED 175 on your first meal plan'). Tier 4: Promo code CTA and legal disclaimer at the bottom.",
+      "emotional_angle": "transformation / identity",
+      "headline_char_count": 13,
+      "subline_char_count": 39,
+      "click_driver": "The 26% Off up to AED 175 offer box — the specific, concrete savings amount paired with the identity-driven headline creates a dual rational + emotional pull; the unusual 26% (not a round number) also signals authenticity and grabs attention over generic 25% discounts",
+      "power_words": [
+        "COULD BE YOU",
+        "Turning",
+        "I did",
+        "Off",
+        "first",
+        "your"
+      ]
+    },
+    {
+      "filename": "new-nikky_cheaper_1080x1080_CTR1.5.png",
+      "persona": "new-nikky",
+      "creative_id": "cheaper_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.5
+      },
+      "verbatim_copy": {
+        "headline": "Cheaper. Healthier. Better than takeout.",
+        "subline": "On your first lunch & dinner plan",
+        "cta": null,
+        "offer": "20% Off",
+        "other_text": [
+          "Use Code: UAE20",
+          "T&C Apply",
+          "delicut"
+        ]
+      },
+      "image_text_overlay": "Cheaper. Healthier. Better than takeout.",
+      "copy_structure": "3-tier hierarchy. Tier 1: Bold headline using punchy comparative fragments to establish value proposition. Tier 2: Boxed promotional offer (20% Off) with qualifying subline specifying product scope. Tier 3: Actionable promo code (UAE20) as conversion mechanism. Visual tier: balance scale metaphor reinforces the headline's comparison between generic takeout (paper bag) and Delicut branded containers, with Delicut side tipping higher (implying lighter/better value).",
+      "emotional_angle": "convenience",
+      "headline_char_count": 40,
+      "subline_char_count": 32,
+      "click_driver": "The promo code UAE20 paired with 20% Off — the geo-specific code creates a sense of exclusive, localized relevance for UAE audiences while the concrete discount percentage removes ambiguity and lowers the barrier to first purchase",
+      "power_words": [
+        "Cheaper",
+        "Healthier",
+        "Better",
+        "Off",
+        "first",
+        "Free"
+      ]
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card1_ROI6.2.png",
+      "persona": "new-nikky",
+      "creative_id": "shifting_carousel-card1",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "verbatim_copy": {
+        "headline": "3 Problems every newcomer faces in the UAE",
+        "subline": null,
+        "cta": "Order now",
+        "offer": null,
+        "other_text": [
+          "/delicut/",
+          "delicut"
+        ]
+      },
+      "image_text_overlay": "3 Problems every newcomer faces in the UAE",
+      "copy_structure": "Two-tier hierarchy. Tier 1: Brand logo '/delicut/' anchored top-centre for instant recognition. Tier 2: A bold white headline on a vibrant red/orange banner at the bottom acts as the primary hook, paired with a high-contrast dark green CTA button. The structure is minimal — hook + action — with no explanatory subline, forcing curiosity to drive the click.",
+      "emotional_angle": "identity",
+      "headline_char_count": 42,
+      "subline_char_count": 0,
+      "click_driver": "The headline '3 Problems every newcomer faces in the UAE' is a curiosity-gap listicle hook that directly targets the expat/newcomer identity — a massive UAE demographic. It promises relatable pain points without revealing them, compelling the viewer to click to see if their own struggles are listed and how Delicut solves them.",
+      "power_words": [
+        "Problems",
+        "every",
+        "newcomer",
+        "3",
+        "Order now"
+      ]
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card2_ROI6.2.png",
+      "persona": "new-nikky",
+      "creative_id": "shifting_carousel-card2",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "verbatim_copy": {
+        "headline": "Recently settled in and already craving home food?",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": []
+      },
+      "image_text_overlay": "Recently settled in and already craving home food?",
+      "copy_structure": "Single-tier structure — one question-based headline overlaid on the bottom-left of the image in a rounded text box. No subline, CTA, or offer visible on the creative itself. The entire persuasion load rests on this one empathetic question paired with a relatable lifestyle image of home cooking.",
+      "emotional_angle": "identity",
+      "headline_char_count": 51,
+      "subline_char_count": 0,
+      "click_driver": "The headline's precise targeting of expats/newcomers who miss home-cooked food — the phrase 'Recently settled in' instantly qualifies the audience (new UAE residents) while 'craving home food' taps into deep emotional nostalgia, creating a curiosity gap about the solution Delicut offers.",
+      "power_words": [
+        "craving",
+        "home food",
+        "recently settled in",
+        "already"
+      ]
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card3_ROI6.2.png",
+      "persona": "new-nikky",
+      "creative_id": "shifting_carousel-card3",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "verbatim_copy": {
+        "headline": "Ordering in too often and feeling the extra kilos?",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": []
+      },
+      "image_text_overlay": "Ordering in too often and feeling the extra kilos?",
+      "copy_structure": "Single-tier structure — one provocative question overlaid at the bottom of the image acting as both headline and hook. No subline, CTA, or offer visible on the creative itself, suggesting the ad relies on the Facebook/Meta primary text and CTA button below the image to complete the funnel.",
+      "emotional_angle": "guilt / pain point agitation — targets the relatable behaviour of frequent food delivery and the physical consequence (weight gain), creating an emotional discomfort that primes the viewer to seek a solution",
+      "headline_char_count": 51,
+      "subline_char_count": 0,
+      "click_driver": "The question format paired with the greasy takeout bag visual creates an immediate personal confrontation — the viewer self-identifies with the behaviour, feels called out, and clicks to discover the implied healthier alternative",
+      "power_words": [
+        "extra kilos",
+        "too often",
+        "feeling"
+      ]
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card4_ROI6.2.png",
+      "persona": "new-nikky",
+      "creative_id": "shifting_carousel-card4",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "verbatim_copy": {
+        "headline": "Eating healthy now costs more than expected.",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": []
+      },
+      "image_text_overlay": "Eating healthy now costs more than expected.",
+      "copy_structure": "Single-tier structure — one standalone headline statement positioned at the bottom-left of the image. No subline, no CTA, no offer. This is a problem-agitation hook designed as the first frame of a carousel or video thumbnail, meant to provoke curiosity and swipe/click behavior.",
+      "emotional_angle": "pain point / financial anxiety — taps into the widely felt frustration that healthy eating is becoming unaffordable, creating an empathy gap that Delicut's meal plan pricing is positioned to resolve in subsequent frames or landing page.",
+      "headline_char_count": 44,
+      "subline_char_count": 0,
+      "click_driver": "The empty wallet visual paired with the relatable cost complaint creates an open loop — the viewer wants to know the solution, compelling them to click or swipe to see how Delicut resolves the affordability problem.",
+      "power_words": [
+        "healthy",
+        "costs",
+        "more than expected"
+      ]
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card5_ROI6.2.png",
+      "persona": "new-nikky",
+      "creative_id": "shifting_carousel-card5",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "verbatim_copy": {
+        "headline": "Switch to UAE's most loved meal plan.",
+        "subline": "Get fresh, high-protein, macro tracked meals at 20% OFF.",
+        "cta": null,
+        "offer": "20% OFF",
+        "other_text": [
+          "/delicut",
+          "/delic"
+        ]
+      },
+      "image_text_overlay": "Switch to UAE's most loved meal plan. Get fresh, high-protein, macro tracked meals at 20% OFF.",
+      "copy_structure": "Two-tier structure: Tier 1 is the headline acting as a social-proof-driven positioning statement ('UAE's most loved meal plan') to establish credibility and prompt switching behavior. Tier 2 is the subline delivering the product value proposition (fresh, high-protein, macro tracked) combined with a percentage discount offer as the conversion incentive. Both tiers sit in a single text card at the bottom of the image.",
+      "emotional_angle": "social proof",
+      "headline_char_count": 37,
+      "subline_char_count": 55,
+      "click_driver": "20% OFF — the bold red-colored discount percentage creates visual contrast against the dark green text, combining urgency with a tangible financial incentive that lowers the barrier to trial for a meal plan switch",
+      "power_words": [
+        "Switch",
+        "most loved",
+        "fresh",
+        "high-protein",
+        "macro tracked",
+        "20% OFF"
+      ]
+    },
+    {
+      "filename": "new-nikky_shifting_carousel-card6_ROI6.2.png",
+      "persona": "new-nikky",
+      "creative_id": "shifting_carousel-card6",
+      "performance_metric": {
+        "type": "ROI",
+        "value": 6.2
+      },
+      "verbatim_copy": {
+        "headline": "/delicut/",
+        "subline": null,
+        "cta": null,
+        "offer": null,
+        "other_text": []
+      },
+      "image_text_overlay": "/delicut/",
+      "copy_structure": "Single-tier structure — brand logo/wordmark only, centered on a bold solid-colour background. No supporting copy, no CTA, no offer. This is a pure brand awareness creative with zero informational hierarchy beyond the brand name itself.",
+      "emotional_angle": "identity",
+      "headline_char_count": 9,
+      "subline_char_count": 0,
+      "click_driver": "The high-contrast white-on-red colour pairing combined with the oversized, bold typography creates immediate visual disruption in-feed; the forward slashes framing the brand name add a distinctive, modern typographic device that signals premium positioning and curiosity.",
+      "power_words": [
+        "delicut"
+      ]
+    },
+    {
+      "filename": "new-nikky_unlimited-pauses_1080x1080_CTR1.2.png",
+      "persona": "new-nikky",
+      "creative_id": "unlimited-pauses_1080x1080",
+      "performance_metric": {
+        "type": "CTR",
+        "value": 1.2
+      },
+      "verbatim_copy": {
+        "headline": "Pause anytime you want this festive season.",
+        "subline": "25% Off\nOn your first\nlunch & dinner plan",
+        "cta": "Use Code: GIFT25",
+        "offer": "25% Off On your first lunch & dinner plan",
+        "other_text": [
+          "/delicut/",
+          "T&C Apply",
+          "Hi Safa",
+          "Slow Cooked Butternut Squash with Orzo",
+          "Kcal 468",
+          "Pro 54",
+          "Carb 35",
+          "Keep Refrigerated",
+          "Best before: 20/09/2025",
+          "4.7 Rated",
+          "tabby",
+          "tamara",
+          "/delicut/"
+        ]
+      },
+      "image_text_overlay": "Pause anytime you want this festive season.",
+      "copy_structure": "4-tier hierarchy. Tier 1: Hero headline in large white serif text addresses the core objection (commitment fear) with seasonal relevance. Tier 2: Boxed promotional offer (25% Off) with specifics on plan type. Tier 3: Promo code as actionable CTA in slightly smaller text. Tier 4: Trust bar at bottom with 4.7 rating and BNPL payment logos (Tabby, Tamara). The meal container label acts as a supplementary visual-information layer showing personalisation (Hi Safa), meal name, and macros.",
+      "emotional_angle": "convenience",
+      "headline_char_count": 44,
+      "subline_char_count": 43,
+      "click_driver": "The headline 'Pause anytime you want' is the single most click-worthy element because it directly neutralises the #1 objection to meal plan subscriptions — being locked in. Combined with festive season framing, it reframes commitment as flexible, removing the psychological barrier to conversion.",
+      "power_words": [
+        "Pause",
+        "anytime",
+        "festive",
+        "Off",
+        "first",
+        "GIFT",
+        "Rated"
+      ]
+    }
+  ]
+}
