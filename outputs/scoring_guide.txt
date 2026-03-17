@@ -1,0 +1,52 @@
+================================================================================
+DELICUT CREATIVE WORKFLOW — IMAGE SCORING GUIDE
+================================================================================
+
+SCORE DEFINITIONS
+-----------------
+
+  1 — REJECT
+      Wrong direction entirely. Concept doesn't work.
+      Action: Start over with a new prompt angle.
+
+  2 — POOR
+      Some elements work but major issues with composition,
+      subject, or mood.
+      Action: Significant prompt rethink required.
+
+  3 — AVERAGE
+      Correct direction but needs significant refinement —
+      lighting, pose, setting, energy off.
+      Action: Refine same prompt with specific fixes from notes.
+
+  4 — GOOD
+      Minor tweaks needed — small adjustments to colour,
+      framing, or detail.
+      Action: Light touch refinement, one more iteration.
+
+  5 — APPROVED
+      Ready for Figma handoff as-is.
+      Action: Advance to Stage 5.
+
+
+ADVANCEMENT RULES
+-----------------
+  Score 1–2  →  Rethink prompt angle entirely
+  Score 3    →  Refine prompt based on your notes
+  Score 4    →  One more light iteration
+  Score 5    →  Moves straight to Figma handoff
+
+
+HOW TO LEAVE FEEDBACK IN session_log.xlsx
+------------------------------------------
+  score   →  Enter a number 1–5
+  notes   →  Be specific — mention what is wrong and what you want instead
+             Examples:
+               "lighting too dark, needs more energy"
+               "pose is stiff, want more natural candid feel"
+               "background too busy, simplify"
+               "wrong body type, needs to be leaner"
+  status  →  Write either: needs-refinement  /  approved
+
+
+================================================================================
