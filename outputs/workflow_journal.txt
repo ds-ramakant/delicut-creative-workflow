@@ -1,0 +1,205 @@
+================================================================================
+DELICUT CREATIVE WORKFLOW JOURNAL
+Last updated: Tuesday, 17 March 2026 — 1:16 PM
+================================================================================
+
+PROJECT OVERVIEW
+----------------
+Client: Delicut (delicut.ae) — UAE-based healthy meal plan brand
+Goal: Performance marketing creative pipeline — from brief to Figma-ready ads
+Stack: Python, Anthropic Claude Vision API, Figma API
+Brand colors: #043F12 (Spinach), #F9F4ED (Cream), #FF3F1F (Grenade), #EA5D29 (Pumpkin)
+Output formats: 1080x1080, 1080x1920, 1920x1080, 1200x628, 1080x1350, 960x1200
+Personas: healthy-harry, new-nikky, mid-life-mansoon
+
+
+PIPELINE OVERVIEW
+-----------------
+Step 1 — Excel brief (briefs/) with persona, hook, image description
+Step 2 — Claude generates image prompts per persona
+Step 3 — Analyse Delicut top-performing ads → outputs/creative_dna.json       [DONE]
+Step 4 — Analyse competitor ads → outputs/competitor_audit.json                [IN PROGRESS]
+Step 5 — Enrich prompts with creative_dna.json + competitor_audit.json
+Step 6 — Generate images across Midjourney / Gemini / Ideogram / Magic Media
+Step 7 — Figma API auto-populates master templates
+Step 8 — Batch export all 6 size formats per persona
+
+
+================================================================================
+CREATIVE WORKFLOW — MICRO-STEP, HUMAN-IN-THE-LOOP
+================================================================================
+
+PHILOSOPHY
+----------
+- Micro-steps over batch workflows
+- Quality over speed
+- Human approval gate at every stage before advancing
+- Image and copy are fully decoupled — clean canvas images, separate copy file
+- Each iteration produces exactly 4 variants
+- Engine choice is made by the user per variant before any API call is made
+
+
+SESSION ID FORMAT
+-----------------
+Format: {persona_shortname}_{MMDD-HHMM}
+Example: harry_0317-1242
+
+Persona shortnames: harry / mansoor / nikky
+
+
+--------------------------------------------------------------------------------
+STAGE 1 — CREATIVE DIRECTION
+--------------------------------------------------------------------------------
+Who: Claude (me), based on brief row + creative_dna.json + competitor_audit.json
+What: Synthesise a visual concept, mood, composition style, color approach,
+      do's and don'ts for the selected brief row
+Output: Written creative direction presented to user for approval
+
+Gate: User approves or redirects the direction before Stage 2 begins
+
+
+--------------------------------------------------------------------------------
+STAGE 2 — 4 PROMPT VARIANTS
+--------------------------------------------------------------------------------
+Who: Claude (me)
+What: Write 4 distinct image prompts, each taking a different creative angle
+      on the approved direction.
+      Every prompt explicitly instructs the engine to produce:
+      - NO text
+      - NO copy overlays
+      - NO headlines or captions baked into the image
+      Clean canvas only — all copy lives in adcopy_log.xlsx
+Output: 4 prompts presented to user
+
+Gate: User approves, kills, or tweaks each prompt before Stage 3
+
+
+--------------------------------------------------------------------------------
+STAGE 3 — ENGINE SELECTION
+--------------------------------------------------------------------------------
+Who: User
+What: Script writes 4 rows to session_log.xlsx with prompts pre-filled.
+      Engine column is left blank.
+      User opens session_log.xlsx, assigns an engine to each variant (A/B/C/D),
+      saves the file, and confirms to proceed.
+      Available engines: Midjourney / Gemini / Ideogram / Magic Media
+      Rule: One brief row uses one engine per variant — user chooses freely.
+Output: session_log.xlsx with engine column filled by user
+
+Gate: User confirms engine choices before any API call is made
+
+
+--------------------------------------------------------------------------------
+STAGE 4 — GENERATE + REVIEW
+--------------------------------------------------------------------------------
+Who: Script (generation) + User (review)
+What: Images are generated per variant using the chosen engine.
+      Two files are written simultaneously:
+
+  FILE 1 — outputs/session_log.xlsx (image tracking + feedback)
+  Columns:
+    session_id   | persona | iteration | variant | engine | prompt |
+    image_file   | score   | notes     | status
+
+  FILE 2 — outputs/adcopy_log.xlsx (copy reference + designer handoff)
+  Columns:
+    session_id   | persona | iteration | variant | engine | prompt |
+    image_file   | text_on_image
+
+  - image_file: path to the saved generated image
+  - score: user fills 1–5 after reviewing the image
+  - notes: user fills free-text feedback comments
+  - status: user sets to pending / needs-refinement / approved
+  - text_on_image: Claude pre-fills suggested copy from the brief hook and
+    persona. Designers adjust freely as Figma layers.
+
+Output: 4 images saved locally, both Excel files updated with new rows
+
+Gate: User opens session_log.xlsx, scores each image (1–5), adds notes,
+      sets status, saves file, and tells Claude "done"
+
+
+--------------------------------------------------------------------------------
+STAGE 5 — ITERATE OR APPROVE
+--------------------------------------------------------------------------------
+Who: Claude (prompt refinement) + Script (regeneration)
+What: For each variant:
+      - Score < 4 → Claude refines the prompt based on user notes →
+        regenerate that variant only → new row appended to both Excel files
+      - Score >= 4 → status flipped to "approved" → image advances to Stage 6
+      Full history is preserved across iterations in both Excel files —
+      original prompt, what changed, why, and the final approved version.
+Output: Refined images + updated rows in session_log.xlsx and adcopy_log.xlsx
+
+Gate: Explicit per-image approval (score >= 4 + status = approved)
+      before any image moves to Stage 6
+
+
+--------------------------------------------------------------------------------
+STAGE 6 — FIGMA HANDOFF
+--------------------------------------------------------------------------------
+Who: Script (Figma API)
+What: For each approved image:
+      - Clean image pushed into Figma master template as a background layer
+      - text_on_image from adcopy_log.xlsx placed as a separate editable
+        text layer — designers adjust freely
+      - Frame exported in all 6 size formats:
+        1080x1080, 1080x1920, 1920x1080, 1200x628, 1080x1350, 960x1200
+Output: Figma frames ready for designer review
+
+Gate: User reviews the Figma frame before export is triggered
+
+
+================================================================================
+FILE + FOLDER STRUCTURE
+================================================================================
+
+outputs/
+  session_log.xlsx       — image generation tracking, scores, feedback
+  adcopy_log.xlsx        — copy suggestions per variant for designer handoff
+  competitor_audit.json  — competitor ad analysis (Step 4)
+  creative_dna.json      — Delicut top-performer analysis (Step 3)
+  images/                — all generated images, named by session+variant
+  workflow_journal.txt   — this file
+
+scripts/
+  step3_analyze_top_performers.py    [DONE]
+  step4_analyze_competitors.py       [DONE, running]
+  step5_enrich_prompts.py            [TODO]
+  step6_generate_images.py           [TODO]
+  step7_figma_handoff.py             [TODO]
+
+briefs/
+  Creative brief_01_harry-nikki-mansoor.xlsx
+
+
+================================================================================
+CREATIVE BRIEF ROWS
+================================================================================
+
+Row 1 — healthy-harry #1
+  Hook:    "You track every rep. Why are you guessing your macros?"
+  Product: Low Carb High Protein
+  Status:  ACTIVE — Stage 1 creative direction drafted, pending competitor
+           audit completion before finalising
+
+Row 2 — healthy-harry #2
+  Hook:    "What if every meal tasted like a cheat meal — but wasn't?"
+  Product: Balanced
+
+Row 3 — mid-life-mansoor #1
+  Hook:    "Your doctor said eat healthy. We made it actually possible."
+  Product: Diabetes meal plan
+
+Row 4 — new-in-town-nikky #1
+  Hook:    "New to Dubai? Your meal plan is already figured out."
+  Product: Low Carb High Protein
+
+Row 5 — new-in-town-nikky #2
+  Hook:    "Stop spending AED 150/day on random food apps. There's a smarter way."
+  Product: Balanced
+
+
+================================================================================
+END OF JOURNAL
+================================================================================
