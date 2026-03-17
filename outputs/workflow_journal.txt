@@ -1,6 +1,6 @@
 ================================================================================
 DELICUT CREATIVE WORKFLOW JOURNAL
-Last updated: Tuesday, 17 March 2026 — 5:00 PM
+Last updated: Tuesday, 17 March 2026 — 5:30 PM
 ================================================================================
 
 PROJECT OVERVIEW
@@ -196,7 +196,7 @@ scripts/
   step2_process_references.py        [DONE]
   step2b_process_brand_guidelines.py [DONE]
   step3_analyze_top_performers.py    [DONE]
-  step3b_analyze_copy_dna.py         [TODO — run once to build copy_dna.json]
+  step3b_analyze_copy_dna.py         [DONE — 30 images analysed, copy_dna.json built]
   step4_analyze_competitors.py       [DONE]
   step6_generate_images.py           [DONE — Gemini Imagen4Ultra, session_log only]
   step7_generate_adcopy.py           [DONE — Claude Vision, triggered post-approval]
@@ -222,9 +222,22 @@ Row 1 — healthy-harry #1
     Feedback: provided (see session_log.xlsx)
 
   Iteration 2 — Session: harry_0317-1622
-    Variants: abstract-green, hands-contrast, locker-room-male, treadmill-female
-    Feedback: provided (see session_log.xlsx)
-    Next: review scores, determine which variants advance to Stage 6 (Figma)
+    Variant A (locker-room-male):  score=1 — DROPPED
+    Variant B (hands-contrast):    score=1 — DROPPED
+    Variant C (treadmill-female):  score=5 — APPROVED
+    Variant D (abstract-green):    score=5 — APPROVED
+
+  Ad copy generated (adcopy_log.xlsx):
+    C: image_text="she trains hard. / her meals? handled."
+       headline="OUTRUN YOUR EXCUSES" (20 chars)
+       subline="Chef-made, macro-perfect meals delivered. No prep, no stress, all progress." (74 chars)
+       cta="Fuel your next run"
+    D: image_text="train hard, eat smart. / COULD BE YOU!"
+       headline="Gym bag. Meals. Sorted." (23 chars)
+       subline="Chef-made, macro-perfect meals delivered. No prep, no guesswork, all gains." (74 chars)
+       cta="Fuel your fitness"
+
+  Next: Stage 7 — Figma handoff for C & D
 
 Row 2 — healthy-harry #2
   Hook:    "What if every meal tasted like a cheat meal — but wasn't?"
